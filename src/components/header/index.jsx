@@ -24,7 +24,7 @@ export function Header(){
     function abriNovaRota(route) {
       navigate(route)
     };
-   
+
     useEffect(()=> {
         window.addEventListener("scroll", function() {
             checkScrollPosition();
@@ -51,16 +51,16 @@ export function Header(){
       <img src={Icon} className="Icon" onClick={()=> navigate('/')}/>
 
       <div className="Right"> 
+      <div className="Topic Soluction" onClick={()=> open == 'soluction' ? setOpen('') : setOpen('soluction')}>
+        <span>Soluções</span> <FaCaretDown/>
+       </div>
+       
        <div className="Topic Functions"  onClick={()=> open == 'functions' ? setOpen('') : setOpen('functions')}>
         <span>Funcionalidades</span> <FaCaretDown/>
        </div>
 
        <div className="Topic Segment" onClick={()=> open == 'segment' ? setOpen('') : setOpen('segment')}>
         <span>Segmentos</span> <FaCaretDown/>
-       </div>
-
-       <div className="Topic Soluction" onClick={()=> open == 'soluction' ? setOpen('') : setOpen('soluction')}>
-        <span>Soluções</span> <FaCaretDown/>
        </div>
 
        <div className="Topic">
@@ -120,7 +120,7 @@ export function Header(){
           </ul>
 
           <button>
-           Conhecer BlueErp
+           Conhecer Blue ERP
           </button>
         </div>
        :
@@ -170,7 +170,7 @@ export function Header(){
           
 
           <button>
-           Conhecer BlueErp Lite
+           Conhecer Blue ERP Lite
           </button>
         </div>
        :
@@ -182,7 +182,7 @@ export function Header(){
          O SIGE Cloud vai além de um ERP, é um verdadeiro <strong>Ecossistema para gestão e vendas!</strong>
         </h3>
 
-        <span onClick={()=> abriNovaRota('ecossistema')}>Descubra mais <strong>{'>'}</strong></span>
+        <span onClick={()=> abriNovaRota('/ecossistema')}>Descubra mais <strong>{'>'}</strong></span>
         <img src={Hexagon} alt="hexagono" />
        </div>
       </div>

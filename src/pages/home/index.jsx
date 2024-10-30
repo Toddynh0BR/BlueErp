@@ -1,7 +1,7 @@
 import * as S from "./style";
 
 import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import MouseFollower from "../../components/mouse";
 import { Header } from "../../components/header";
@@ -43,12 +43,19 @@ export function Home(){
 
     function abrirNovaAba(url) {
       window.open(url, '_blank');
-    }
+    };
 
     function abriNovaRota(route) {
       navigate(route)
     };
 
+    useEffect(() => {
+ 
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", 
+      });
+    }, []);
 
     return(
      <S.Container>
@@ -139,7 +146,7 @@ export function Home(){
 
         <div className="right">
          <div className="container">
-          <div className="card">
+          <div className="card" onClick={()=> navigate('/loja-virtual')}>
             <img src={site} alt="icon" className="Icon Site"/>
             <span><strong>Loja</strong> Virtual</span>
             <ul>
@@ -152,7 +159,7 @@ export function Home(){
             <img src={siteDesk} alt="Imagem a ser feita" className="Image"/>
           </div>
 
-          <div className="card">
+          <div className="card" onClick={()=> navigate('/app-de-vendas')}>
             <img src={mobi} alt="icon" className="Icon Mobi"/>
             <span><strong>App</strong> de Vendas</span>
             <ul>
@@ -167,7 +174,7 @@ export function Home(){
          </div>
 
          <div className="container">
-          <div className="card">
+          <div className="card" onClick={()=> navigate('/app-de-vendas')}>
             <img src={mobi} alt="icon" className="Icon Mobi"/>
             <span><strong>App</strong> de Vendas</span>
             <ul>
@@ -179,7 +186,7 @@ export function Home(){
 
             <img src={mobiDesk} alt="Imagem a ser feita" className="Image"/>
           </div>
-          <div className="card">
+          <div className="card" onClick={()=> navigate('/loja-offline')}>
             <img src={lite} alt="icon" className="Icon"/>
             <span><strong>Offline</strong> ERP</span>
             <ul>

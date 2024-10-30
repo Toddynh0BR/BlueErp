@@ -87,7 +87,7 @@ export function Footer(){
           </a>
         </div>
 
-        <div className="eco" onClick={()=> abriNovaRota('ecossistema')}>
+        <div className="eco" onClick={()=> abriNovaRota('/ecossistema')}>
          <div className="ecosystem">
           <div className="cloud circle">
            <IoMdCloudOutline />

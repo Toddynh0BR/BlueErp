@@ -1,6 +1,7 @@
 import * as S from "./style";
 
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import MouseFollower from "../../components/mouse";
 import { Header } from "../../components/header";
@@ -25,12 +26,22 @@ export function Ecosystem(){
   const section3Ref = useRef(null);
   const section4Ref = useRef(null);
 
+  const navigate = useNavigate();
+
   const handleScrollToSection = (sectionRef) => {
     sectionRef.current.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
   };
+
+  useEffect(() => {
+ 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+  }, []);
 
     return(
      <S.Container>
@@ -82,25 +93,25 @@ export function Ecosystem(){
 
         <div className="right">
          <div className="box">
-          <div className="card c1">
+          <div className="card c1" onClick={()=> navigate('/loja-virtual')}>
            <h4>BLUE ERP</h4>
            <span><strong>Loja</strong> Virtual</span>
            <img src={siteDesk} alt="desk" className="Image"/>
           </div>
 
-          <div className="card c2">
+          <div className="card c2" onClick={()=> navigate('/app-de-vendas')}>
            <h4>BLUE Mobi</h4>
            <span><strong>APP</strong> de Vendas</span>
            <img src={mobiDesk} alt="desk" className="Image"/>
           </div>
 
-          <div className="card c3">
+          <div className="card c3" onClick={()=> navigate('/app-de-vendas')}>
           <h4>BLUE Mobi</h4>
           <span><strong>APP</strong> de Vendas</span>
            <img src={mobiDesk} alt="desk" className="Image"/>
           </div>
 
-          <div className="card c4">
+          <div className="card c4" onClick={()=> navigate('/loja-offline')}>
           <h4>BLUE ERP Lite</h4>
           <span><strong>ERP</strong> Offline</span>
            <img src={liteDesk} alt="desk" className="Image"/>
@@ -142,7 +153,7 @@ export function Ecosystem(){
            <strong>Loja virtual</strong> totalmente conectada <br /> ao seu sistema de gestão!
           </h3>
 
-          <span>Ver mais <strong>{'>'}</strong></span>
+          <span onClick={()=> navigate('/loja-virtual')}>Ver mais <strong>{'>'}</strong></span>
          </div>
         </div>
 
@@ -192,7 +203,7 @@ export function Ecosystem(){
            <strong>APP de Vendas</strong>  desenvolvido para simplificar suas vendas <br />  externas ou no ponto de venda.
           </h3>
           
-          <span>Ver mais <strong>{'>'}</strong></span>
+          <span onClick={()=> navigate('/app-de-vendas')}>Ver mais <strong>{'>'}</strong></span>
          </div>
         </div>
 
@@ -243,7 +254,7 @@ export function Ecosystem(){
            <strong>ERP Offline,</strong> para que você continue vendendo <br /> mesmo sem conexão com a internet. 
           </h3>
           
-          <span>Ver mais <strong>{'>'}</strong></span>
+          <span onClick={()=> navigate('/loja-offline')}>Ver mais <strong>{'>'}</strong></span>
          </div>
         </div>
 

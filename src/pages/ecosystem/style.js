@@ -152,6 +152,7 @@ padding: 0rem 25rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 2rem 0 2rem 0;
     transform: scale(110%);
+    cursor: pointer;
     z-index: 2;
    }
   }
