@@ -82,10 +82,11 @@ export function Ecosystem(){
          </h2>
 
          <h4>
-          <strong>Loja Virtual</strong>,
-          <strong>aplicativo mobile</strong>,
-          <strong>PDV offline </strong>e
-          <strong> chat empresarial</strong> totalmente integrados para simplificar a gestão do seu negócio.
+          <strong onClick={()=> navigate('/loja-virtual')}>Loja Virtual, </strong>
+          <strong onClick={()=> navigate('/app-de-vendas')}> Aplicativo Mobile </strong> 
+             e
+          <strong onClick={()=> navigate('/loja-offline')}> PDV offline </strong>
+          totalmente integrados para simplificar a gestão do seu negócio.
          </h4>
 
           <button>Experimente</button>

@@ -24,7 +24,7 @@ padding: 0rem 25rem;
  flex-direction: column;
  display: flex;
  gap: 2rem;
- width: 25%;
+ width: 35%;
 
  .ecosystem {
    width: fit-content;
@@ -73,12 +73,34 @@ padding: 0rem 25rem;
  }
 
  h4 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #888484;
 
   strong {
     color: #7300cc;
+
+    position: relative;
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      transition: .3s ease-in-out;
+      background-color: #7300cc;
+      height: .1rem;
+      width: 0%;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      &::after {
+        width: 100%;
+      }
+    }
   }
  }
 
