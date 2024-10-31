@@ -1,6 +1,6 @@
 import * as S from "./style";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import MouseFollower from "../../components/mouse";

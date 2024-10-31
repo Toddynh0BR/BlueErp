@@ -176,16 +176,12 @@ export function Footer(){
         <div className="topic">
          <h5>Conheça</h5>
          <ul>
-         <li>Parceiros e Integrações</li>
-         <li>Política de Cookies</li>
-         <li>Sobre a SIGE Cloud</li>
-         <li>Termos e Condições</li>
-         <li>Trabalhe conosco</li>
-         <li>Para contadores</li>
+         <li onClick={()=> navigate('/parceiros')}>Parceiros e Integrações</li>
+         <li>Sobre a BLUE ERP</li>
+         <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/politica-privacidade/')}>Termos e Condições</li>
          <li>Planos e Preços</li>
          <li>Como funciona?</li>
-         <li>Contato</li>
-         <li>Cases</li>
+         <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/contato/')}>Contato</li>
          </ul>
         </div>
 

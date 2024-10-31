@@ -119,7 +119,7 @@ export function Header(){
            <li><IoShieldCheckmarkOutline/> <p>Chat via <strong> WhatsApp.</strong></p></li>
           </ul>
 
-          <button>
+          <button onClick={()=> navigate('/loja-virtual')}>
            Conhecer Blue ERP
           </button>
         </div>
@@ -144,7 +144,7 @@ export function Header(){
           </ul>
 
 
-          <button>
+          <button onClick={()=> navigate('/app-de-vendas')}>
            Conhecer Blue Mobi
           </button>
         </div>
@@ -169,7 +169,7 @@ export function Header(){
           </ul>
           
 
-          <button>
+          <button onClick={()=> navigate('/loja-offline')}>
            Conhecer Blue ERP Lite
           </button>
         </div>
