@@ -299,7 +299,7 @@ export function Home(){
           </div>
           </div>
 
-          <span className="eco">Mais sobre <a href="#">Integrações</a></span>
+          <span className="eco" >Mais sobre <a onClick={()=> navigate('/central-de-integraçoes')}>Integrações</a></span>
         </div>
 
         <img src={Over} alt="over" className="Over"/>

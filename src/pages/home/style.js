@@ -618,6 +618,7 @@ background: linear-gradient(120deg, rgba(115,0,204,1) 20%, rgba(0,0,198,1) 100%)
 
   a {
     text-decoration: underline;
+    cursor: pointer;
     color: #FFFFFF;
   }
  }

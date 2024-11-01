@@ -30,15 +30,15 @@ export function Footer(){
      <S.Container>
       <S.Help>
         <div className="left">
-          <h2><strong>Experimente a  Blue ERP </strong> agora e <br /> surpreenda-se com os resultados:</h2>
+          <h2><strong>Experimente a  Blue ERP </strong> agora e <br /> surpreenda-se com os resultados!</h2>
 
           <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente agora</button>
         </div>
 
         <div className="right">
           <ul>
-            <li><GoShieldCheck/>  <strong>Se preferir, receba uma apresentação comercial  </strong>  durante o período de teste.</li>
-            <li><GoShieldCheck/>  <strong> Sem necessidade </strong> de cartão de crédito.</li>
+            <li><GoShieldCheck/>  <p><strong>Se preferir, receba uma apresentação comercial  </strong>  durante o período de teste.</p></li>
+            <li><GoShieldCheck/>  <p><strong> Sem necessidade </strong> de cartão de crédito.</p></li>
           </ul>
 
           <div className="call">
@@ -123,38 +123,38 @@ export function Footer(){
         <div className="topic">
           <h5>Vendas e Serviços</h5>
           <ul>
-            <li>PDV com Cupom Fiscal Eletrônico</li>
-            <li>Relatórios de Vendas e Serviços</li>
-            <li>Loja Virtual - Blue Loja</li>
-            <li>Central de Integrações</li>
-            <li>Gestão de Contratos</li>
-            <li>Gestão de Serviços</li>
-            <li>Gestão de Vendas</li>
-            <li>Catálogo Virtual</li>
-            <li>Gestão de CRM</li>
+            <li onClick={()=> navigate('/pdv-com-cupom-fiscal-eletronico')}>PDV com Cupom Fiscal Eletrônico</li>
+            <li onClick={()=> navigate('/controle-de-vendas')}>Relatórios de Vendas e Serviços</li>
+            <li onClick={()=> navigate('/loja-virtual')}>Loja Virtual - Blue Loja</li>
+            <li onClick={()=> navigate('/central-de-integraçoes')}>Central de Integrações</li>
+            <li onClick={()=> navigate('/gestao-de-contratos')}>Gestão de Contratos</li>
+            <li onClick={()=> navigate('/gestao-de-serviços')}>Gestão de Serviços</li>
+            <li onClick={()=> navigate('/controle-de-vendas')}>Gestão de Vendas</li>
+            <li onClick={()=> navigate('/catalogo-virtual')}>Catálogo Virtual</li>
+            <li onClick={()=> navigate('/gestao-de-crm')}>Gestão de CRM</li>
           </ul>
         </div>
 
         <div className="topic">
           <h5>Financeiro e Fiscal</h5>
           <ul>
-            <li>Relatórios Financeiros e Fiscais</li>
-            <li>Gestão de Compras</li>
-            <li>Gestão Financeira</li>
-            <li>Gestão Fiscal</li>
+            <li onClick={()=> navigate('/controle-financeiro')}>Relatórios Financeiros e Fiscais</li>
+            <li onClick={()=> navigate('/gestao-de-compras')}>Gestão de Compras</li>
+            <li onClick={()=> navigate('/controle-financeiro')}>Gestão Financeira</li>
+            <li onClick={()=> navigate('/gestao-fiscal')}>Gestão Fiscal</li>
           </ul>
         </div>
 
         <div className="topic">
           <h5>Administrativo</h5>
           <ul>
-          <li>Integração com o Google Apps</li>
-          <li>Relatórios Administrativos</li>
-          <li>Documentos Personalizados</li>
-          <li>Gestão de Arquivos</li>
-          <li>Gestão de Tarefas</li>
-          <li>Sistema Online</li>
-          <li>Gestão de RH</li>
+          <li onClick={()=> navigate('/central-de-integraçoes')}>Integração com o Google Apps</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}>Relatórios Administrativos</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}>Documentos Personalizados</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}>Gestão de Arquivos</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}>Gestão de Tarefas</li>
+          <li onClick={()=> navigate('/sistema-online')}>Sistema Online</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}>Gestão de RH</li>
           </ul>
         </div>
 

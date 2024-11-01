@@ -107,6 +107,10 @@ img {
  }
 }
 
+.MOBAL {
+  display: none;
+}
+
 &[data-top="false"]{
   height: 5rem;
 
@@ -142,48 +146,33 @@ img {
   }
 }
 }
-@media (max-width: 450px){
- padding: 1rem 2rem;
- height: 13rem;
 
- grid-template-rows: repeat(2, 1fr);
- grid-template-areas:     
-   "menu logo cart"
-   "input input input";
- display: grid;
- justify-content: center;
- align-items: center;
- row-gap: 0rem;
- 
- .inputArea {
-  grid-area: input;
-  width: 100%;
+@media (max-width: 450px){
+ height: 5rem;
+ width: 100%;
+
+ overflow: hidden;
+ padding: 0 2rem;
+
+ img {
+   height: 5rem;
  }
- .Utils{
+
+ .Right {
   display: none;
  }
 
- img {
- width: 20rem;
- grid-area: logo;
- }
+ .MOBAL {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
 
- .menu {
- display: flex;
-
- font-size: 3rem;
- cursor: pointer;
- color: #f0f7fb;
- grid-area: menu;
- }
- .cart {
- display: flex;
- 
- font-size: 3rem;
- cursor: pointer;
- color: #f0f7fb;
- grid-area: cart;
- }
+  span {
+   color: rgb(0%, 0%, 77.598572%);
+   font-size: 1.4rem;
+   font-weight: 700;
+  }
+}
 }
 `
 
@@ -403,6 +392,10 @@ opacity: 1;
 }
 
 }
+
+@media (max-width: 450px){
+  display: none;
+}
 `
 
 export const Segment = styled.div`
@@ -530,6 +523,10 @@ ul {
 }
 
 }
+
+@media (max-width: 450px){
+  display: none;
+}
 `
 
 export const Functions = styled.div`
@@ -616,6 +613,10 @@ ul {
   padding-top: 5rem;
 }
 
+}
+
+@media (max-width: 450px){
+  display: none;
 }
 `
 

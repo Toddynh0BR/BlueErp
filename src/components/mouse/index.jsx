@@ -4,7 +4,7 @@ import { Mouser } from './style';
 
 const MouseFollower = () => {
     const followerRef = useRef(null);
-    const [isPointer, setIsPointer] = useState(false); // Estado para controlar o estilo
+    const [isPointer, setIsPointer] = useState(false); 
 
     useEffect(() => {
         const handleMouseMove = (event) => {
@@ -16,13 +16,13 @@ const MouseFollower = () => {
         };
 
         const handleMouseEnter = () => {
-            console.log('Pointer entered');
-            setIsPointer(true); // Define isPointer como true
+            
+            setIsPointer(true); 
         };
 
         const handleMouseLeave = () => {
-            console.log('Pointer left');
-            setIsPointer(false); // Define isPointer como false
+           
+            setIsPointer(false);
         };
 
         // Adiciona o ouvinte de eventos

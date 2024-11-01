@@ -113,6 +113,56 @@ display: flex;
   }
 }
 }
+
+@media (max-width: 450px) {
+ min-height: 55vh;
+ padding: 0rem 2rem;
+
+ justify-content: center;
+ flex-direction: column;
+ gap: 3rem;
+
+ .left {
+  margin-top: 5rem;
+  align-items: center;
+  gap: 2rem;
+ }
+
+ .right {
+  align-items: flex-start;
+  gap: 2rem;
+
+  ul {
+
+   li {
+    align-self: flex-start;
+    font-size: 1.2rem;
+
+    svg {
+     font-size: 1rem;
+    }
+   }
+  }
+
+  .call {
+   width: 100%;
+
+   padding: 1rem 1.5rem;
+
+   p {
+   font-size: 1.2rem;
+  }
+
+  strong {
+   font-size: 1.2rem;
+  }
+
+  a {
+   font-size: 1.3rem;
+  }
+  }
+ }
+}
 `
 
 export const RealFooter = styled.div`
@@ -341,5 +391,30 @@ h4 {
 }
 }
 
+@media (max-width: 450px) {
+ padding: 0 2rem;
+ gap: 3rem;
 
+ .title {
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+
+  .call {
+    display: none;
+  }
+ }
+
+ .links {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+ }
+
+ .bottom {
+  flex-direction: column-reverse;
+  gap: 3rem;
+ }
+}
 `

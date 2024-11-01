@@ -1,12 +1,39 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { ParceirosIntegraçoes } from '../pages/parceirosIntegraçoes';
-import { LojaVirtual } from '../pages/lojaVirtual';
-import { LojaOffline } from '../pages/lojaLite';
+//Principais
+import { CentralIntegraçoes } from '../pages/integraçoes';
 import { Ecosystem } from '../pages/ecosystem';
-import { AppVenda } from '../pages/appVenda';
 import { Home } from '../pages/home';
 
+
+//tipos
+import { LojaVirtual } from '../pages/lojaVirtual';
+import { LojaOffline } from '../pages/lojaLite';
+import { AppVenda } from '../pages/appVenda';
+
+
+//Financeiro e Fiscal
+import { ControleFinanceiro } from '../pages/FincanceiroFiscal/controleFinanceiro';
+import { GestaoCompras } from '../pages/FincanceiroFiscal/gestaoCompras';
+import { GestaoFiscal } from '../pages/FincanceiroFiscal/gestaoFiscal';
+
+
+//Vendas e serviços
+import { PDV } from '../pages/VendasServiços/pdv-frente-de-caixa';
+import { ControleVendas } from '../pages/VendasServiços/controleVendas';
+import { GestaoContratos } from '../pages/VendasServiços/gestaoContratos';
+import { GestaoServiços } from '../pages/VendasServiços/gestaoServiços';
+import { CatalogoVirtual } from '../pages/VendasServiços/catalogoVirtual';
+import { GestaoCRM } from '../pages/VendasServiços/gestaoCRM';
+
+
+//Administrativo
+import { RelatoriosAdm } from '../pages/Administrativo/relatoriosAdm';
+import { SistemaOnline } from '../pages/Administrativo/sistemaOnline';
+
+
+//Parceiros
+import { ParceirosIntegraçoes } from '../pages/parceirosIntegraçoes';
 import { P1 } from '../pages/parceiros/p1';
 import { P2 } from '../pages/parceiros/p2';
 import { P3 } from '../pages/parceiros/p3';
@@ -31,12 +58,28 @@ export function AppRoutes() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/ecossistema" element={<Ecosystem />}/>
+      <Route path="/central-de-integraçoes" element={<CentralIntegraçoes />}/>
 
-      <Route path="/parceiros" element={<ParceirosIntegraçoes />}/>
       
       <Route path="/app-de-vendas" element={<AppVenda />}/>
       <Route path="/loja-virtual" element={<LojaVirtual />}/>
       <Route path="/loja-offline" element={<LojaOffline />}/>
+
+      <Route path="/ferramentas-administrativas" element={<RelatoriosAdm />}/>
+      <Route path="/sistema-online" element={<SistemaOnline />}/>
+
+      <Route path='/controle-financeiro' element={<ControleFinanceiro />}/>
+      <Route path='/gestao-de-compras' element={<GestaoCompras />}/>
+      <Route path='/gestao-fiscal' element={<GestaoFiscal />}/>
+
+      <Route path='/pdv-com-cupom-fiscal-eletronico' element={<PDV />}/>
+      <Route path='/controle-de-vendas' element={<ControleVendas />}/>
+      <Route path='/gestao-de-contratos' element={<GestaoContratos />}/>
+      <Route path='/gestao-de-serviços' element={<GestaoServiços />}/>
+      <Route path='/catalogo-virtual' element={<CatalogoVirtual />}/>
+      <Route path='/gestao-de-crm' element={<GestaoCRM />}/>
+
+      <Route path="/parceiros" element={<ParceirosIntegraçoes />}/>
 
       <Route path="/amazon" element={<P1 />}/>
       <Route path="/mercado-livre" element={<P2 />}/>

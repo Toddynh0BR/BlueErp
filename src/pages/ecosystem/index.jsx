@@ -89,7 +89,7 @@ export function Ecosystem(){
           totalmente integrados para simplificar a gestão do seu negócio.
          </h4>
 
-          <button>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -167,7 +167,7 @@ export function Ecosystem(){
            <br /> Aqui, sua loja é totalmente sua, e o valor de cada venda fica apenas com você e seu negócio.
           </p>
 
-          <button>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
         </div>
       </S.Site>
 
@@ -218,7 +218,7 @@ export function Ecosystem(){
           ele é totalmente integrado ao sistema BLUE ERP no seu computador.
           </p>
 
-          <button>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
         </div>
       </S.Mobi>
 
@@ -270,7 +270,7 @@ export function Ecosystem(){
           uma versão prática e eficiente, que pode ser instalada e funciona perfeitamente no modo offline.
           </p>
 
-          <button>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
         </div>
       </S.Lite>
 

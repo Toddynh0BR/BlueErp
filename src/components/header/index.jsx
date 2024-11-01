@@ -16,7 +16,7 @@ import mobi from "../../assets/mobi.svg";
 import site from "../../assets/site.svg";
 
 export function Header(){
-  const [selected, setSelected] = useState('site');
+    const [selected, setSelected] = useState('site');
     const [onTop, setOnTop] = useState(true);
     const [open, setOpen] = useState('');
     const navigate = useNavigate();
@@ -71,9 +71,14 @@ export function Header(){
         Experimente
        </button>
 
-       <div className="Topic">
+       <div className="Topic" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
         <p>Entrar</p>
        </div>
+      </div>
+
+      <div className="MOBAL">
+        <span>Planos</span>
+        <span onClick={()=> abrirNovaAba('https://blueinnovation.com.br/contato/')}>Contato</span>
       </div>
      </S.Container>
 
@@ -246,23 +251,23 @@ export function Header(){
          <ul>
           <h3>Financeiro e Fiscal</h3>
 
-          <li><FaAngleDoubleRight/> Relatórios Financeiros e Fiscais</li>
-          <li><FaAngleDoubleRight/> Gestão Financeira</li>
-          <li><FaAngleDoubleRight/> Gestão de Compras</li>
-          <li><FaAngleDoubleRight/> Gestão Fiscal</li>
+          <li onClick={()=> navigate('/controle-financeiro')}><FaAngleDoubleRight/> Relatórios Financeiros e Fiscais</li>
+          <li onClick={()=> navigate('/gestao-de-compras')}><FaAngleDoubleRight/> Gestão de Compras</li>
+          <li onClick={()=> navigate('/controle-financeiro')}><FaAngleDoubleRight/> Gestão Financeira</li>
+          <li onClick={()=> navigate('/gestao-fiscal')}><FaAngleDoubleRight/> Gestão Fiscal</li>
          </ul>
 
          <ul className="other">
           <h3>Vendas e Serviços</h3>
 
-          <li><FaAngleDoubleRight/> PDV com Cupom Fiscal Eletrônico</li>
-          <li><FaAngleDoubleRight/> Relatórios de Vendas e Serviços</li>
-          <li><FaAngleDoubleRight/> Central de Integrações</li>
-          <li><FaAngleDoubleRight/> Gestão de Contratos</li>
-          <li><FaAngleDoubleRight/> Gestão de Serviços</li>
-          <li><FaAngleDoubleRight/> Gestão de Vendas</li>
-          <li><FaAngleDoubleRight/> Catálogo Virtual</li>
-          <li><FaAngleDoubleRight/> Gestão de CRM</li>
+          <li onClick={()=> navigate('/pdv-com-cupom-fiscal-eletronico')}><FaAngleDoubleRight/> PDV com Cupom Fiscal Eletrônico</li>
+          <li onClick={()=> navigate('/controle-de-vendas')}><FaAngleDoubleRight/> Relatórios de Vendas e Serviços</li>
+          <li onClick={()=> navigate('/central-de-integraçoes')}><FaAngleDoubleRight/> Central de Integrações</li>
+          <li onClick={()=> navigate('/gestao-de-contratos')}><FaAngleDoubleRight/> Gestão de Contratos</li>
+          <li onClick={()=> navigate('/gestao-de-serviços')}><FaAngleDoubleRight/> Gestão de Serviços</li>
+          <li onClick={()=> navigate('/controle-de-vendas')}><FaAngleDoubleRight/> Gestão de Vendas</li>
+          <li onClick={()=> navigate('/catalogo-virtual')}><FaAngleDoubleRight/> Catálogo Virtual</li>
+          <li onClick={()=> navigate('/gestao-de-crm')}><FaAngleDoubleRight/> Gestão de CRM</li>
          </ul>
 
          <ul>
@@ -277,11 +282,10 @@ export function Header(){
 
          <ul className="other">
           <h3>Administrativo</h3>
-
-          <li><FaAngleDoubleRight/> Ferramentas Administrativas</li>
-          <li><FaAngleDoubleRight/> Relatórios Administrativos</li>
-          <li><FaAngleDoubleRight/> Documentos Personalizados</li>
-          <li><FaAngleDoubleRight/> Sistema Online</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}><FaAngleDoubleRight/> Ferramentas Administrativas</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}><FaAngleDoubleRight/> Relatórios Administrativos</li>
+          <li onClick={()=> navigate('/ferramentas-administrativas')}><FaAngleDoubleRight/> Documentos Personalizados</li>
+          <li onClick={()=> navigate('/sistema-online')}><FaAngleDoubleRight/> Sistema Online</li>
          </ul>
 
         </div>
