@@ -49,6 +49,12 @@ span {
  margin: 0 auto;
  margin-bottom: -12.5rem;
 }
+
+@media (max-width: 450px) {
+ .Logo {
+  width: 80%;
+ }
+}
 `
 
 export const Main = styled.main`
@@ -72,5 +78,9 @@ span {
 p {
  font-size: 1.3rem;
  color: #636363c2;
+}
+
+@media (max-width: 450px) {
+padding: 5rem 2rem;
 }
 `

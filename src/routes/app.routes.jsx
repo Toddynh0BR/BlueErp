@@ -11,6 +11,9 @@ import { LojaVirtual } from '../pages/lojaVirtual';
 import { LojaOffline } from '../pages/lojaLite';
 import { AppVenda } from '../pages/appVenda';
 
+//Especiais
+import { ComoFunciona } from '../pages/Especial/comoFunciona';
+import { Sobre } from '../pages/Especial/Sobre';
 
 //Financeiro e Fiscal
 import { ControleFinanceiro } from '../pages/FincanceiroFiscal/controleFinanceiro';
@@ -30,6 +33,11 @@ import { GestaoCRM } from '../pages/VendasServiços/gestaoCRM';
 //Administrativo
 import { RelatoriosAdm } from '../pages/Administrativo/relatoriosAdm';
 import { SistemaOnline } from '../pages/Administrativo/sistemaOnline';
+
+//Logistica
+import { GestaoExpediçao } from '../pages/Logistica/gestaoExpediçao';
+import { ControleEstoque } from '../pages/Logistica/controleEstoque';
+import { ControleProdução } from '../pages/Logistica/controleProdução';
 
 
 //Parceiros
@@ -53,13 +61,15 @@ import { P16 } from '../pages/parceiros/p16';
 import { P17 } from '../pages/parceiros/p17';
 import { P18 } from '../pages/parceiros/p18';
 
+//Areas de atuaça~
+import { A1 } from '../pages/Areas/A1';
+
 export function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/ecossistema" element={<Ecosystem />}/>
       <Route path="/central-de-integraçoes" element={<CentralIntegraçoes />}/>
-
       
       <Route path="/app-de-vendas" element={<AppVenda />}/>
       <Route path="/loja-virtual" element={<LojaVirtual />}/>
@@ -71,6 +81,13 @@ export function AppRoutes() {
       <Route path='/controle-financeiro' element={<ControleFinanceiro />}/>
       <Route path='/gestao-de-compras' element={<GestaoCompras />}/>
       <Route path='/gestao-fiscal' element={<GestaoFiscal />}/>
+
+      <Route path='/blue-innovation' element={<Sobre />}/>
+      <Route path='/conheça-a-blue-erp' element={<ComoFunciona />}/>
+
+      <Route path='/gestao-de-expediçao' element={<GestaoExpediçao />}/>
+      <Route path='/controle-de-estoque' element={<ControleEstoque />}/>
+      <Route path='/controle-de-produçao' element={<ControleProdução />}/>
 
       <Route path='/pdv-com-cupom-fiscal-eletronico' element={<PDV />}/>
       <Route path='/controle-de-vendas' element={<ControleVendas />}/>
@@ -99,6 +116,8 @@ export function AppRoutes() {
       <Route path="/signashop" element={<P16 />}/>
       <Route path="/stone" element={<P17 />}/>
       <Route path="/woocomerce" element={<P18 />}/>
+
+      <Route path="/ferramentas-e-ferragens" element={<A1 />}/>
     </Routes>
   )
 }

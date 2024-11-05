@@ -7,12 +7,6 @@ import MouseFollower from "../../../components/mouse";
 import { Header } from "../../../components/header";
 import { Footer } from "../../../components/footer";
 
-import { IoShieldCheckmarkOutline,  IoPhonePortraitOutline } from "react-icons/io5";
-import { MdOutlineMessage } from "react-icons/md";
-import { IoMdCloudOutline } from "react-icons/io";
-import { TbTruckDelivery } from "react-icons/tb";
-import { RiWifiOffLine } from "react-icons/ri";
-
 import Set from "../assets/bottom-set.svg";
 import Image1 from "../assets/top-image-pdv.png";
 import Image2 from "../assets/cfe-sat.svg";

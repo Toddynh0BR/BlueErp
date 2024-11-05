@@ -218,7 +218,7 @@ export function Header(){
          <li>Cosméticos e Perfumes</li>
          <li>Serviços Elétricos</li>
          <li>Confecção de Roupas</li>
-         <li>Ferramentas e Ferragens</li>
+         <li onClick={()=> navigate("/ferramentas-e-ferragens")}>Ferramentas e Ferragens</li>
          </ul>
 
          <ul>
@@ -273,11 +273,11 @@ export function Header(){
          <ul>
           <h3>Logística</h3>
 
-          <li><FaAngleDoubleRight/> Gestão de Expedição e SIGEP Web</li>
-          <li><FaAngleDoubleRight/> Relatórios de Logística</li>
-          <li><FaAngleDoubleRight/> Gestão de Produção</li>
-          <li><FaAngleDoubleRight/> Gestão de Estoque</li>
-          <li><FaAngleDoubleRight/> Gestão de Frota</li>
+          <li onClick={()=> navigate('/gestao-de-expediçao')}><FaAngleDoubleRight/> Gestão de Expedição e SIGEP Web</li>
+          <li onClick={()=> navigate('/controle-de-estoque')}><FaAngleDoubleRight/> Relatórios de Logística</li>
+          <li onClick={()=> navigate('/controle-de-produçao')}><FaAngleDoubleRight/> Gestão de Produção</li>
+          <li onClick={()=> navigate('/controle-de-produçao')}><FaAngleDoubleRight/> Gestão de Estoque</li>
+          <li onClick={()=> navigate('/controle-de-estoque')}><FaAngleDoubleRight/> Gestão de Frota</li>
          </ul>
 
          <ul className="other">

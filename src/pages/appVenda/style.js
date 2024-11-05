@@ -169,6 +169,7 @@ padding-top: 5rem;
  justify-content: space-between;
  align-items: flex-start;
  display: flex;
+ gap: 1rem;
 
  .card {
   height: 8rem;

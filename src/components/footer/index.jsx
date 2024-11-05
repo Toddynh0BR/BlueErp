@@ -161,11 +161,11 @@ export function Footer(){
         <div className="topic">
           <h5>Logística</h5>
           <ul>
-           <li>Gestão de Expedição e SIGEP Web</li>
-           <li>Relatórios de Logística</li>
-           <li>Gestão de Produção</li>
-           <li>Gestão de Estoque</li>
-           <li>Gestão de Frota</li>
+           <li onClick={()=> navigate('/gestao-de-expediçao')}>Gestão de Expedição e BLUE Web</li>
+           <li onClick={()=> navigate('/controle-de-estoque')}>Relatórios de Logística</li>
+           <li onClick={()=> navigate('/controle-de-produçao')}>Gestão de Produção</li>
+           <li onClick={()=> navigate('/controle-de-produçao')}>Gestão de Estoque</li>
+           <li onClick={()=> navigate('/controle-de-estoque')}>Gestão de Frota</li>
           </ul>
         </div>
        </div>
@@ -177,10 +177,10 @@ export function Footer(){
          <h5>Conheça</h5>
          <ul>
          <li onClick={()=> navigate('/parceiros')}>Parceiros e Integrações</li>
-         <li>Sobre a BLUE ERP</li>
+         <li onClick={()=> navigate('/blue-innovation')}>Sobre a BLUE ERP</li>
          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/politica-privacidade/')}>Termos e Condições</li>
          <li>Planos e Preços</li>
-         <li>Como funciona?</li>
+         <li onClick={()=> navigate('/conheça-a-blue-erp')}>Como funciona?</li>
          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/contato/')}>Contato</li>
          </ul>
         </div>
@@ -196,7 +196,7 @@ export function Footer(){
         <div className="topic">
          <h5>Áreas de Atuação</h5>
          <ul>
-          <li>Ferramentas e Ferragens</li>
+          <li onClick={()=> navigate("/ferramentas-e-ferragens")}>Ferramentas e Ferragens</li>
           <li>Consultoria Empresarial</li>
           <li>Produtos Hospitalares</li>
           <li>Lojas de Informática</li>

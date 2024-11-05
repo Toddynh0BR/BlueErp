@@ -124,6 +124,39 @@ display: flex;
   }
  }
 }
+
+@media (max-width: 450px) {
+  padding: 0 2rem;
+
+  .right {
+    display: none;
+  }
+
+  .left {
+    h2 {
+     font-size: 3rem;
+     width: 100%;
+    }
+
+   .ButtonAds {
+
+    .button {
+      height: 5rem;
+      width: 100%;
+
+      justify-content: space-between;
+
+      p {
+       font-size: 1.7rem;
+      }
+
+    }
+    .sets {
+     display: none;
+    }
+   }
+  }
+}
 `
 
 export const Plans = styled.div`
@@ -190,7 +223,26 @@ padding: 4rem 13rem;
  }
 }
 
+@media (max-width: 450px) {
+padding: 4rem 2rem;
+gap: 1rem;
 
+.title {
+ flex-direction: column;
+ gap: 2rem;
+ h2 {
+  font-size: 1.8rem;
+ }
+ strong {
+  font-size: 1.9rem;
+ }
+
+}
+
+.plans {
+ flex-direction: column;
+}
+}
 `
 
 export const Eco = styled.div`
@@ -268,7 +320,7 @@ display: flex;
    font-weight: 300;
 
    svg {
-    color: rgb(9, 194, 9);
+    color: rgb(9, 194, 9)rgb(9, 194, 9);
     margin-right: .5rem;
     font-size: 1.4rem;
    }
@@ -377,6 +429,32 @@ display: flex;
     color: #FFFFFF;
   }
  }
+}
+
+@media (max-width: 450px) {
+  padding: 4rem 2rem;
+
+  flex-direction: column;
+  gap: 2rem;
+
+  .left {
+   padding: 0;
+  }
+
+  .right {
+   .container {
+    flex-direction: column;
+   }
+
+   .card {
+    height: 40rem;
+    width: 150%;
+
+    .Image {
+      width: 90%;
+    }
+   }
+  }
 }
 `
 
@@ -501,6 +579,20 @@ gap: 5rem;
    color: #666262e7;
   }
  }
+}
+
+@media (max-width: 450px) {
+padding: 5rem 2rem;
+gap: 2rem;
+
+.title {
+ flex-direction: column;
+ gap: 2rem;
+}
+
+.topics {
+  grid-template-columns: repeat(1, 1fr);
+}
 }
 `
 
@@ -638,6 +730,19 @@ background: linear-gradient(120deg, rgba(115,0,204,1) 20%, rgba(0,0,198,1) 100%)
 
  transform: rotate(180deg) scale(200%);
 }
+
+@media (max-width: 450px) {
+  flex-direction: column-reverse;
+  padding: 4rem 2rem;
+  .left {
+    img {
+      transform: scale(80%);
+    }
+  }
+  .right {
+    align-items: flex-start;
+  }
+}
 `
 
 export const Neg = styled.div`
@@ -687,5 +792,18 @@ gap: 6rem;
    color: #7300cc;
   }
  }
+}
+
+
+@media (max-width: 450px) {
+ height: fit-content;
+ padding: 4rem 2rem;
+ gap: 3rem;
+
+.negocios {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  gap: 2rem;
+}
 }
 `

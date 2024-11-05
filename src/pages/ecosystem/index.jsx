@@ -35,6 +35,14 @@ export function Ecosystem(){
     });
   };
 
+  function abrirNovaAba(url) {
+    window.open(url, '_blank');
+  };
+
+  function abriNovaRota(route) {
+    navigate(route)
+  };
+
   useEffect(() => {
  
     window.scrollTo({

@@ -217,4 +217,8 @@ padding: 3.5rem 20rem;
  background-size: 50%;
 }
 
+@media (max-width: 450px){
+ grid-template-columns: repeat(1, 1fr);
+ padding: 3.5rem 2rem;
+} 
 `
