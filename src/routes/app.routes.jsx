@@ -61,8 +61,25 @@ import { P16 } from '../pages/parceiros/p16';
 import { P17 } from '../pages/parceiros/p17';
 import { P18 } from '../pages/parceiros/p18';
 
-//Areas de atuaça~
+//Areas de atuaçao
 import { A1 } from '../pages/Areas/A1';
+import { A2 } from '../pages/Areas/A2';
+import { A3 } from '../pages/Areas/A3';
+import { A4 } from '../pages/Areas/A4';
+import { A5 } from '../pages/Areas/A5';
+import { A6 } from '../pages/Areas/A6';
+import { A7 } from '../pages/Areas/A7';
+import { A8 } from '../pages/Areas/A8';
+import { A9 } from '../pages/Areas/A9';
+import { A10 } from '../pages/Areas/A10';
+import { A11 } from '../pages/Areas/A11';
+import { A12 } from '../pages/Areas/A12';
+import { A13 } from '../pages/Areas/A13';
+import { A14 } from '../pages/Areas/A14';
+import { A15 } from '../pages/Areas/A15';
+import { A16 } from '../pages/Areas/A16';
+import { A17 } from '../pages/Areas/A17';
+import { A18 } from '../pages/Areas/A18';
 
 export function AppRoutes() {
   return (
@@ -118,6 +135,25 @@ export function AppRoutes() {
       <Route path="/woocomerce" element={<P18 />}/>
 
       <Route path="/ferramentas-e-ferragens" element={<A1 />}/>
+      <Route path="/consultoria-empresarial" element={<A2 />}/>
+      <Route path="/lojas-de-informatica" element={<A3 />}/>
+
+      <Route path="/agencias-de-turismo" element={<A4 />}/>
+
+      <Route path="/loja-de-eletrodomesticos" element={<A5 />}/>
+      <Route path="/erp-para-loja-virtual" element={<A6 />}/>
+      <Route path="/loja-de-materiais-de-construcao" element={<A7 />}/>
+      <Route path="/loja-de-roupas" element={<A8 />}/>
+      <Route path="/sistema-para-autopecas" element={<A9 />}/>
+      <Route path="/telefonia-e-comunicacao" element={<A10 />}/>
+      <Route path="/servicos-de-engenharia" element={<A11 />}/>
+      <Route path="/loja-de-produtos-alimenticios" element={<A12 />}/>
+      <Route path="/cosmeticos-e-perfumes" element={<A13 />}/>
+      <Route path="/lanchonetes-e-bares" element={<A14 />}/>
+      <Route path="/confeccao-de-roupas" element={<A15 />}/>
+      <Route path="/instalacao-e-manutencao-eletrica" element={<A16 />}/>
+      <Route path="/fabricantes-e-loja-de-moveis" element={<A17 />}/>
+      <Route path="/erp-para-industria" element={<A18 />}/>
     </Routes>
   )
 }

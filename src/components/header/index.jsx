@@ -202,33 +202,30 @@ export function Header(){
         </div>
         <div className="box">
          <ul>
-         <li>Assistência Técnica</li>
-         <li>Vestuário</li>
-         <li>Agências de turismo</li>
-         <li>Produtos Alimentícios</li>
-         <li>Autopeças</li>
-         <li>Lanchonetes e Bares</li>
-         <li>Serviços de Engenharia</li>
+         <li onClick={()=> navigate("/lojas-de-informatica")}>Assistência Técnica</li>
+         <li onClick={()=> navigate("/loja-de-roupas")}>Vestuário</li>
+         <li onClick={()=> navigate("/agencias-de-turismo")}>Agências de turismo</li>
+         <li onClick={()=> navigate("/loja-de-produtos-alimenticios")}>Produtos Alimentícios</li>
+         <li onClick={()=> navigate("/sistema-para-autopecas")}>Autopeças</li>
+         <li onClick={()=> navigate("/lanchonetes-e-bares")}>Lanchonetes e Bares</li>
+         <li  onClick={()=> navigate("/servicos-de-engenharia")}>Serviços de Engenharia</li>
          </ul>
 
          <ul className="other">
-         <li>Construção</li>
-         <li>Consultoria Empresarial</li>
-         <li>Loja Virtual</li>
-         <li>Cosméticos e Perfumes</li>
-         <li>Serviços Elétricos</li>
-         <li>Confecção de Roupas</li>
+         <li onClick={()=> navigate("/loja-de-materiais-de-construcao")}>Construção</li>
+         <li onClick={()=> navigate("/consultoria-empresarial")}>Consultoria Empresarial</li>
+         <li onClick={()=> navigate("/erp-para-loja-virtual")}>Loja Virtual</li>
+         <li onClick={()=> navigate("/cosmeticos-e-perfumes")}>Cosméticos e Perfumes</li>
+         <li onClick={()=> navigate("/instalacao-e-manutencao-eletrica")}>Serviços Elétricos</li>
+         <li onClick={()=> navigate("/confeccao-de-roupas")}>Confecção de Roupas</li>
          <li onClick={()=> navigate("/ferramentas-e-ferragens")}>Ferramentas e Ferragens</li>
          </ul>
 
          <ul>
-          <li>Telefonia e Comunicação</li>
-          <li>Produtos Hospitalares</li>
-          <li>Eletro-domésticos</li>
-          <li>Venda de Móveis</li>
-          <li>Indústrias</li>
-          <li>Produtos de Limpeza</li>
-          <li>Distribuidoras</li>
+          <li onClick={()=> navigate("/telefonia-e-comunicacao")}>Telefonia e Comunicação</li>
+          <li onClick={()=> navigate("/loja-de-eletrodomesticos")}>Eletro-domésticos</li>
+          <li onClick={()=> navigate("/fabricantes-e-loja-de-moveis")}>Venda de Móveis</li>
+          <li onClick={()=> navigate("/erp-para-industria")}>Indústrias</li>
          </ul>
 
          <div className="EcoLink">

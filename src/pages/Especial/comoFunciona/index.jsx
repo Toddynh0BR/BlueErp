@@ -59,14 +59,14 @@ export function ComoFunciona(){
     window.open(url, '_blank');
   };
 
-/*
+
     useEffect(() => {
  
       window.scrollTo({
         top: 0,
         behavior: "smooth", 
       });
-    }, []);*/
+    }, []);
 
     return(
      <S.Container>
