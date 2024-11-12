@@ -55,7 +55,7 @@ export function A13(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Cosméticos e Perfumes
+        Sistema de <strong> Gestão para Cosméticos e Perfumes</strong>
 
 
 
@@ -221,6 +221,12 @@ export function A13(){
         <span>
         Gestão de estoque
         </span>
+        
+        <h4>
+        Quero 
+      <strong>   gerenciar estoque</strong>
+
+      </h4>
 
         <p>
        
@@ -275,8 +281,14 @@ Ao vender produtos de beleza em larga escala, a necessidade de etiquetas precisa
        <div className="left">
        <span>
        
-       Quero vender mais
+       Gestão de vendas
         </span>
+
+        <h4>
+        Quero
+      <strong>    vender mais</strong>
+
+      </h4>
 
         <p>
         Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a visibilidade da sua loja de cosméticos e perfumaria, tornando o processo de vendas mais ágil na loja física através de um frente de caixa moderno. Além disso, o Blue ERP permite que seus clientes acessem seus produtos de forma fácil, seja por meio de uma loja virtual ou catálogo online, com a possibilidade de aplicar preços diferenciados. O sistema também oferece ferramentas para gerir eficientemente sua equipe de vendedores, otimizando toda a operação de vendas da sua loja.
@@ -341,6 +353,12 @@ O Blue ERP também oferece controle completo sobre o sistema de cashback, uma te
         Gestão financeira
         </span>
 
+                <h4>
+                Quero 
+       <strong> gerenciar o financeiro </strong>
+     
+       </h4>
+
         <p>
         Com o Blue ERP, você conta com módulos completos para controlar seu fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas. Esses recursos ajudam a organizar sua gestão financeira de forma eficiente, garantindo que o capital da sua empresa seja investido de maneira estratégica, reduzindo custos e otimizando recursos para impulsionar o crescimento do seu negócio.
         </p>
@@ -391,6 +409,12 @@ O Blue ERP também oferece controle completo sobre o sistema de cashback, uma te
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma 
+      <strong>  gestão fiscal completa</strong>
+
+      </h4>
 
         <p>
         Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com mais tempo para prestar um bom atendimento e conquistar ainda mais clientes.

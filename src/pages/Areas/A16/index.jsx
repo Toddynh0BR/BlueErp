@@ -55,7 +55,7 @@ export function A16(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Instalação e Manutenção Elétrica
+        Sistema de Gestão para <strong> Instalação e Manutenção Elétrica</strong>
 
 
 
@@ -222,6 +222,12 @@ export function A16(){
         Gestão de serviços e contrato
         </span>
 
+        <h4>
+        Quero organizar minha 
+       <strong> gestão de Serviços</strong>
+
+       </h4>
+
         <p>
         Implementar um software de gestão para a prestação de serviços é essencial para empresas que buscam expandir suas operações com o suporte adequado e estrutura para controlar serviços, vendas, contratos e todas as negociações. No Blue ERP, você encontra ferramentas robustas para impulsionar seu faturamento e otimizar seus processos. Afinal, o setor de prestação de serviços é um dos que mais cresce no Brasil, e ter um sistema eficiente é a chave para aproveitar as oportunidades desse mercado em expansão.
         </p>
@@ -276,6 +282,13 @@ Após configurar os tipos de contratos no sistema, a criação de contratos se t
        
        Agenda de tarefas e oportunidades
         </span>
+
+        <h4>
+        Quero controlar minha   
+       <strong> agenda de tarefas </strong>
+       e ter o
+       <strong> controle de oportunidades </strong>
+       </h4>
 
         <p>
         O Blue ERP oferece integração com as ferramentas do Google, proporcionando mais facilidade e organização no seu dia a dia empresarial. Com essa integração, você pode gerenciar as tarefas dos colaboradores, como reuniões e visitas aos clientes, de forma eficiente e estruturada, garantindo que todas as atividades sejam acompanhadas e realizadas conforme o planejado.
@@ -339,6 +352,12 @@ O Blue ERP oferece o recurso de agenda de tarefas integrado ao Google Calendar, 
         Gestão Financeira
         </span>
 
+        <h4>
+        Quero  
+       <strong> gerenciar o financeiro </strong>
+       da minha empresa
+       </h4>
+
         <p>
         Com o Blue ERP, você tem à disposição módulos completos para controlar seu fluxo de caixa, realizar projeções de receitas e despesas, e gerenciar centros de custos e planos de contas. Essas ferramentas são essenciais para organizar a gestão financeira da sua empresa, permitindo que você invista o capital de forma estratégica, minimize custos e otimize recursos, impulsionando o crescimento do seu negócio.
         </p>
@@ -392,6 +411,12 @@ Com essa funcionalidade, o Blue ERP permite que você faça o faturamento de vá
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma 
+       <strong> gestão fiscal completa </strong>
+
+       </h4>
 
         <p>
        

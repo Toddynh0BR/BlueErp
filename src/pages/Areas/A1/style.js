@@ -12,7 +12,7 @@ width: 100%;
 
 background-image: url(${backGeral});
 position: relative;
-padding-top: 10rem;
+padding-top: 15rem;
 
 .Center {
  width: 100%;
@@ -432,6 +432,11 @@ padding: 0rem 10rem 5rem;
   transform: scale(80%);
   }
 
+  h4 {
+   font-size: 2.2rem;
+   font-weight: 300;
+   color: #8f00fc ;
+  }
  }
 
 

@@ -55,7 +55,7 @@ export function A8(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Loja de Roupas e Acessórios!
+        Sistema de Gestão para <strong> Loja de Roupas e Acessórios! </strong>
 
 
 
@@ -229,6 +229,12 @@ export function A8(){
         Quero vender mais
         </span>
 
+        <h4>
+        Para isso, nada melhor que contar com 
+
+        <strong> ferramentas que impulsionam a sua loja de roupas!</strong>
+        </h4>
+
         <p>
         Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua loja de artigos de vestuário, com um frente de caixa mais ágil, facilitando o acesso dos clientes aos produtos que você comercializa, seja por loja virtual ou catálogo online. Além disso, você pode aplicar preços diferenciados e gerenciar toda a sua equipe de vendas.
         </p>
@@ -309,6 +315,11 @@ Que tal aplicar tabelas de preços promocionais para mercadorias que estão enca
        Quero gerenciar estoques
         </span>
 
+        <h4>
+        Recursos flexíveis de armazenamento de mercadorias 
+        <strong> para quem tem uma ou várias lojas!</strong>
+        </h4>
+
         <p>
         O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até as entregas.
 
@@ -372,6 +383,12 @@ Nada melhor do que, ao buscar um produto, o sistema já lhe retornar a localiza�
         <span>
         Quero gerenciar meu financeiro
         </span>
+
+        <h4>
+        Saiba como os recursos financeiros da BLUE ERP podem  
+        <strong> potencializar sua lucratividade </strong>
+        e ajudar sua empresa a crescer!
+        </h4>
 
         <p>
         Com o BLUE ERP, você tem módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, gerenciar centros de custos e planos de contas, organizando sua gestão financeira, reduzindo custos e otimizando recursos para o crescimento do negócio.
@@ -455,6 +472,13 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4>
+        <strong>Pare de perder vendas </strong>
+         com o caixa trancado ou com a demora para emitir notas fiscais!
+
+        </h4>
+
 
         <p>
         Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com tempo para prestar um bom atendimento e conquistar ainda mais clientes. Configure os impostos necessários e emita NF-e, NFC-e, CF-e SAT e outros documentos fiscais com a certeza de estar sempre em dia com a legislação.

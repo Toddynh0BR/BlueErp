@@ -12,7 +12,7 @@ width: 100%;
 
 background-image: url(${backGeral});
 position: relative;
-padding-top: 10rem;
+padding-top: 15rem;
 
 .Center {
  width: 100%;
@@ -35,7 +35,7 @@ padding-top: 10rem;
   }
 
   h2 {
-   font-size: 2.5rem;
+   font-size: 3rem;
    font-weight: 400;
    color: #FFFFFF;
   }
@@ -172,7 +172,7 @@ gap: 3rem;
 `
 
 export const Main2 = styled.div`
-height: 130vh;
+min-height: 130vh;
 width: 100%;
 
 grid-template-columns: repeat(2, 1fr);
@@ -226,7 +226,7 @@ padding: 0 4rem;
     display: flex;
     gap: 1rem;
 
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #686868;
  
@@ -245,6 +245,10 @@ padding: 0 4rem;
 .b4 {
  border-top: 1px solid #bebebe7e;
  border-left: 1px solid #bebebe7e;
+}
+
+.especial {
+ width: 80%;
 }
 
 @media (max-width: 450px) {
@@ -432,6 +436,11 @@ padding: 0rem 10rem 5rem;
   transform: scale(80%);
   }
 
+  h4 {
+   font-size: 2.2rem;
+   font-weight: 300;
+   color: #8f00fc ;
+  }
  }
 
 
@@ -496,12 +505,12 @@ h2 {
 
   span {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #7300cc;
   }
 
   p {
-   font-size: 1.4rem;
+   font-size: 1.6rem;
    color: #4d4d4d;
   }
  }

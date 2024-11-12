@@ -46,14 +46,7 @@ export function A4(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Empresas de Turismo Cultural e de Esporte
-
-
-
-
-
-
-
+        Sistema de Gestão para <strong> Empresas de Turismo Cultural e de Esporte </strong>
 
         </h2>
           

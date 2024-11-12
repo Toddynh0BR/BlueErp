@@ -55,10 +55,7 @@ export function A3(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Assistência Técnica e Loja de Informática!
-
-
-
+        Sistema de Gestão para <br /> <strong> Assistência Técnica e Loja de Informática!</strong>
 
         </h2>
           
@@ -220,6 +217,14 @@ export function A3(){
         Quero organizar minha gestão de Serviços
         </span>
 
+        
+        <h4>
+        Transforme a sua empresa com 
+        <strong> soluções específicas para assistências técnicas!
+        </strong>
+
+        </h4>
+
         <p>
         Implementar um software para assistência técnica é essencial para empresas que desejam crescer com suporte e estrutura para gerenciar serviços, vendas, contratos e diversos tipos de negociações. No Blue ERP, você encontra ferramentas que aumentam a produtividade e ajudam a impulsionar o faturamento, oferecendo a estrutura necessária para expandir seus negócios de forma eficiente e organizada.
         </p>
@@ -275,6 +280,14 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
        Quero vender mais e gerenciar estoques
         </span>
 
+        
+        <h4>
+        Transforme a sua empresa com 
+        <strong> soluções específicas para assistências técnicas!
+        </strong>
+
+        </h4>
+        
         <p>
         Para impulsionar suas vendas, é essencial contar com ferramentas que aumentem a visibilidade da sua empresa de serviços. Com a automação de processos, fica mais fácil para os clientes acessarem os produtos que você oferece, ao mesmo tempo em que o controle de mercadorias no estoque se torna mais prático e eficiente.
         </p>
@@ -364,6 +377,13 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
         Quero gerenciar meu financeiro
         </span>
 
+        
+        <h4>
+        Saiba como os recursos financeiros da BLUE ERP podem  
+        <strong> potencializar sua lucratividade </strong>
+        e ajudar sua empresa a crescer!
+        </h4>
+
         <p>
         Com o BLUE ERP, você conta com módulos para gerenciar seu fluxo de caixa, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
         </p>
@@ -441,6 +461,11 @@ A flexibilidade é uma das grandes vantagens do BLUE ERP! Nosso módulo financei
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4>
+        <strong>  Chega de passar trabalho com cliente </strong>
+        esperando a nota fiscal por burocracias na emissão de uma NF-e ou NFS-e!
+        </h4>
 
         <p>
 

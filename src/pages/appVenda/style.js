@@ -196,6 +196,10 @@ padding-top: 5rem;
  }
 }
 
+.especial {
+  border-radius: 7rem 0 7rem 0;
+}
+
 @media (max-width: 450px) {
 height: fit-content;
 padding-top: 5rem;

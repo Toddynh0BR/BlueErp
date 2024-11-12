@@ -55,7 +55,7 @@ export function A9(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Mecânicas e Autopeças
+        Sistema de Gestão para <strong> Mecânicas e Autopeças</strong>
 
 
 
@@ -220,6 +220,12 @@ export function A9(){
         Quero vender mais
         </span>
 
+        <h4>
+        Tenha mais flexibilidade para 
+        <strong> comercializar produtos e serviços!</strong>
+        </h4>
+
+
         <p>
         Ganhe agilidade e eficiência cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado, e você pode incluir todas as informações que desejar, além de agendar serviços, imprimir ou enviar a OS por e-mail para o cliente.
 
@@ -302,6 +308,13 @@ Monitorar as vendas da sua empresa nunca foi tão simples! Com o BLUE ERP, você
        Quero gerenciar estoques
         </span>
 
+                <h4>
+                Tenha um ERP  
+        <strong> multiempresa, multiusuário </strong>
+        e com vários depósitos!
+        </h4>
+
+
         <p>
         Nada melhor que, ao fazer a busca de um produto, o sistema já lhe retorne a localização do item. No BLUE ERP, você pode informar o local exato de armazenamento de cada mercadoria, como corredor ou prateleira.
         </p>
@@ -364,6 +377,13 @@ Com o BLUE ERP, você pode cadastrar cada NF de Entrada recebida, a partir de um
         <span>
         Quero gerenciar meu financeiro
         </span>
+
+        <h4>
+        O seu  
+        <strong> planejamento orçamentário </strong>
+        ainda é baseado em achismo?
+        </h4>
+
 
         <p>
         Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas notas fiscais, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
@@ -447,6 +467,13 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4>
+       
+        <strong>  Chega de passar trabalho </strong>
+        com cliente esperando a nota fiscal por burocracias na emissão de uma NF-e ou NFS-e!
+        </h4>
+
 
         <p>
         Com o nosso sistema para emissão de nota fiscal de serviço eletrônica (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns cliques. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores ferramentas à sua empresa.

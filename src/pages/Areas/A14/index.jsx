@@ -55,7 +55,7 @@ export function A14(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão e Vendas para Lanchonetes e Bares!
+        Sistema de Gestão e Vendas para <strong> Lanchonetes e Bares!</strong>
 
 
         </h2>
@@ -222,6 +222,13 @@ Emissão de NF-e, NFC-e, CF-e SAT
         Quero vender mais
         </span>
 
+        <h4>
+        Para isso, nada melhor que contar com 
+      <strong> ferramentas que impulsionam a sua Lanchonete ou Bar!</strong>
+
+      </h4>
+
+
         <p>
         Com os recursos do módulo de vendas do BLUE ERP você pode aumentar a visibilidade da sua Lanchonete, com um frente de caixa mais ágil, Módulos Foods com recursos especializados para acrescentar sabores e acompanhamentos ao pedidos, integração direta com iFood, diferentes tabelas de preços e a criação de combos.
         </p>
@@ -276,6 +283,13 @@ Ganhe agilidade e eficiência utilizando a ferramenta Foods, que conta com as fu
        
        Quero gerenciar estoque
         </span>
+
+        <h4>
+        Recursos flexíveis de 
+      <strong>  armazenamento de mercadorias </strong>
+      para quem tem uma ou várias lanchonetes, bares e pizzarias!
+      </h4>
+
 
         <p>
         O BLUE ERP possui um completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até entregas.
@@ -340,6 +354,13 @@ Sabemos que seu produto pode ter complementos, como por exemplo, um adicional de
         Gestão Financeira e Fiscal
         </span>
 
+        <h4>
+        Quero gerenciar o  
+      <strong>  financeiro e fiscal </strong>
+      da minha empresa
+      </h4>
+
+
         <p>
         Com o BLUE ERP você tem módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e otimizando recursos para o crescimento do negócio.
         </p>
@@ -395,6 +416,13 @@ Para você que realiza vendas para consumidor final, além de todos os recursos 
        <span>
        Acompanhamento de pedidos
         </span>
+
+        <h4>
+          
+      <strong> Quero potencializar minhas vendas</strong>
+
+      </h4>
+
 
         <p>
         No BLUE ERP você pode aumentar a visibilidade da sua loja ou restaurante com métodos de venda online, facilitando o acesso dos clientes aos produtos que você comercializa, seja por loja virtual ou catálogo online, aplicando preços diferenciados e fazendo toda a gestão da sua equipe de vendas. E o cliente, ao finalizar o pedido, já pode acompanhar no computador ou no celular, o preparo, envio e entrega da compra.

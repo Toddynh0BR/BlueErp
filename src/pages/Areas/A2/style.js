@@ -12,7 +12,7 @@ width: 100%;
 
 background-image: url(${backGeral});
 position: relative;
-padding-top: 10rem;
+padding-top: 15rem;
 
 .Center {
  width: 100%;

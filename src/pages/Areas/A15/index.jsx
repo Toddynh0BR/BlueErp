@@ -55,7 +55,7 @@ export function A15(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Confecção de Roupas ou artigos de Vestuário!
+        Sistema de Gestão para <strong> Confecção de Roupas ou artigos de Vestuário!</strong>
 
 
         </h2>
@@ -222,6 +222,13 @@ export function A15(){
         Quero vender mais
         </span>
 
+        <h4>
+        Para isso, nada melhor que contar com 
+          <strong> ferramentas que alavancam as suas vendas!</strong>
+    
+          </h4>
+    
+
         <p>
         Com os recursos do módulo de vendas do BLUE ERP você pode aumentar a visibilidade da sua confecção, automatizando processos, facilitando o acesso dos clientes aos produtos que você comercializa, aplicando preços diferenciados e fazendo toda a gestão da sua equipe comercial.
         </p>
@@ -302,6 +309,14 @@ O Blue ERP oferece uma solução de PDV Frente de Caixa para realizar vendas dir
        
 Quero gerir Produção e Estoque
         </span>
+
+        <h4>
+        Tenha  
+
+      <strong> os recursos certos </strong>
+      para a sua confecção de roupas decolar!
+      </h4>
+
 
         <p>
         Independente do porte da sua empresa de confecção, o Blue ERP oferece módulos completos que possibilitam gerenciar todas as etapas do processo, desde a compra de insumos, passando pela produção das peças, até a venda e entrega das roupas finalizadas.
@@ -389,6 +404,13 @@ Ao vender artigos de vestuário, é essencial contar com etiquetas personalizada
         Quero gerenciar meu financeiro
         </span>
 
+        <h4>
+        Saiba como os recursos financeiros da BLUE ERP podem 
+          <strong>potencializar sua lucratividade</strong>
+          e ajudar sua empresa a crescer!
+          </h4>
+    
+
         <p>
         Com o Blue ERP, você conta com módulos para gerenciar o fluxo de caixa, realizar projeções de receitas e despesas, controlar centros de custos e organizar planos de contas. Isso permite uma gestão financeira eficiente, garantindo que você invista o capital da sua empresa de maneira estratégica, reduzindo custos e otimizando recursos para impulsionar o crescimento do negócio.
         </p>
@@ -460,6 +482,13 @@ Com a funcionalidade de faturamento em lote, você pode faturar diversos pedidos
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4>
+       
+          <strong> Pare de perder vendas </strong>
+          com o caixa trancado ou com a demora para emitir notas fiscais!
+          </h4>
+    
 
         <p>
        

@@ -55,7 +55,7 @@ export function A7(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Lojas de Materiais de Construção
+        Sistema de Gestão para <strong> Lojas de Materiais de Construção </strong>
 
 
 
@@ -238,6 +238,11 @@ export function A7(){
         Gestão de estoque
         </span>
 
+        <h4>
+        Quero 
+        <strong> gerenciar estoque</strong>
+        </h4>
+
         <p>
         O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até entregas.
         </p>
@@ -290,6 +295,11 @@ export function A7(){
        <span>
        Gestão de vendas
         </span>
+
+        <h4>
+        Quero 
+        <strong> vender mais</strong>
+        </h4>
 
         <p>
 
@@ -357,6 +367,11 @@ Crie uma loja virtual no BLUE ERP personalizada para sua loja de materiais de co
         Gestão financeira
         </span>
 
+        <h4>
+        Quero 
+        <strong> gerenciar o financeiro</strong>
+        </h4>
+
         <p>
         Com o BLUE ERP você tem módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e otimizando recursos para o crescimento do negócio.
         </p>
@@ -412,6 +427,11 @@ Conhecer bem o cliente e ter informações atualizadas sobre o seu comportamento
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma
+        <strong>  gestão fiscal completa</strong>
+        </h4>
 
         <p>
 

@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 //Principais
 import { CentralIntegraçoes } from '../pages/integraçoes';
 import { Ecosystem } from '../pages/ecosystem';
+import { Planos } from '../pages/Planos';
 import { Home } from '../pages/home';
 
 
@@ -80,12 +81,15 @@ import { A15 } from '../pages/Areas/A15';
 import { A16 } from '../pages/Areas/A16';
 import { A17 } from '../pages/Areas/A17';
 import { A18 } from '../pages/Areas/A18';
+import { A19 } from '../pages/Areas/A19';
+import { A20 } from '../pages/Areas/A20';
 
 export function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/ecossistema" element={<Ecosystem />}/>
+      <Route path="/planos" element={<Planos />}/>
       <Route path="/central-de-integraçoes" element={<CentralIntegraçoes />}/>
       
       <Route path="/app-de-vendas" element={<AppVenda />}/>
@@ -137,9 +141,7 @@ export function AppRoutes() {
       <Route path="/ferramentas-e-ferragens" element={<A1 />}/>
       <Route path="/consultoria-empresarial" element={<A2 />}/>
       <Route path="/lojas-de-informatica" element={<A3 />}/>
-
       <Route path="/agencias-de-turismo" element={<A4 />}/>
-
       <Route path="/loja-de-eletrodomesticos" element={<A5 />}/>
       <Route path="/erp-para-loja-virtual" element={<A6 />}/>
       <Route path="/loja-de-materiais-de-construcao" element={<A7 />}/>
@@ -154,6 +156,9 @@ export function AppRoutes() {
       <Route path="/instalacao-e-manutencao-eletrica" element={<A16 />}/>
       <Route path="/fabricantes-e-loja-de-moveis" element={<A17 />}/>
       <Route path="/erp-para-industria" element={<A18 />}/>
+      <Route path="/produtos-medicos-e-hospitalares" element={<A19/> }/>
+      <Route path="/distribuidoras" element={<A20/> }/>
+
     </Routes>
   )
 }

@@ -55,7 +55,7 @@ export function A17(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema para Fábricas e Lojas de Móveis!
+        Sistema para <strong> Fábricas e Lojas de Móveis!</strong>
 
 
 
@@ -223,6 +223,12 @@ export function A17(){
         Quero vender mais
         </span>
 
+        <h4>
+        Conte com um Sistema ERP que funcione online e offline, com um 
+       <strong> PDV moderno e muito ágil!</strong>
+
+       </h4>
+
         <p>
        
 Com os recursos do módulo de vendas do Blue ERP, você pode ampliar a visibilidade da sua fábrica e loja de móveis, proporcionando um atendimento no caixa mais ágil e facilitando o acesso dos clientes aos produtos que você oferece, seja por meio de uma loja virtual ou catálogo online. Além disso, é possível aplicar preços diferenciados e gerenciar toda a sua equipe de vendas de forma eficiente.
@@ -304,6 +310,12 @@ Crie orçamentos e envie-os por e-mail aos seus clientes. Quando aprovados, esse
        
        Quero gerenciar a produção e estoque
         </span>
+
+        <h4>
+        Recursos flexíveis de  
+       <strong> armazenamento de mercadorias </strong>
+       para quem tem uma ou várias lojas!
+       </h4>
 
         <p>
         O Blue ERP conta com um moderno e completo módulo de gestão de estoque que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias no estoque e até as entregas.
@@ -389,6 +401,12 @@ Com o Blue ERP, você pode gerenciar múltiplos depósitos de forma simples e ef
         Quero gerenciar meu financeiro
         </span>
 
+        <h4>
+        Para a sua  
+       <strong> fábrica ou loja de móveis </strong>
+       faturar muito mais, nada melhor que contar com tecnologia de ponta em gestão financeira!
+       </h4>
+
         <p>
        
 Com o Blue ERP, você conta com módulos completos para controlar o fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e estruturar planos de contas, facilitando a organização da sua gestão financeira. Isso contribui para a redução de custos e a otimização de recursos, impulsionando o crescimento do seu negócio.
@@ -469,6 +487,11 @@ Para oferecer ainda mais comodidade aos seus clientes, o Blue ERP permite gerar 
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4> 
+       <strong> Pare de perder vendas </strong>
+       com o caixa trancado ou com a demora para emitir notas fiscais! 
+       </h4>
 
         <p>
        

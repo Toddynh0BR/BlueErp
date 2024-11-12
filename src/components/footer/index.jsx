@@ -196,6 +196,7 @@ export function Footer(){
         <div className="topic">
          <h5>Áreas de Atuação</h5>
          <ul>
+          <li onClick={()=> navigate("/ferramentas-e-ferragens")}>Ferramentas e Ferragens</li>
           <li onClick={()=> navigate("/consultoria-empresarial")}>Consultoria Empresarial</li>
           <li onClick={()=> navigate("/lojas-de-informatica")}>Lojas de Informática</li>
           <li onClick={()=> navigate("/agencias-de-turismo")}>Agências de turismo</li>
@@ -204,6 +205,7 @@ export function Footer(){
           <li onClick={()=> navigate("/erp-para-loja-virtual")}>Loja Virtual</li>
           <li onClick={()=> navigate("/loja-de-materiais-de-construcao")}>Construção</li>
           <li onClick={()=> navigate("/loja-de-roupas")}>Vestuário</li>
+          <li onClick={()=> navigate("/produtos-medicos-e-hospitalares")}>Produtos Hospitalares</li>
           <li onClick={()=> navigate("/sistema-para-autopecas")}>Autopeças</li>
          </ul>
         </div>
@@ -221,6 +223,7 @@ export function Footer(){
           <li onClick={()=> navigate("/instalacao-e-manutencao-eletrica")}>Serviços Elétricos</li>
           <li onClick={()=> navigate("/fabricantes-e-loja-de-moveis")}>Venda de Móveis</li>
           <li onClick={()=> navigate("/erp-para-industria")}>Indústrias</li>
+          <li onClick={()=> navigate("/distribuidoras")}>Distribuidoras</li>
          </ul>
         </div>
 

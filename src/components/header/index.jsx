@@ -18,6 +18,7 @@ import site from "../../assets/site.svg";
 export function Header(){
     const [selected, setSelected] = useState('site');
     const [onTop, setOnTop] = useState(true);
+    const [pop, setPop] = useState(false);
     const [open, setOpen] = useState('');
     const navigate = useNavigate();
 
@@ -63,7 +64,7 @@ export function Header(){
         <span>Segmentos</span> <FaCaretDown/>
        </div>
 
-       <div className="Topic">
+       <div className="Topic" onClick={()=> navigate('/planos')}>
         <span>Planos</span>
        </div>
 
@@ -71,7 +72,7 @@ export function Header(){
         Experimente
        </button>
 
-       <div className="Topic" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+       <div className="Topic" onClick={()=> setPop(true)}>
         <p>Entrar</p>
        </div>
       </div>
@@ -222,10 +223,12 @@ export function Header(){
          </ul>
 
          <ul>
+          <li onClick={()=> navigate("/produtos-medicos-e-hospitalares")}>Produtos Hospitalares</li>
           <li onClick={()=> navigate("/telefonia-e-comunicacao")}>Telefonia e Comunicação</li>
           <li onClick={()=> navigate("/loja-de-eletrodomesticos")}>Eletro-domésticos</li>
           <li onClick={()=> navigate("/fabricantes-e-loja-de-moveis")}>Venda de Móveis</li>
           <li onClick={()=> navigate("/erp-para-industria")}>Indústrias</li>
+          <li onClick={()=> navigate("/distribuidoras")}>Distribuidoras</li>
          </ul>
 
          <div className="EcoLink">
@@ -290,6 +293,19 @@ export function Header(){
      :
       null
      }
+
+      <S.PopUp data-visible={pop} >
+       <div className="background" onClick={()=> setPop(false)}></div>
+       <main>
+        <h2>Entrar</h2>
+        <button onClick={()=> abrirNovaAba('https://cpanel.blueerp.com.br/Login.aspx?ReturnUrl=%2f')}>Blue ERP</button>
+
+        <button onClick={()=> abrirNovaAba('https://cpanel.lite.blueerp.com.br/Login.aspx?ReturnUrl=%2f')}>Blue Lite</button>
+
+        <button onClick={()=> abrirNovaAba('https://blueinnovation.freshdesk.com/support/login')}>Suporte</button>
+       </main>
+      </S.PopUp>
+
      </>
     )
 };

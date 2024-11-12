@@ -55,9 +55,7 @@ export function A11(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Serviços de Engenharia
-
-
+        Sistema de Gestão para <strong> Serviços de Engenharia </strong>
 
         </h2>
           
@@ -219,6 +217,12 @@ export function A11(){
         Gestão de serviços
         </span>
 
+        <h4>
+        Quero organizar minha 
+       <strong>  gestão de Serviços </strong>
+       </h4>
+
+
         <p>
         Implementar um software para a prestação de serviço é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar serviços, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
         </p>
@@ -274,6 +278,13 @@ Tenha total liberdade para cadastrar todos os serviços prestados por sua empres
        
        Gestão de contratos
         </span>
+
+        <h4>
+        Quero uma 
+
+       <strong> gestão de contratos automatizada </strong>
+       </h4>
+
 
         <p>
         Para quem trabalha com a prestação de serviços, como por exemplo, as empresas prestadoras de serviços de engenharia que atendem outras empresas ou até mesmo clientes finais, é comum trabalhar com contratos para cada projeto.
@@ -350,6 +361,13 @@ O Blue ERP oferece uma variedade de campos padrão para preencher no contrato. N
         Gestão Financeira
         </span>
 
+        <h4>
+        Quero  
+       <strong>  gerenciar o financeiro </strong>
+       da minha empresa
+       </h4>
+
+
         <p>
        
 Com o Blue ERP, você conta com módulos completos para gerenciar o fluxo de caixa, realizar projeções de receitas e despesas, controlar centros de custos e organizar planos de contas, permitindo uma gestão financeira eficiente. Dessa forma, você pode otimizar o uso do capital da sua empresa, reduzir custos e maximizar os recursos para impulsionar o crescimento do negócio.
@@ -405,6 +423,12 @@ Com essa funcionalidade, em apenas três passos simples, você pode faturar vár
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma
+       <strong>   gestão fiscal completa</strong>
+       </h4>
+
 
         <p>
         

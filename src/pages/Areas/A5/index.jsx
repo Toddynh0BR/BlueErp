@@ -55,9 +55,7 @@ export function A5(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema para Loja e Assistência de Eletrodomésticos
-
-
+        Sistema para <strong> Loja e Assistência de Eletrodomésticos </strong>
 
         </h2>
           
@@ -226,6 +224,11 @@ export function A5(){
         Gestão de vendas e ordens de serviços
         </span>
 
+        <h4>
+        Quero vender mais
+        </h4>
+
+
         <p>
         Implementar um software para a prestação de serviços é essencial para empresas que desejam crescer, com uma estrutura robusta para controlar tanto a venda de produtos quanto a prestação de serviços. Com os recursos do módulo de vendas do **BLUE ERP**, você pode expandir a visibilidade da sua empresa de assistência técnica de eletrodomésticos, tornando o gerenciamento mais eficiente e integrado, facilitando o controle de todas as operações.
         </p>
@@ -277,6 +280,12 @@ Crie orçamentos e envie-os por e-mail para seus clientes. Após a aprovação, 
        <span>
        Engajamento com o cliente
         </span>
+
+        <h4>
+        Quero 
+        <strong>  potencializar minhas vendas</strong>
+        </h4>
+
 
         <p>
         O engajamento de clientes é crucial para consolidar a reputação e melhorar a imagem da sua empresa de eletrodomésticos no mercado. Para ajudar nesse processo, o BLUE ERP oferece diversos recursos que você pode aplicar em sua loja, com o objetivo de atrair novos clientes e fidelizar os existentes, garantindo um relacionamento duradouro e de confiança.
@@ -342,6 +351,12 @@ Crie uma loja virtual personalizada com o BLUE Loja para sua empresa! Com essa s
         Gestão de estoque
         </span>
 
+        <h4>
+        Quero 
+        <strong>  gerenciar estoque</strong>
+        </h4>
+
+
         <p>
         Com o BLUE ERP, você conta com módulos para gerenciar seu fluxo de caixa, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
         </p>
@@ -392,6 +407,12 @@ Acompanhe o saldo do estoque do seu negócio com informações seguras e precisa
        <span>
        Gestão Fiscal e Financeira
         </span>
+
+        <h4>
+        Quero 
+        <strong>  gestão fiscal e financeira completa</strong>
+        </h4>
+
 
         <p>
 

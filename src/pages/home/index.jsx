@@ -7,6 +7,7 @@ import MouseFollower from "../../components/mouse";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
+import { FaAngleDoubleRight } from "react-icons/fa";
 import { FaAnglesRight } from "react-icons/fa6";
 import { GoShieldCheck } from "react-icons/go";
 
@@ -109,21 +110,301 @@ export function Home(){
         <div className="plans">
 
          <div className="plan">
-          <p>aqui vai o plano</p>
+          <div className="PlanTitle">
+            <strong>Lite</strong>
+            <p>2 usuários</p>  
+          </div>
+
+          <ul>
+
+<li><FaAngleDoubleRight/>
+<p>
+Cadastros Básicos
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Básico
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Avançado
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+PDV-Frente de Caixa
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Compras - Notas de Entrada, Cotações e Ordens
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Vendas - Pedidos/Orçamentos e Ordens de Serviço
+</p>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<strike>
+Contratos Gestão de contratos 
+</strike>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<strike>
+Nota Fiscal Eletrônica - Todas as notas menos NFS-e
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Arquivos - Carregamento de anexos aos cadastros
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+RH-Gestão de colaboradores
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Estoque - Cadastro de Produtos/Serviços, Movimentações
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+CRM-Oportunidades de Negócios, Funil de Vendas e Outros
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Relatórios Personalizados
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Frota - Gestão da frota de veículos
+</strike>
+</li>
+          </ul>
+
+          <strong className="price">R$ 89,90 <p>/mês*</p></strong>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
          </div>
 
          <div className="plan">
-          <p>aqui vai o plano</p>
+          <div className="PlanTitle">
+            <strong>Standart</strong>
+            <p>4 usuários</p>  
+          </div>
+
+          <ul>
+
+<li><FaAngleDoubleRight/>
+<p>
+Cadastros Básicos
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Básico
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Avançado
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+PDV-Frente de Caixa
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Compras - Notas de Entrada, Cotações e Ordens
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Vendas - Pedidos/Orçamentos e Ordens de Serviço
+</p>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<p>
+Contratos Gestão de contratos 
+</p>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<p>
+Nota Fiscal Eletrônica - Todas as notas menos NFS-e
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Arquivos - Carregamento de anexos aos cadastros
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+RH-Gestão de colaboradores
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Estoque - Cadastro de Produtos/Serviços, Movimentações
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+CRM-Oportunidades de Negócios, Funil de Vendas e Outros
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Relatórios Personalizados
+</strike>
+</li>
+
+<li><FaAngleDoubleRight/>
+<strike>
+Frota - Gestão da frota de veículos
+</strike>
+</li>
+          </ul>
+
+          <strong className="price">R$ 250,00 <p>/mês*</p></strong>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
          </div>
 
          <div className="plan">
-          <p>aqui vai o plano</p>
-         </div>
+          <div className="PlanTitle">
+            <strong>Profissional</strong>
+            <p>5 usuários</p>  
+          </div>
 
-         <div className="plan">
-          <p>aqui vai o plano</p>
+          <ul>
+
+<li><FaAngleDoubleRight/>
+<p>
+Cadastros Básicos
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Básico
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Financeiro Avançado
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+PDV-Frente de Caixa
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Compras - Notas de Entrada, Cotações e Ordens
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Vendas - Pedidos/Orçamentos e Ordens de Serviço
+</p>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<p>
+Contratos Gestão de contratos 
+</p>
+</li>
+
+
+<li><FaAngleDoubleRight/>
+<p>
+Nota Fiscal Eletrônica - Todas as notas menos NFS-e
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Arquivos - Carregamento de anexos aos cadastros
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+RH-Gestão de colaboradores
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Estoque - Cadastro de Produtos/Serviços, Movimentações
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+CRM-Oportunidades de Negócios, Funil de Vendas e Outros
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Relatórios Personalizados
+</p>
+</li>
+
+<li><FaAngleDoubleRight/>
+<p>
+Frota - Gestão da frota de veículos
+</p>
+</li>
+          </ul>
+
+          <strong className="price">R$ 659,40 <p>/mês*</p></strong>
+          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
          </div>
-         
         </div>
       </S.Plans>
 

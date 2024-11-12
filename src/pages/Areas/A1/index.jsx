@@ -55,7 +55,7 @@ export function A1(){
        <div className="Center">
        <div className="left">
         <h2>
-        Frente de Caixa (PDV) <br /> com Cupom Fiscal Eletrônico
+        <strong>Frente de Caixa (PDV)</strong> <br /> com Cupom Fiscal Eletrônico
         </h2>
           
         <ul>
@@ -197,6 +197,9 @@ export function A1(){
         Gestão de vendas
         </span>
 
+        <h4>
+        Quero <strong> vender mais</strong>
+        </h4>
         <p>
     Com as funcionalidades do módulo de vendas do Blue ERP, você pode melhorar a visibilidade da sua loja de ferramentas e ferragens, tornando o processo de checkout mais eficiente no ambiente físico. Além disso, garante que seus clientes tenham fácil acesso aos produtos que você oferece, aplicando preços especiais e gerenciando de forma eficiente sua equipe de vendedores.
         </p>
@@ -245,6 +248,10 @@ export function A1(){
        <span>
         Gestão de estoque
         </span>
+
+        <h4>
+          Quero  <strong> gerenciar estoque</strong>
+        </h4>
 
         <p>
         O Blue ERP conta com um módulo de gestão de estoque moderno e abrangente, que permite gerenciar todas as etapas, desde a compra de mercadorias até a sua localização em diferentes depósitos. Além disso, possibilita o acompanhamento do giro de produtos em estoque e a organização das entregas.
@@ -307,6 +314,11 @@ Para facilitar o controle de estoque das compras realizadas pela sua loja de fer
         Gestão financeira
         </span>
 
+        <h4>
+          Quero 
+        <strong> gerenciar o financeiro</strong>
+        </h4>
+
         <p>
         Com o Blue ERP, você conta com módulos que permitem controlar seu fluxo de caixa, realizar projeções de receitas e despesas, além de gerenciar centros de custos e planos de contas para organizar sua gestão financeira. Isso garante que você invista o capital da sua empresa de maneira eficiente, reduzindo custos e otimizando recursos para o crescimento do seu negócio.
         </p>
@@ -361,6 +373,12 @@ Com essa funcionalidade, você pode faturar várias ordens de serviços em apena
        <span>
         Gestão fiscal
         </span>
+
+        <h4>
+        Quero uma 
+        <strong> gestão fiscal completa</strong>
+        </h4>
+
 
         <p>
         Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se tornou um processo simples e eficiente, permitindo que você e sua equipe tenham mais tempo para oferecer um excelente atendimento e conquistar ainda mais clientes.

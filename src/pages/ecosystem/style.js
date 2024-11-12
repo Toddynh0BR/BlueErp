@@ -656,6 +656,10 @@ padding: 4rem 13rem;
  }
 }
 
+.especial {
+  border-radius: 7rem 0 7rem 0;
+}
+
 img {
  width: 100%;
 }

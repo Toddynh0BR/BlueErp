@@ -4,7 +4,7 @@ import backGeral from "./assets/backGeral.svg";
 import backSite from "./assets/backSite.svg";
 
 export const Container = styled.div`
-
+background-color: #FFFFFF;
 `
 
 export const Main = styled.main`
@@ -194,6 +194,10 @@ padding-top: 5rem;
    transform: scale(105%);
   }
  }
+}
+
+.especial {
+ border-radius: 10rem 0 9rem 0;
 }
 
 @media (max-width: 450px) {

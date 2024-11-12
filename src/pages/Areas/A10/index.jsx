@@ -55,7 +55,7 @@ export function A10(){
        <div className="Center">
        <div className="left">
         <h2>
-        ERP para Telefonia, Comunicação e Provedores
+        ERP para <strong> Telefonia, Comunicação e Provedores</strong>
 
 
 
@@ -219,6 +219,11 @@ export function A10(){
         Gestão de serviços e contrato
         </span>
 
+        <h4>
+        Quero organizar minha 
+       <strong>  gestão de Serviços</strong>
+       </h4>
+
         <p>
         Implementar um software para a prestação de serviço é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar serviços, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
         </p>
@@ -277,6 +282,13 @@ Com os tipos de contratos já configurados no sistema, ficou muito mais fácil r
        
 Agenda de tarefas e controle de oportunidades
         </span>
+
+        <h4>
+        Quero controlar minha 
+       <strong>   agenda de tarefas </strong>
+       e ter
+       <strong>  o controle de oportunidades </strong>
+       </h4>
 
         <p>
         O BLUE ERP conta com a integração das ferramentas do Google. Essa integração traz mais facilidade ao seu dia a dia empresarial, gerindo as tarefas dos colaboradores, como compromissos com clientes, de forma organizada. Através do Pipe do BLUE ERP você tem a facilidade de manter sua equipe informada para que aproveitem os contatos e você ainda acompanha as negociações em um só lugar.
@@ -342,6 +354,12 @@ A ferramenta de oportunidades registra os contatos realizados com os clientes e 
         Quero gerenciar meu financeiro
         </span>
 
+        <h4>
+        Quero  
+       <strong>  gerenciar o financeiro </strong>
+       da minha empresa
+       </h4>
+
         <p>
         Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas notas fiscais, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
         </p>
@@ -395,6 +413,11 @@ A ferramenta de oportunidades registra os contatos realizados com os clientes e 
        <span>
        Quero gestão fiscal completa
         </span>
+
+        <h4>
+        Quero uma 
+       <strong>  gestão fiscal completa </strong>
+       </h4>
 
         <p>
         Com o nosso sistema para emissão de nota fiscal de serviço eletrônica (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns cliques. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores ferramentas à sua empresa.

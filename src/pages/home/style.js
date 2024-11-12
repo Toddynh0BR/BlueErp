@@ -203,7 +203,7 @@ padding: 4rem 13rem;
  gap: 2rem;
 
  .plan {
-  height: 60rem;
+  height: fit-content;
   width: 100%;
 
   transition: .5s ease-in-out;
@@ -211,10 +211,113 @@ padding: 4rem 13rem;
   border-radius: 1rem;
   padding: 2rem;
 
-  p {
-   font-size: 1.5rem;
-  }
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
   
+  .PlanTitle {
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+
+   width: 100%;
+
+   strong {
+    font-size: 2rem;
+    color: #8f00fc;
+   }
+
+   p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #5a5a5a;
+   }
+  }
+
+  ul {
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+
+   li {
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+
+    list-style: none;
+
+    svg {
+     height: 1.4rem;
+     width: 1.4rem;
+     color: #8f00fc;
+
+     flex-shrink: 0;
+    }
+
+    p, strike {
+     font-size: 1.4rem;
+     font-weight: 300;
+     color:#00008a;
+    }
+
+    strike {
+      color: #5a5a5a;
+    }
+
+    .price {
+      width: 100%;
+
+     justify-content: space-between;
+     align-items: center;
+     display: flex;
+    }
+   }
+  }
+
+  .price {
+   width: 100%;
+
+   align-items: center;
+   display: flex;
+  
+   font-size: 2.5rem;
+   color: rgb(9, 194, 9);
+
+   p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #5a5a5a;
+   }
+  }
+
+  button {
+   height: 4rem;
+   width: 50%;
+
+   background-color: #8f00fc;
+   border-radius: 4rem;
+   outline: none;
+   border: none;
+
+   font-size: 1.6rem;
+   color: #FFFFFF;
+
+   strong {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+   }
+
+   &:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+   }
+  }
   &:hover {
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    transform: scale(105%);

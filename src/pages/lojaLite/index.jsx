@@ -105,7 +105,7 @@ export function LojaOffline(){
        </div>
 
        <div className="right">
-        <img src={Image1} alt="Image" />
+        <img src={Image1} alt="Image" className="EspecialIMG"/>
        </div>
        </div>
 
@@ -159,7 +159,7 @@ export function LojaOffline(){
         </div>
 
         <div className="right">
-         <img src={Image2} alt="imagem" />
+         <img src={Image2} alt="imagem" className="EspecialIMG"/>
         </div>
 
         <div className="border"></div>
@@ -167,7 +167,7 @@ export function LojaOffline(){
 
       <S.Main3 ref={section2Ref}>
         <div className="left">
-        <img src={Image3} alt="imagem" />
+        <img src={Image3} alt="imagem" className="EspecialIMG"/>
          
         </div>
 

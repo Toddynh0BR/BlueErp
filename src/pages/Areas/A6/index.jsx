@@ -55,12 +55,7 @@ export function A6(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema ERP para Loja Virtual e E-commerce
-
-
-
-
-
+        Sistema ERP para <strong> Loja Virtual e E-commerce </strong>
 
         </h2>
           
@@ -237,6 +232,11 @@ export function A6(){
         Central de integração
         </span>
 
+        <h4>
+        Quero 
+        <strong>  impulsionar minhas vendas</strong>
+        </h4>
+
         <p>
         A Central de Integração do BLUE ERP está presente nos módulos de estoque e vendas, facilitando a comunicação entre o sistema e o seu e-commerce. Essa integração proporciona mais agilidade para os setores de vendas e logística, assegurando que os processos sejam rápidos e alinhados com a demanda do seu negócio.
         </p>
@@ -289,6 +289,11 @@ No BLUE ERP, você encontra soluções para integrar seu e-commerce com os princ
        <span>
        Engajamento de vendas
         </span>
+
+        <h4>
+        Quero 
+        <strong> vender mais</strong>
+        </h4>
 
         <p>
         Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua empresa, tanto online quanto fisicamente, aplicando estratégias como preços diferenciados, cupons de desconto e cashback. Esses recursos ajudam a atrair e fidelizar clientes, tornando seu negócio mais competitivo e atraente no mercado.
@@ -353,6 +358,11 @@ Oferecer cupons de desconto é uma excelente maneira de impulsionar as vendas de
         Controle de estoque e expedição
         </span>
 
+        <h4>
+        Quero 
+        <strong> gerenciar estoque</strong>
+        </h4>
+
         <p>
         O BLUE ERP conta com um módulo avançado e completo de gestão de estoque, oferecendo controle total desde a aquisição de mercadorias, a organização em diferentes depósitos, o monitoramento do giro de produtos no estoque, até o acompanhamento das entregas. Com essa ferramenta, você obtém uma visão completa e organizada do estoque, permitindo otimizar processos e garantir o fluxo contínuo das operações de sua empresa.
         </p>
@@ -404,6 +414,11 @@ Mantenha o controle do saldo de seu estoque com informações seguras e detalhad
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma 
+        <strong> gestão fiscal completa</strong>
+        </h4>
 
         <p>
 

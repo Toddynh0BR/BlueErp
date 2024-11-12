@@ -55,7 +55,7 @@ export function A18(){
        <div className="Center">
        <div className="left">
         <h2>
-        ERP para sua Indústria
+        ERP para sua <strong> Indústria</strong>
 
 
 
@@ -223,6 +223,12 @@ export function A18(){
 
         </span>
 
+        <h4> 
+       <strong> Quero vender mais
+       </strong>
+       </h4>
+
+
         <p>
        
 Implementar um software para a prestação de serviços é essencial para empresas que buscam crescer, oferecendo suporte e estrutura adequados para controlar tanto a venda de produtos quanto a prestação de serviços. Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a visibilidade da sua empresa de equipamentos para a indústria, otimizar a gestão das vendas e melhorar a interação com seus clientes, garantindo maior eficiência e controle sobre todo o processo comercial.
@@ -278,6 +284,13 @@ Uma das várias vantagens do Blue ERP é a possibilidade de criar contratos dire
        
        Gestão de estoque
         </span>
+
+        <h4> 
+        Quero 
+       <strong> gerenciar estoque</strong>
+
+       </h4>
+
 
         <p>
         O Blue ERP possui um módulo moderno e completo de gestão de estoque que permite gerenciar todas as etapas do processo, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de produtos em estoque, até as entregas. Com essa solução, você ganha maior controle sobre o estoque, garantindo eficiência e organização em todas as fases do processo.
@@ -345,6 +358,13 @@ Acompanhe o saldo de estoque do seu negócio com segurança e precisão! O Blue 
         Gestão Fiscal
         </span>
 
+        <h4> 
+        Quero 
+       <strong> gestão fiscal </strong>
+       completa
+       </h4>
+
+
         <p>
         Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se torna um processo simples e ágil, permitindo que você e sua equipe tenham mais tempo para focar no atendimento ao cliente e impulsionar o crescimento do seu negócio. Esse sistema automatizado garante que todos os documentos fiscais sejam emitidos de forma eficiente e em conformidade com a legislação vigente, facilitando o seu dia a dia e aprimorando a experiência do cliente.
         </p>
@@ -397,6 +417,13 @@ O Blue ERP facilita o faturamento de diversos clientes em um único clique, emit
        <span>
        Gestão Financeira
         </span>
+
+        <h4> 
+        Quero
+       <strong>  gerenciar o financeiro </strong>
+       
+       </h4>
+
 
         <p>
        

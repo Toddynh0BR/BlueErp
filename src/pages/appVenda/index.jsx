@@ -102,7 +102,7 @@ export function AppVenda(){
        </div>
 
        <div className="right">
-        <img src={Image1} alt="Image" />
+        <img src={Image1} alt="Image" className="especial"/>
        </div>
        </div>
 

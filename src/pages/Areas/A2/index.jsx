@@ -55,7 +55,7 @@ export function A2(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema ERP para Consultoria Empresarial
+        Sistema ERP para <strong> Consultoria Empresarial</strong>
         </h2>
           
         <ul>
@@ -208,6 +208,12 @@ export function A2(){
         Agenda de tarefas
         </span>
 
+        <h4>
+        Quero controlar minha 
+        <strong> agenda de tarefas
+        </strong>
+        </h4>
+
         <p>
         O Blue ERP oferece integração com as ferramentas do Google, proporcionando mais facilidade no seu dia a dia. Essa integração permite gerenciar as tarefas dos colaboradores, como reuniões e visitas aos clientes, de maneira organizada e eficiente.
         </p>
@@ -260,6 +266,12 @@ Organize suas tarefas </strong> de um jeito simples!
        <span>
        Gestão financeira
         </span>
+
+        <h4>
+        Quero 
+        <strong> gerenciar o financeiro
+        </strong>
+        </h4>
 
         <p>
         Com o Blue ERP, você dispõe de módulos para controlar o fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas, proporcionando uma gestão financeira organizada. Isso garante que o capital da sua empresa seja investido de forma eficiente, reduzindo custos e otimizando recursos para o crescimento sustentável do negócio.
@@ -325,6 +337,13 @@ Além de emitir boletos bancários, o Blue ERP oferece o recurso Blue Bank, que 
         Gestão de contratos e prestação de serviços
         </span>
 
+        <h4>
+        Quero uma
+        <strong> gestão de contratos 
+        </strong>
+        automatizada
+        </h4>
+
         <p>
         Para empresas de consultoria que atendem outras empresas ou clientes finais, é comum formalizar cada projeto com um contrato específico. Além da criação de contratos, o Blue ERP oferece uma funcionalidade completa para o gerenciamento de prestação de serviços por meio da criação de ordens de serviço, facilitando o acompanhamento de cada etapa do processo de consultoria.
         </p>
@@ -381,6 +400,13 @@ Ganhe agilidade e eficiência ao cadastrar ordens de serviço no Blue ERP. O sis
        <span>
        Gestão Fiscal
         </span>
+
+        <h4>
+        Quero uma 
+        <strong> gestão fiscal completa
+        </strong>
+
+        </h4>
 
         <p>
        

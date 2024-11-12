@@ -267,7 +267,7 @@ export function Ecosystem(){
          </div>
         </div>
 
-        <img src={ImageLite} alt="loja" />
+        <img src={ImageLite} alt="loja" className="especial"/>
 
         <div className="bottom">
           <p>

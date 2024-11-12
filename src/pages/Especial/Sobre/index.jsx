@@ -1,6 +1,8 @@
 import * as S from "./style";
 
 import { EspecialHeader } from "../components/headerEspecial/header";
+import { FooterEspecial } from "../components/footerEspecial";
+
 import { Navigation, Pagination } from 'swiper/modules';
 import MouseFollower from "../../../components/mouse";
 import { Footer } from "../../../components/footer";

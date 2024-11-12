@@ -9,7 +9,6 @@ import Logo from "../../../../assets/site.svg";
 
 import { FaUserLarge } from "react-icons/fa6";
 
-
 import ads1 from "../../assets/bannerMenuSigeBank.png";
 import ads2 from "../../assets/bannerMenuSigeLoja.jpg";
 
@@ -166,8 +165,10 @@ export function EspecialHeader(){
             </ul>
 
             <ul>
+             <li onClick={()=> navigate("/produtos-medicos-e-hospitalares")}>Produtos Hospitalares</li>
              <li onClick={()=> navigate("/fabricantes-e-loja-de-moveis")}>Venda de Móveis</li>
-             <li onClick={()=> navigate("/erp-para-industria")}>Indústrias</li>              
+             <li onClick={()=> navigate("/erp-para-industria")}>Indústrias</li>    
+             <li onClick={()=> navigate("/distribuidoras")}>Distribuidoras</li>          
             </ul>
           </div>
          </div>

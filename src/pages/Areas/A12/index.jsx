@@ -55,7 +55,7 @@ export function A12(){
        <div className="Center">
        <div className="left">
         <h2>
-        Sistema de Gestão para Loja de Produtos Alimentícios!
+        Sistema de Gestão para <strong> Loja de Produtos Alimentícios!</strong>
 
 
 
@@ -221,6 +221,12 @@ export function A12(){
         Quero gerir a produção
         </span>
 
+        
+        <h4>
+        Os recursos certos 
+       <strong>   para a sua empresa de produção de alimentos decolar!</strong>
+       </h4>
+
         <p>
         Independentemente do porte da sua empresa de confecção, o Blue ERP oferece módulos completos que permitem gerenciar todas as etapas do processo, desde a compra de insumos até a produção, venda e entrega dos produtos finalizados.
         </p>
@@ -275,6 +281,12 @@ Um grande benefício de usar um ERP especializado no seu segmento é a possibili
        
        Quero vender mais
         </span>
+
+        
+        <h4>
+        Para isso, nada melhor que contar com 
+       <strong> ferramentas que impulsionam a sua loja de produtos alimentícios!</strong>
+       </h4>
 
         <p>
      
@@ -339,6 +351,13 @@ Com o Blue ERP, você pode criar orçamentos e enviá-los por e-mail aos seus cl
         Gestão Financeira e Fiscal
         </span>
 
+        
+        <h4>
+        Gerencie de maneira conectada o  
+       <strong>   Fiscal e Financeiro </strong>
+       da sua empresa de alimentos!
+       </h4>
+
         <p>
         Com o Blue ERP, você conta com módulos completos para controlar seu fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e criar planos de contas, permitindo uma gestão financeira eficiente. Isso garante que você faça o melhor uso do capital da sua empresa, reduzindo custos e otimizando recursos para o crescimento sustentável.
 <br /><br />
@@ -395,6 +414,13 @@ Com o Blue ERP, você pode faturar múltiplos pedidos em apenas 3 passos simples
        <span>
        Quero gerenciar estoque
         </span>
+
+
+        <h4>
+      
+       <strong>    Recursos flexíveis de armazenamento </strong>
+       de mercadorias para quem tem uma ou várias lojas!
+       </h4>
 
         <p>
         O Blue ERP possui um módulo de gestão de estoque moderno e completo, permitindo gerenciar todas as etapas do processo. Desde a compra de mercadorias até a organização em diferentes depósitos, controle do giro de estoque e até a entrega dos produtos, tudo é facilitado para garantir uma gestão eficiente e precisa do seu inventário.
