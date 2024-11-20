@@ -104,6 +104,45 @@ export function Planos(){
             <p>Recursos que fazem da Blue ERP única</p>
           </header>
 
+          <li className="especial">
+           <div className="name">
+            Plano
+           </div>
+
+           <div className="plans">
+            <div className="plan">
+              Lite
+            </div>
+
+            <div className="plan">
+              Standart
+            </div>
+
+            <div className="plan">
+              Profissional
+            </div>
+           </div>
+          </li>
+
+          <li className="especial">
+           <div className="name">
+            Valor <p>/mês</p>
+           </div>
+
+           <div className="plans">
+            <div className="plan">
+              R$ 89,90
+            </div>
+
+            <div className="plan">
+              R$ 250,00
+            </div>
+
+            <div className="plan">
+              R$ 659,40
+            </div>
+           </div>
+          </li>
 
           <li>
            <div className="name">

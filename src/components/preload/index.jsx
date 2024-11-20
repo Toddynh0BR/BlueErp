@@ -8,7 +8,7 @@ export function Preload(){
   
       const timer = setTimeout(() => {
         setShowFallback(false); 
-      }, 1000);
+      }, 2000);
   
       return () => clearTimeout(timer);
     }, []);

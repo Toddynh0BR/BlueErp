@@ -163,45 +163,26 @@ h3 {
 @media (max-width: 450px) {
 height: fit-content;
 padding-top: 10rem;
+padding-bottom: 5rem;
 
 flex-direction: column;
+text-align: center;
 display: flex;
 gap: 3rem;
 
- .Center {
-  padding: 0rem 2rem;
-
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
-  .left {
-   align-items: center;
-  }
-  .right {
-    display: none;
+ p {
+  font-size: 1.4rem;
+ }
+ h3 {
+  font-size: 2rem;
+  strong {
+    font-size: 2rem;
   }
  }
 
  .Bottom {
-  height: fit-content;
-
-  position: relative;
-  grid-template-columns: repeat(2, 1fr);
-  display: grid;
-  gap: 1rem;
-
-  padding: 2rem 2rem;
-
-  .card {
-  height: 10rem;
-  width: 100%;
-
-  font-size: 1.2rem;
-  margin-top: 0rem;
-  padding: 1.5rem;
- }
- }
+ display: none;
+}
 }
 `
 export const Plans = styled.div`
@@ -299,5 +280,37 @@ footer {
     background-color: #7400cc28;
   }
  }
+
+ .especial {
+  display: none;
+ }
+}
+
+@media (max-width: 450px) {
+  padding: 0rem;
+
+  ul {
+
+    li {
+      min-height: 10rem;
+      padding: 1rem 0 1rem 2rem;
+      .name {
+        width: 12rem;
+        padding: 0;
+      }
+    }
+
+    .especial {
+      display: flex;
+      height: 5.6rem;
+      min-height: 5.6rem;
+
+      .plans {
+        .plan {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 `
