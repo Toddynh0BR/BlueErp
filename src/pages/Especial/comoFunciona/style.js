@@ -72,6 +72,14 @@ gap: 1rem;
   font-size: 2rem;
  }
 
+ img {
+  width: 12rem;
+ }
+
+ .lite {
+  width: 10rem;
+ }
+
  &:hover {
   cursor: pointer;
   filter: brightness(90%);
@@ -118,16 +126,21 @@ gap: 1rem;
   display: flex;
   gap: 2rem;
 
-  h3 {
-   font-weight: 600;
-   font-size: 2rem;
-   color: #FFFFFF;
-  }
+ img {
+  width: 20rem;
+ }
 
   p {
    font-size: 1.5rem;
    font-weight: 300;
-   line-height: 2rem;
+
+   display: inline;
+    strong {
+      display: inline;
+      font-size: 1.4rem;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 
   button {
@@ -168,6 +181,7 @@ gap: 1rem;
     cursor: pointer;
    }
   }
+
   &::after {
   content: ""; 
   position: absolute;

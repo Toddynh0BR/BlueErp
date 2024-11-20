@@ -333,10 +333,23 @@ h4 {
    font-weight: 500;
    color: #35005e;
 
+   a {
+    color: #35005e;
+   }
+
    &:hover {
     cursor: pointer;
     color: #7300cc;
    }
+  }
+
+  .this {
+    filter: brightness(10%);
+    font-weight: 600;
+
+    &:hover {
+     cursor: auto;
+    }
   }
  }
 }

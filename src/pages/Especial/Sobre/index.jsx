@@ -35,6 +35,8 @@ export function Sobre(){
 
    const navigate = useNavigate();
 
+
+
    useEffect(() => {
       function handleResize() {
         if (window.innerWidth < 720) {
@@ -51,6 +53,10 @@ export function Sobre(){
         window.removeEventListener('resize', handleResize);
       };
     }, []);
+
+    function abrirNovaAba(url) {
+      window.open(url, '_blank');
+    };
 
     useEffect(() => {
  
@@ -140,7 +146,10 @@ export function Sobre(){
           </SwiperSlide>
        </Swiper>
        </div>
-       <img src={BottomCloud} alt="" className="CloudBottom"/>
+
+       <div className="CloudBottom">
+        <img src={BottomCloud} alt=""/>
+       </div>
       </S.Main>
 
       <S.About>
@@ -164,7 +173,7 @@ export function Sobre(){
              Desenvolvemos e oferecemos suporte para projetos personalizados de ERP em nuvem,
              atendendo clientes renomados como Unilever e Keune Cosméticos.
             </p>
-           <button>Conheça Mais</button>
+           <button onClick={()=> abrirNovaAba('https://my.blueerp.com.br/')}>Conheça Mais</button>
          </div>
 
          <div className="card">
@@ -205,21 +214,21 @@ export function Sobre(){
 
        <div className="left">
          <h2>Sobre a BLUE ERP</h2>
-         <span>Missão</span>
-         <p>
-         Desenvolver e entregar soluções tecnológicas inovadoras que centralizam e automatizam processos empresariais, proporcionando agilidade, controle e integração. Nossa missão é transformar a gestão de pequenas e médias empresas ao redor do mundo, ajudando-as a otimizar seus recursos e alcançar o máximo potencial por meio de tecnologias adaptáveis e personalizadas, focando sempre na excelência, segurança e inovação como pilares de nossa atuação diária.
-         </p>
-
-         <span>Visão</span>
-         <p>
-         Ser referência global em soluções tecnológicas para gestão empresarial, reconhecida pela nossa capacidade de integrar setores e simplificar operações. Buscamos liderar a inovação no mercado de CRM e automação de processos, atendendo clientes em diferentes regiões do mundo e promovendo a eficiência e o crescimento sustentável de empresas de diversos setores, sempre atentos às tendências tecnológicas e às necessidades de cada cliente.
-         </p>
-
-         <span>Valores</span>
-         <p>
-         Inovação: Estamos sempre em busca de novas formas de melhorar e evoluir nossas soluções, colocando a tecnologia a serviço da transformação empresarial. Agilidade: Valorizamos rapidez e eficiência nos processos, tanto internamente quanto na entrega de soluções. Transparência: Mantemos uma comunicação clara e aberta. Personalização: Soluções sob medida para modelos de negócios variados. Com credibilidade e Responsabilidade: Garantimos práticas sustentáveis.
-         </p>
+        
+        <p>
+        Para tornar todas essas operações escaláveis, a BLUE ERP firmou parcerias estratégicas com grandes players do mercado, como Mastercard, Amazon AWS, Universidade Feevale, Jet E-commerce e Mercado Livre. Além disso, é a única empresa nacional de ERP listada no Google Marketplace.
+<br /><br />
+Uma das principais características que tornam a BLUE ERP um sucesso é o fato de que seu sistema de gestão é armazenado e hospedado nos data centers da Amazon, o Amazon AWS, reconhecido como a plataforma de nuvem mais estável e segura do mundo. Isso proporciona aos clientes uma experiência confiável e econômica, eliminando a necessidade de investir em infraestrutura tecnológica, como servidores, licenças de banco de dados, softwares ou equipes de suporte. Além disso, a política de backup e redundância global garante proteção contra riscos de segurança, desastres naturais e furtos.
+<br /><br />
+A BLUE ERP frequentemente é destaque em veículos de comunicação especializados no setor, seja pelo aporte significativo recebido da empresa CIGAM, que adquiriu 51% das cotas da organização, ou pela surpreendente valorização de 500% ao recomprar essas cotas, reassumindo sua independência com um crescimento impressionante.
+<br /><br />
+O reconhecimento da empresa também está ligado à confiança de gigantes do mercado, como o grupo Unilever, que integra sua base de clientes, atraindo ainda mais atenção para o crescimento acelerado da marca.
+<br /><br />
+Internamente, a BLUE ERP implementa o programa de relações humanas chamado #GOBLUE, que une a promoção do bem-estar dos colaboradores a uma cultura organizacional voltada para alta performance, destacando-se no mercado por sua visão inovadora e humanizada.
+        </p>
        </div>
+
+
 
        <div className="right">
          <img src={About} alt="" />
@@ -256,6 +265,29 @@ export function Sobre(){
            <img src={slide5} alt="" className="SlideImg"/>
           </SwiperSlide>
        </Swiper>
+       </div>
+
+       <div className="three">
+        <div>
+        <span>Visão</span>
+         <p>
+         Ser referência global em soluções tecnológicas para gestão empresarial, reconhecida pela nossa capacidade de integrar setores e simplificar operações. Buscamos liderar a inovação no mercado de CRM e automação de processos, atendendo clientes em diferentes regiões do mundo e promovendo a eficiência e o crescimento sustentável de empresas de diversos setores, sempre atentos às tendências tecnológicas e às necessidades de cada cliente.
+         </p>
+        </div>
+
+        <div>
+        <span>Missão</span>
+         <p>
+         Desenvolver e entregar soluções tecnológicas inovadoras que centralizam e automatizam processos empresariais, proporcionando agilidade, controle e integração. Nossa missão é transformar a gestão de pequenas e médias empresas ao redor do mundo, ajudando-as a otimizar seus recursos e alcançar o máximo potencial por meio de tecnologias adaptáveis e personalizadas, focando sempre na excelência, segurança e inovação como pilares de nossa atuação diária.
+         </p>
+        </div>
+
+        <div>
+        <span>Valores</span>
+         <p>
+         Inovação: Estamos sempre em busca de novas formas de melhorar e evoluir nossas soluções, colocando a tecnologia a serviço da transformação empresarial. Agilidade: Valorizamos rapidez e eficiência nos processos, tanto internamente quanto na entrega de soluções. Transparência: Mantemos uma comunicação clara e aberta. Personalização: Soluções sob medida para modelos de negócios variados. Com credibilidade e Responsabilidade: Garantimos práticas sustentáveis.
+         </p>
+        </div>
        </div>
 
        <div className="contrate">

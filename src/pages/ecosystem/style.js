@@ -153,12 +153,13 @@ padding: 0rem 25rem;
    align-items: center;
    display: flex;
 
+   overflow: hidden;
    position: relative;
-   padding: 2rem 1.5rem;
+   padding: 0rem 1.5rem;
 
-   h4 {
-    font-size: 2rem;
-    color: #FFFFFF;
+   .Logo {
+    width: 20rem;
+    margin-top: -1rem;
    }
    span {
     font-size: 1.6rem;

@@ -223,219 +223,173 @@ export function A6(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Central de integração
-        </span>
+  <div className="right">
+    <span>Central de integração</span>
 
-        <h4>
-        Quero 
-        <strong>  impulsionar minhas vendas</strong>
-        </h4>
+    <h4>
+      Quero <strong>impulsionar minhas vendas</strong>
+    </h4>
 
-        <p>
-        A Central de Integração do BLUE ERP está presente nos módulos de estoque e vendas, facilitando a comunicação entre o sistema e o seu e-commerce. Essa integração proporciona mais agilidade para os setores de vendas e logística, assegurando que os processos sejam rápidos e alinhados com a demanda do seu negócio.
-        </p>
+    <p>
+      A <strong>Central de Integração</strong> do BLUE ERP está presente nos módulos de estoque e vendas, facilitando a <strong>comunicação entre o sistema</strong> e o seu e-commerce. Essa integração proporciona mais <strong>agilidade para os setores de vendas</strong> e logística, assegurando que os processos sejam rápidos e alinhados com a demanda do seu negócio.
+    </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-      
-      </S.Main3>
+<S.Main4 data-color={false}>
+  <h2><strong>Expanda seu negócio</strong> com nossas integrações!</h2>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>
-        Expanda seu negócio </strong> com nossas integrações!
-</h2>
+  <div className="texts">
+    <div className="text">
+      <span>Integração com E-commerce e Marketplace</span>
+      <p>
+        No BLUE ERP, você encontra soluções para integrar seu e-commerce com os principais <strong>marketplaces</strong>, como B2W, Mercado Livre, WooCommerce, Loja Integrada, Amazon, Magento e muitos outros. Dessa forma, todas as <strong>transações, desde a escolha do produto</strong> até a finalização do pedido, podem ser gerenciadas de forma <strong>centralizada</strong>, garantindo que todo o processo de vendas online ocorra de maneira prática e digital.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Integração com E-commerce e Marketplace</span>
-            <p>
-          
+    <div className="text">
+      <span>Integração com BLUE WEB Correios</span>
+      <p>
+        Para agilizar e organizar as postagens de encomendas, o BLUE ERP oferece integração com o <strong>BLUE WEB Correios</strong>. Esse recurso permite gerar e imprimir listas de postagens, <strong>etiquetas e códigos de rastreamento</strong>, facilitando o envio e acompanhamento de mercadorias e melhorando a <strong>experiência de seus clientes</strong>.
+      </p>
+    </div>
 
-No BLUE ERP, você encontra soluções para integrar seu e-commerce com os principais marketplaces, como B2W, Mercado Livre, WooCommerce, Loja Integrada, Amazon, Magento e muitos outros. Dessa forma, todas as transações, desde a escolha do produto até a finalização do pedido, podem ser gerenciadas de forma centralizada, garantindo que todo o processo de vendas online ocorra de maneira prática e digital.
-            </p>
-          </div>
+    <div className="text">
+      <span>BLUE Loja</span>
+      <p>
+        Crie uma loja virtual personalizada com o BLUE Loja para expandir a <strong>presença digital</strong> da sua empresa! Seus clientes podem acessar o site, fazer pedidos diretamente e <strong>receber os produtos de forma prática</strong>. Além de acelerar o processo de vendas, o sistema permite o controle integrado de estoque, financeiro e fiscal, trazendo <strong>eficiência e agilidade</strong> para o seu negócio.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span>Integração com BLUE WEB Correios</span>
-            <p>
-            
-            Para agilizar e organizar as postagens de encomendas, o BLUE ERP oferece integração com o BLUE WEB Correios. Esse recurso permite gerar e imprimir listas de postagens, etiquetas e códigos de rastreamento, facilitando o envio e acompanhamento de mercadorias e melhorando a experiência de seus clientes.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> BLUE Loja</span>
-            <p>
-           
-            Crie uma loja virtual personalizada com o BLUE Loja para expandir a presença digital da sua empresa! Seus clientes podem acessar o site, fazer pedidos diretamente e receber os produtos de forma prática. Além de acelerar o processo de vendas, o sistema permite o controle integrado de estoque, financeiro e fiscal, trazendo eficiência e agilidade para o seu negócio.
-            </p>
-          </div>
-        </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Engajamento de vendas</span>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <h4>
+      Quero <strong>vender mais</strong>
+    </h4>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Engajamento de vendas
-        </span>
+    <p>
+      Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a <strong>visibilidade</strong> da sua empresa, tanto online quanto fisicamente, aplicando estratégias como <strong>preços diferenciados, cupons de desconto</strong> e cashback. Esses recursos ajudam a atrair e <strong>fidelizar clientes</strong>, tornando seu negócio mais competitivo e atraente no mercado.
+    </p>
 
-        <h4>
-        Quero 
-        <strong> vender mais</strong>
-        </h4>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <p>
-        Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua empresa, tanto online quanto fisicamente, aplicando estratégias como preços diferenciados, cupons de desconto e cashback. Esses recursos ajudam a atrair e fidelizar clientes, tornando seu negócio mais competitivo e atraente no mercado.
-        </p>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+<S.Main4 data-color={true}>
+  <h2><strong>Para você ter mais controle</strong> sobre seus negócios!</h2>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>Controle por cashback</span>
+      <p>
+        O <strong>cashback</strong> tem se tornado uma prática cada vez mais popular na venda de produtos de diversos segmentos. Com ele, o cliente paga o valor total de uma compra e <strong>recebe um crédito para futuras aquisições</strong>. O BLUE ERP oferece essa funcionalidade para que você possa aplicar essa estratégia no seu E-commerce ou Loja Virtual, incentivando a <strong>fidelização dos clientes</strong>.
+      </p>
+    </div>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Para você ter mais controle </strong> sobre seus negócios!
+    <div className="text">
+      <span>Tabelas de preço</span>
+      <p>
+        Que tal promover <strong>tabelas de preços especiais</strong> para mercadorias que estão paradas em seu estoque? Com o BLUE ERP, você pode estabelecer preços promocionais para <strong>clientes específicos</strong>, criando uma relação mais próxima e fortalecida com eles.
+      </p>
+    </div>
 
-        </h2>
+    <div className="text">
+      <span>Cupom de desconto</span>
+      <p>
+        Oferecer <strong>cupons de desconto</strong> é uma excelente maneira de impulsionar as vendas de sua empresa. No BLUE ERP Loja, é possível criar <strong>cupons de desconto</strong> de forma rápida e lançá-los diretamente no seu site, ajudando a divulgar e potencializar a <strong>visibilidade do seu negócio</strong>.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Controle por cashback</span>
-            <p>
-       
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-O cashback tem se tornado uma prática cada vez mais popular na venda de produtos de diversos segmentos. Com ele, o cliente paga o valor total de uma compra e recebe um crédito para futuras aquisições. O BLUE ERP oferece essa funcionalidade para que você possa aplicar essa estratégia no seu E-commerce ou Loja Virtual, incentivando a fidelização dos clientes.
-            </p>
-          </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-          <div className="text">
-            <span>Tabelas de preço</span>
-            <p>
-            
-Que tal promover tabelas de preços especiais para mercadorias que estão paradas em seu estoque? Com o BLUE ERP, você pode estabelecer preços promocionais para clientes específicos, criando uma relação mais próxima e fortalecida com eles.
-            </p>
-          </div>
+  <div className="right">
+    <span>Controle de estoque e expedição</span>
 
-          <div className="text">
-            <span>Cupom de desconto</span>
-            <p>
-            
-Oferecer cupons de desconto é uma excelente maneira de impulsionar as vendas de sua empresa. No BLUE ERP Loja, é possível criar cupons de desconto de forma rápida e lançá-los diretamente no seu site, ajudando a divulgar e potencializar a visibilidade do seu negócio.
-            </p>
-          </div>
-        </div>
+    <h4>
+      Quero <strong>gerenciar estoque</strong>
+    </h4>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <p>
+      O BLUE ERP conta com um módulo <strong>avançado e completo</strong> de gestão de estoque, oferecendo controle total desde a <strong>aquisição de mercadorias</strong>, a organização em diferentes depósitos, o monitoramento do giro de produtos no estoque, até o acompanhamento das entregas. Com essa ferramenta, você obtém uma <strong>visão completa e organizada</strong> do estoque, permitindo otimizar processos e garantir o fluxo contínuo das operações de sua empresa.
+    </p>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-       <div className="right">
-        <span>
-        Controle de estoque e expedição
-        </span>
+<S.Main4 data-color={false}>
+  <h2><strong>Para você não perder mais vendas</strong> por falta de mercadorias!</h2>
 
-        <h4>
-        Quero 
-        <strong> gerenciar estoque</strong>
-        </h4>
+  <div className="texts">
+    <div className="text">
+      <span>Relatórios para Controle de Estoque</span>
+      <p>
+        Mantenha o <strong>controle do saldo de seu estoque</strong> com informações seguras e detalhadas! O BLUE ERP oferece relatórios completos que registram todas as movimentações de <strong>entrada e saída dos produtos</strong>, proporcionando dados precisos para embasar decisões estratégicas e planejar o futuro financeiro do seu negócio com <strong>confiança</strong>.
+      </p>
+    </div>
 
-        <p>
-        O BLUE ERP conta com um módulo avançado e completo de gestão de estoque, oferecendo controle total desde a aquisição de mercadorias, a organização em diferentes depósitos, o monitoramento do giro de produtos no estoque, até o acompanhamento das entregas. Com essa ferramenta, você obtém uma visão completa e organizada do estoque, permitindo otimizar processos e garantir o fluxo contínuo das operações de sua empresa.
-        </p>
+    <div className="text">
+      <span>Endereçamento de Estoque</span>
+      <p>
+        Facilite a <strong>busca por produtos</strong> com a função de endereçamento de estoque! No BLUE ERP, você pode registrar a localização exata de cada item — como o <strong>corredor ou prateleira</strong> — para encontrá-los rapidamente e manter o depósito sempre <strong>organizado</strong>.
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>Gestão de Expedição</span>
+      <p>
+        Gerencie a saída de mercadorias de forma <strong>eficiente</strong> com o módulo de Gestão de Expedição. Este recurso permite administrar a <strong>armazenagem, separação, despacho</strong> e entrega dos itens de onde você estiver, garantindo que o processo de expedição funcione com agilidade e precisão.
+      </p>
+    </div>
+  </div>
 
-      
-      </S.Main3>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>Para você não perder mais vendas </strong> por falta de mercadorias!</h2>
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Gestão Fiscal</span>
 
-        <div className="texts">
-          <div className="text">
-            <span>Relatórios para Controle de Estoque</span>
-            <p>
-            
-Mantenha o controle do saldo de seu estoque com informações seguras e detalhadas! O BLUE ERP oferece relatórios completos que registram todas as movimentações de entrada e saída dos produtos, proporcionando dados precisos para embasar decisões estratégicas e planejar o futuro financeiro do seu negócio com confiança.
-            </p>
-          </div>
+    <h4>
+      Quero uma <strong>gestão fiscal completa</strong>
+    </h4>
 
-          <div className="text">
-            <span> Endereçamento de Estoque</span>
-            <p>
-           
-           
-            Facilite a busca por produtos com a função de endereçamento de estoque! No BLUE ERP, você pode registrar a localização exata de cada item — como o corredor ou prateleira — para encontrá-los rapidamente e manter o depósito sempre organizado.
-            </p>
-          </div>
+    <p>
+      Com o módulo de <strong>Gestão Fiscal</strong> do BLUE ERP, a emissão de notas fiscais se tornou rápida e descomplicada, permitindo que você e sua equipe dediquem mais tempo ao atendimento ao cliente e ao <strong>fortalecimento de relacionamentos</strong>. Com funcionalidades práticas e intuitivas, você pode configurar os impostos necessários e emitir documentos fiscais com a <strong>segurança de estar sempre em conformidade com a legislação</strong> vigente.
+    </p>
 
-          <div className="text">
-            <span>Gestão de Expedição</span>
-            <p>
-            
-            Gerencie a saída de mercadorias de forma eficiente com o módulo de Gestão de Expedição. Este recurso permite administrar a armazenagem, separação, despacho e entrega dos itens de onde você estiver, garantindo que o processo de expedição funcione com agilidade e precisão.
-            </p>
-          </div>
-        </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Gestão Fiscal
-        </span>
-
-        <h4>
-        Quero uma 
-        <strong> gestão fiscal completa</strong>
-        </h4>
-
-        <p>
-
-        Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas fiscais se tornou rápida e descomplicada, permitindo que você e sua equipe dediquem mais tempo ao atendimento ao cliente e ao fortalecimento de relacionamentos. Com funcionalidades práticas e intuitivas, você pode configurar os impostos necessários e emitir documentos fiscais com a segurança de estar sempre em conformidade com a legislação, proporcionando agilidade e confiança ao seu processo fiscal.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
-
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
+</S.Main3>
       <S.Main4 data-color={true}>
         <h2><strong>Descomplique! </strong> Faça a gestão fiscal mais simples e organizada com a BLUE ERP.</h2>
 

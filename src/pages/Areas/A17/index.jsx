@@ -214,209 +214,178 @@ export function A17(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Quero vender mais
-        </span>
+  <div className="right">
+    <span> Quero vender mais </span>
 
-        <h4>
-        Conte com um Sistema ERP que funcione online e offline, com um 
-       <strong> PDV moderno e muito ágil!</strong>
+    <h4>
+      Conte com um Sistema ERP que funcione online e offline, com um 
+      <strong> PDV moderno e muito ágil!</strong>
+    </h4>
 
-       </h4>
+    <p>
+      Com os recursos do módulo de vendas do Blue ERP, você pode ampliar a <strong>visibilidade</strong> da sua fábrica e loja de móveis, proporcionando um <strong>atendimento no caixa mais ágil</strong> e facilitando o acesso dos clientes aos produtos que você oferece, seja por meio de uma loja virtual ou catálogo online. Além disso, é possível aplicar <strong>preços diferenciados</strong> e gerenciar toda a sua equipe de vendas de forma eficiente.
+    </p>
 
-        <p>
-       
-Com os recursos do módulo de vendas do Blue ERP, você pode ampliar a visibilidade da sua fábrica e loja de móveis, proporcionando um atendimento no caixa mais ágil e facilitando o acesso dos clientes aos produtos que você oferece, seja por meio de uma loja virtual ou catálogo online. Além disso, é possível aplicar preços diferenciados e gerenciar toda a sua equipe de vendas de forma eficiente.
-        </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Módulo de vendas </strong> completo para você conquistar mais clientes!
+  </h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span> PDV para Vendas Diretas e Consignadas</span>
+      <p>
+        Seja para realizar <strong>vendas diretas</strong> para o consumidor final ou para quem trabalha com <strong>vendas em consignação</strong> para outras lojas, você pode utilizar o PDV Frente de Caixa do Blue ERP. Com ele, é possível importar orçamentos, realizar saídas consignadas e, claro, efetuar vendas diretas com emissão de <strong>NFC-e</strong> ou <strong>CF-e SAT</strong>.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        <strong>Módulo de vendas </strong> completo para você conquistar mais clientes!
+    <div className="text">
+      <span>Pedidos e Orçamentos</span>
+      <p>
+        Crie <strong>orçamentos</strong> e envie-os por e-mail aos seus clientes. Quando aprovados, esses orçamentos se tornam <strong>pedidos</strong>, gerando lançamentos financeiros e a baixa dos itens no estoque. Com o Blue ERP, todos os processos da sua loja são interligados, tornando a <strong>venda muito mais simples</strong>.
+      </p>
+    </div>
 
-</h2>
+    <div className="text">
+      <span> Catálogo Virtual</span>
+      <p>
+        Aumente as oportunidades de venda da sua loja de móveis e acessórios criando um <strong>Catálogo Virtual</strong> exclusivo, que pode ser enviado por e-mail e impactar toda a sua <strong>carteira de clientes</strong>. Para facilitar, o cliente pode aprovar a compra diretamente pelo e-mail, confirmando o pedido automaticamente no seu sistema.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span> PDV para Vendas Diretas e Consignadas</span>
-            <p>
-           
-            Seja para realizar vendas diretas para o consumidor final ou para quem trabalha com vendas em consignação para outras lojas, você pode utilizar o PDV Frente de Caixa do Blue ERP. Com ele, é possível importar orçamentos, realizar saídas consignadas e, claro, efetuar vendas diretas com emissão de NFC-e ou CF-e SAT.
-            </p>
-          </div>
+  <div className="texts">
+    <div className="text">
+      <span>Módulo de CRM</span>
+      <p>
+        Além de cadastrar toda a sua base de <strong>clientes</strong>, o Blue ERP oferece um módulo completo de CRM. Com ele, você terá gráficos atualizados sobre <strong>vendas</strong> e negociações, podendo criar um funil de vendas e monitorar oportunidades. Esse módulo funciona como uma ferramenta de força de vendas, permitindo o planejamento de ações de marketing, criação de fluxos de prospecção de clientes e muito mais.
+      </p>
+    </div>
 
-          <div className="text">
-            <span>Pedidos e Orçamentos</span>
-            <p>
-            
-Crie orçamentos e envie-os por e-mail aos seus clientes. Quando aprovados, esses orçamentos se tornam pedidos, gerando lançamentos financeiros e a baixa dos itens no estoque. Com o Blue ERP, todos os processos da sua loja são interligados, tornando a venda muito mais simples.
-            </p>
-          </div>
+    <div className="text">
+      <span>Taxa de Montagem</span>
+      <p>
+        Cobrar <strong>taxas de montagem</strong> à parte ou ter retrabalho ao registrar esses lançamentos no seu financeiro é coisa do passado. O Blue ERP oferece uma funcionalidade especial para o setor moveleiro, que permite cadastrar taxas de montagem por produto, registrando-as automaticamente no fluxo de caixa e facilitando o fechamento das vendas.
+      </p>
+    </div>
 
-          <div className="text">
-            <span> Catálogo Virtual</span>
-            <p>
-           
-            Aumente as oportunidades de venda da sua loja de móveis e acessórios criando um Catálogo Virtual exclusivo, que pode ser enviado por e-mail e impactar toda a sua carteira de clientes. Para facilitar, o cliente pode aprovar a compra diretamente pelo e-mail, confirmando o pedido automaticamente no seu sistema.
-            </p>
-          </div>
-        </div>
+    <div className="text">
+      <span> Tabelas de Preços</span>
+      <p>
+        Que tal aplicar <strong>tabelas de preços promocionais</strong> para mercadorias encalhadas no seu estoque? Você também pode oferecer <strong>preços diferenciados</strong> para compras em grande volume ou para clientes fiéis!
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Módulo de CRM</span>
-            <p>
-            
-            Além de cadastrar toda a sua base de clientes, o Blue ERP oferece um módulo completo de CRM. Com ele, você terá gráficos atualizados sobre vendas e negociações, podendo criar um funil de vendas e monitorar oportunidades. Esse módulo funciona como uma ferramenta de força de vendas, permitindo o planejamento de ações de marketing, criação de fluxos de prospecção de clientes e muito mais.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-          <div className="text">
-            <span>Taxa de Montagem</span>
-            <p>
-            
-            Cobrar taxas de montagem à parte ou ter retrabalho ao registrar esses lançamentos no seu financeiro é coisa do passado. O Blue ERP oferece uma funcionalidade especial para o setor moveleiro, que permite cadastrar taxas de montagem por produto, registrando-as automaticamente no fluxo de caixa e facilitando o fechamento das vendas.
-            </p>
-          </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>
+      Quero gerenciar a produção e estoque
+    </span>
 
-          <div className="text">
-            <span> Tabelas de Preços</span>
-            <p>
-           
-            Que tal aplicar tabelas de preços promocionais para mercadorias encalhadas no seu estoque? Você também pode oferecer preços diferenciados para compras em grande volume ou para clientes fiéis!
-            </p>
-          </div>
-        </div>
+    <h4>
+      Recursos flexíveis de  
+      <strong> armazenamento de mercadorias </strong>
+      para quem tem uma ou várias lojas!
+    </h4>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <p>
+      O Blue ERP conta com um moderno e completo módulo de gestão de <strong>estoque</strong> que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias no estoque e até as entregas.
+    </p>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       
-       
-       Quero gerenciar a produção e estoque
-        </span>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <h4>
-        Recursos flexíveis de  
-       <strong> armazenamento de mercadorias </strong>
-       para quem tem uma ou várias lojas!
-       </h4>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <p>
-        O Blue ERP conta com um moderno e completo módulo de gestão de estoque que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias no estoque e até as entregas.
-        </p>
+  <img src={Back} alt="" className="bottom"/>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={true}>
+  <h2><strong>Para você não perder mais vendas </strong> por falta de mercadorias!</h2>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <div className="texts">
+    <div className="text">
+      <span>Cadastro de Produtos com Variação</span>
+      <p>
+        Com o Blue ERP, você pode registrar tanto <strong>produtos simples</strong> quanto produtos com variação, como móveis que variam em tamanho, material e estampa. Cada produto é controlado com <strong>códigos específicos</strong> e suas variações são ajustadas para atender às necessidades do seu tipo de negócio.
+      </p>
+    </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+    <div className="text">
+      <span> Endereçamento de Estoque</span>
+      <p>
+        Ao buscar um produto, o sistema já retorna a <strong>localização exata</strong> do item no estoque. Com isso, você pode informar o local específico de armazenamento de cada mercadoria, como corredor ou prateleira. Imagine a praticidade de uma vendedora localizar rapidamente uma peça de roupa no estoque após um pedido de cliente. Isso certamente garante a <strong>satisfação do cliente</strong>!
+      </p>
+    </div>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Para você não perder mais vendas </strong> por falta de mercadorias!
-        </h2>
+    <div className="text">
+      <span>Múltiplos Depósitos</span>
+      <p>
+        Com o Blue ERP, você pode gerenciar <strong>múltiplos depósitos</strong> de forma simples e eficiente, sem precisar contratar uma licença separada para cada loja ou para a fábrica e loja. O sistema permite o cadastro centralizado de mercadorias e o gerenciamento ágil e flexível de diferentes locais de armazenamento.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Cadastro de Produtos com Variação
-            </span>
-            <p>
-            
+  <div className="texts">
+    <div className="text">
+      <span> Gerar Ordem de Compras</span>
+      <p>
+        De maneira prática e automatizada, o Blue ERP permite criar <strong>ordens de compra</strong> a partir dos pedidos realizados, facilitando o processo para fabricantes e lojas de móveis. Com apenas alguns cliques, você otimiza a gestão do seu estoque e a reposição de produtos.
+      </p>
+    </div>
 
-Com o Blue ERP, você pode registrar tanto produtos simples quanto produtos com variação, como móveis que variam em tamanho, material e estampa. Cada produto é controlado com códigos específicos e suas variações são ajustadas para atender às necessidades do seu tipo de negócio.
-            </p>
-          </div>
+    <div className="text">
+      <span>Gestão de Produção (PCP)</span>
+      <p>
+        Com o Blue ERP, você pode cadastrar <strong>insumos</strong>, criar ordens de produção, estabelecer requisitos para o controle de qualidade, realizar simulações de produção e gerenciar todo o processo produtivo. Este módulo é ideal para indústrias de pequeno, médio ou grande porte, oferecendo recursos específicos para atender às demandas de sua produção.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span> Endereçamento de Estoque</span>
-            <p>
-           
-Ao buscar um produto, o sistema já retorna a localização exata do item no estoque. Com isso, você pode informar o local específico de armazenamento de cada mercadoria, como corredor ou prateleira. Imagine a praticidade de uma vendedora localizar rapidamente uma peça de roupa no estoque após um pedido de cliente. Isso certamente garante a satisfação do cliente!
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-          <div className="text">
-            <span>Múltiplos Depósitos</span>
-            <p>
-            
-Com o Blue ERP, você pode gerenciar múltiplos depósitos de forma simples e eficiente, sem precisar contratar uma licença separada para cada loja ou para a fábrica e loja. O sistema permite o cadastro centralizado de mercadorias e o gerenciamento ágil e flexível de diferentes locais de armazenamento.
-            </p>
-          </div>
-        </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-        
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Gerar Ordem de Compras
-            </span>
-            <p>
-            
-            De maneira prática e automatizada, o Blue ERP permite criar ordens de compra a partir dos pedidos realizados, facilitando o processo para fabricantes e lojas de móveis. Com apenas alguns cliques, você otimiza a gestão do seu estoque e a reposição de produtos.
-            </p>
-          </div>
+  <div className="right">
+    <span>
+      Quero gerenciar meu financeiro
+    </span>
 
-          <div className="text">
-            <span>Gestão de Produção (PCP)</span>
-            <p>
-            
-            Com o Blue ERP, você pode cadastrar insumos, criar ordens de produção, estabelecer requisitos para o controle de qualidade, realizar simulações de produção e gerenciar todo o processo produtivo. Este módulo é ideal para indústrias de pequeno, médio ou grande porte, oferecendo recursos específicos para atender às demandas de sua produção.
-            </p>
-          </div>
-        </div>
+    <h4>
+      Para a sua  
+      <strong> fábrica ou loja de móveis </strong>
+      faturar muito mais, nada melhor que contar com tecnologia de ponta em gestão financeira!
+    </h4>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <p>
+      Com o Blue ERP, você conta com módulos completos para controlar o <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, gerenciar centros de custos e estruturar planos de contas, facilitando a organização da sua gestão financeira. Isso contribui para a redução de custos e a otimização de recursos, impulsionando o <strong>crescimento do seu negócio</strong>.
+    </p>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Quero gerenciar meu financeiro
-        </span>
-
-        <h4>
-        Para a sua  
-       <strong> fábrica ou loja de móveis </strong>
-       faturar muito mais, nada melhor que contar com tecnologia de ponta em gestão financeira!
-       </h4>
-
-        <p>
-       
-Com o Blue ERP, você conta com módulos completos para controlar o fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e estruturar planos de contas, facilitando a organização da sua gestão financeira. Isso contribui para a redução de custos e a otimização de recursos, impulsionando o crescimento do seu negócio.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
       <S.Main4 data-color={false}>
         <h2>       

@@ -218,187 +218,165 @@ export function A8(){
         {'>> Conhecer Ecossistema <<'}
       </strong>
       </S.Ecossistem>
-
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Quero vender mais
-        </span>
+  <div className="right">
+    <span>
+      Quero vender mais
+    </span>
 
-        <h4>
-        Para isso, nada melhor que contar com 
+    <h4>
+      Para isso, nada melhor que contar com 
+      <strong> ferramentas que impulsionam a sua loja de roupas!</strong>
+    </h4>
 
-        <strong> ferramentas que impulsionam a sua loja de roupas!</strong>
-        </h4>
+    <p>
+      Com os recursos do módulo de vendas do BLUE ERP, você pode <strong> aumentar a visibilidade</strong> da sua loja de artigos de vestuário, com um frente de caixa mais ágil, facilitando o <strong> acesso dos clientes aos produtos</strong> que você comercializa, seja por loja virtual ou catálogo online. Além disso, você pode <strong> aplicar preços diferenciados</strong> e gerenciar toda a sua equipe de vendas.
+    </p>
 
-        <p>
-        Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua loja de artigos de vestuário, com um frente de caixa mais ágil, facilitando o acesso dos clientes aos produtos que você comercializa, seja por loja virtual ou catálogo online. Além disso, você pode aplicar preços diferenciados e gerenciar toda a sua equipe de vendas.
-        </p>
+    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2><strong>
+    Gerenciamento centralizado </strong> e as mercadorias no lugar certo!
+  </h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>  PDV para vendas diretas e consignadas</span>
+      <p>
+        Seja para realizar vendas diretas para o consumidor final ou para quem trabalha com vendas em consignação para outras lojas, você pode utilizar o <strong> PDV Frente de Caixa do BLUE ERP</strong>. Com ele, é possível importar orçamentos, realizar <strong> saídas consignadas</strong> e, claro, fazer vendas diretas com <strong> emissão de NFC-e ou CF-e SAT</strong>.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>
-        Gerenciamento centralizado </strong> e as mercadorias no lugar certo!
-</h2>
+    <div className="text">
+      <span> Pedidos e Orçamentos</span>
+      <p>
+        Crie orçamentos e envie por e-mail a seus clientes. Ao serem aprovados, seus orçamentos se tornam <strong> pedidos</strong>, gerando lançamento financeiro e a baixa dos itens no estoque. Com o BLUE ERP, todas as engrenagens de cada setor da sua loja de roupas são interligadas, tornando o <strong> processo de venda muito mais simples</strong>.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>  PDV para vendas diretas e consignadas</span>
-            <p>
-          
-Seja para realizar vendas diretas para o consumidor final ou para quem trabalha com vendas em consignação para outras lojas, você pode utilizar o PDV Frente de Caixa do BLUE ERP. Com ele, é possível importar orçamentos, realizar saídas consignadas e, claro, fazer vendas diretas com emissão de NFC-e ou CF-e SAT.
-            </p>
-          </div>
+    <div className="text">
+      <span>Catálogo Virtual</span>
+      <p>
+        Amplie as oportunidades de venda da sua loja de roupas e acessórios, criando um exclusivo <strong> Catálogo Virtual</strong> que pode ser enviado por e-mail para impactar toda a sua carteira de clientes. O cliente pode aprovar a compra com um <strong> botão dentro do e-mail</strong>, já confirmando o pedido no seu sistema.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span> Pedidos e Orçamentos</span>
-            <p>
-           
-            Crie orçamentos e envie por e-mail a seus clientes. Ao serem aprovados, seus orçamentos se tornam pedidos, gerando lançamento financeiro e a baixa dos itens no estoque. Com o BLUE ERP, todas as engrenagens de cada setor da sua loja de roupas são interligadas, tornando o processo de venda muito mais simples.
-            </p>
-          </div>
+  <div className="texts">
+    <div className="text">
+      <span> Módulo de CRM</span>
+      <p>
+        Além de cadastrar toda a sua carteira de clientes, o BLUE ERP possui um módulo completo de CRM, com gráficos sempre atualizados das <strong> vendas e negociações</strong>. Você pode criar um funil de vendas e um <strong> pipeline de oportunidades</strong>, projetar ações de marketing, criar fluxos de prospecção de clientes e muito mais.
+      </p>
+    </div>
 
-          <div className="text">
-            <span>Catálogo Virtual</span>
-            <p>
-            
-Amplie as oportunidades de venda da sua loja de roupas e acessórios, criando um exclusivo Catálogo Virtual que pode ser enviado por e-mail para impactar toda a sua carteira de clientes. O cliente pode aprovar a compra com um botão dentro do e-mail, já confirmando o pedido no seu sistema.
+    <div className="text">
+      <span>  Central de Integrações</span>
+      <p>
+        Integre a sua loja de roupas com diversos marketplaces e lojas virtuais, plataformas de pagamento e de entrega, através da mais completa <strong> central de integrações</strong> que só o BLUE ERP oferece. Conquiste visibilidade para seus produtos, controle para vender mais e a tranquilidade de ter todas as informações de que precisar a <strong> alguns cliques de distância</strong>.
+      </p>
+    </div>
 
+    <div className="text">
+      <span>Tabelas de Preços</span>
+      <p>
+        Que tal aplicar <strong> tabelas de preços promocionais</strong> para mercadorias que estão encalhadas no seu estoque? Você pode também definir <strong> preços diferenciados</strong> para compras em grande volume ou para <strong> clientes fiéis</strong>!
+      </p>
+    </div>
+  </div>
 
-            </p>
-          </div>
-        </div>
+  <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-        <div className="texts">
-          <div className="text">
-            <span> Módulo de CRM</span>
-            <p>
-            
-            Além de cadastrar toda a sua carteira de clientes, o BLUE ERP possui um módulo completo de CRM, com gráficos sempre atualizados das vendas e negociações. Você pode criar um funil de vendas e um pipeline de oportunidades, projetar ações de marketing, criar fluxos de prospecção de clientes e muito mais.
-            </p>
-          </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>
+      Quero gerenciar estoques
+    </span>
 
-          <div className="text">
-            <span>  Central de Integrações</span>
-            <p>
-          
-            Integre a sua loja de roupas com diversos marketplaces e lojas virtuais, plataformas de pagamento e de entrega, através da mais completa central de integrações que só o BLUE ERP oferece. Conquiste visibilidade para seus produtos, controle para vender mais e a tranquilidade de ter todas as informações de que precisar a alguns cliques de distância.
-            </p>
-          </div>
+    <h4>
+      Recursos flexíveis de armazenamento de mercadorias 
+      <strong> para quem tem uma ou várias lojas!</strong>
+    </h4>
 
-          <div className="text">
-            <span>Tabelas de Preços</span>
-            <p>
-            
-Que tal aplicar tabelas de preços promocionais para mercadorias que estão encalhadas no seu estoque? Você pode também definir preços diferenciados para compras em grande volume ou para clientes fiéis!
-            </p>
-          </div>
-        </div>
+    <p>
+      O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas, desde a <strong> compra de mercadorias</strong>, a localização em diferentes depósitos, o giro de mercadorias em estoque e até as <strong> entregas</strong>.
+    </p>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Quero gerenciar estoques
-        </span>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <h4>
-        Recursos flexíveis de armazenamento de mercadorias 
-        <strong> para quem tem uma ou várias lojas!</strong>
-        </h4>
+  <img src={Back} alt="" className="bottom"/>
+</S.Main3>
 
-        <p>
-        O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até as entregas.
+<S.Main4 data-color={true}>
+  <h2>Para você <strong> não perder mais vendas </strong> por falta de mercadorias!
+  </h2>
 
+  <div className="texts">
+    <div className="text">
+      <span> Cadastro de produtos com variação</span>
+      <p>
+        Você poderá registrar produtos simples e variáveis, como peças de roupa que variam em <strong> tamanho</strong>, material e estampa. Tudo isso controlado com <strong> códigos específicos</strong> e variações que atendem às demandas do seu tipo de negócio.
+      </p>
+    </div>
 
-        </p>
+    <div className="text">
+      <span>Endereçamento de estoque</span>
+      <p>
+        Nada melhor do que, ao buscar um produto, o sistema já lhe retornar a <strong> localização exata</strong> do item. No BLUE ERP, você informa o local exato de armazenamento de cada mercadoria, como <strong> corredor ou prateleira</strong>. Imagine a praticidade de um cliente pedir uma peça de roupa a uma de suas vendedoras e, em instantes, ela já localizar a mercadoria no estoque. É garantia de <strong> cliente satisfeito</strong>!
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>  Impressão de Etiquetas personalizadas</span>
+      <p>
+        Para vender artigos de vestuário, você precisa de etiquetas. E nada melhor do que ter a segurança de poder imprimir quantas etiquetas desejar, com as proporções e informações necessárias. Tudo isso de modo <strong> automático</strong>, diretamente do seu Sistema ERP.
+      </p>
+    </div>
+  </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-      <S.Main4 data-color={true}>
-        <h2>Para você <strong> não perder mais vendas </strong> por falta de mercadorias!
-        </h2>
+  <div className="right">
+    <span>
+      Quero gerenciar meu financeiro
+    </span>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Cadastro de produtos com variação</span>
-            <p>
-           
-            Você poderá registrar produtos simples e variáveis, como peças de roupa que variam em tamanho, material e estampa. Tudo isso controlado com códigos específicos e variações que atendem às demandas do seu tipo de negócio.
-            </p>
-          </div>
+    <h4>
+      Saiba como os recursos financeiros da BLUE ERP podem  
+      <strong> potencializar sua lucratividade </strong>
+      e ajudar sua empresa a crescer!
+    </h4>
 
-          <div className="text">
-            <span>Endereçamento de estoque</span>
-            <p>
-Nada melhor do que, ao buscar um produto, o sistema já lhe retornar a localização exata do item. No BLUE ERP, você informa o local exato de armazenamento de cada mercadoria, como corredor ou prateleira. Imagine a praticidade de um cliente pedir uma peça de roupa a uma de suas vendedoras e, em instantes, ela já localizar a mercadoria no estoque. É garantia de cliente satisfeito!
+    <p>
+      Com o BLUE ERP, você tem módulos para controlar seu <strong> fluxo de caixa</strong>, fazer projeções de receitas e despesas, gerenciar centros de custos e planos de contas, organizando sua gestão financeira, <strong> reduzindo custos</strong> e otimizando recursos para o crescimento do negócio.
+    </p>
 
-
-            </p>
-          </div>
-
-          <div className="text">
-            <span>  Impressão de Etiquetas personalizadas</span>
-            <p>
-          
-            Para vender artigos de vestuário, você precisa de etiquetas. E nada melhor do que ter a segurança de poder imprimir quantas etiquetas desejar, com as proporções e informações necessárias. Tudo isso de modo automático, diretamente do seu Sistema ERP.
-            </p>
-          </div>
-        </div>
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Quero gerenciar meu financeiro
-        </span>
-
-        <h4>
-        Saiba como os recursos financeiros da BLUE ERP podem  
-        <strong> potencializar sua lucratividade </strong>
-        e ajudar sua empresa a crescer!
-        </h4>
-
-        <p>
-        Com o BLUE ERP, você tem módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, gerenciar centros de custos e planos de contas, organizando sua gestão financeira, reduzindo custos e otimizando recursos para o crescimento do negócio.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
+    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
       <S.Main4 data-color={false}>
         <h2>

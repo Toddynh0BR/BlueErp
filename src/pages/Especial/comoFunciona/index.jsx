@@ -40,6 +40,14 @@ import t3 from "../assets/Boletos.gif";
 import t4 from "../assets/Chart.gif";
 import t5 from "../assets/Nuvem.gif";
 
+import a1 from "../assets/1.png";
+import a2 from "../assets/2.png";
+import a3 from "../assets/3.png";
+
+import b1 from "../assets/1-2.png";
+import b2 from "../assets/2-2.png";
+import b3 from "../assets/3-2.png";
+
 import blue from "../assets/imgSolutionSigeCloud.jpg";
 import lite from "../assets/imgSolutionSigeLite.jpg";
 import mobi from "../assets/imgSolutionSigeMobi.jpg";
@@ -81,18 +89,18 @@ export function ComoFunciona(){
 
        <div className="options">
         <div className="option" data-selected={selected == "blue" ? true : false} onClick={()=> setSelected('blue')}>
-          <FiMonitor/>
-          <p>BLUE ERP</p>
+         
+          <img src={a1} alt="" />
         </div>
 
         <div className="option"  data-selected={selected == "lite" ? true : false} onClick={()=> setSelected('lite')}>
-          <FaLaptop/>
-          <p>BLUE ERP Lite</p>
+         
+          <img src={a3} alt="" className="lite"/>
         </div>
 
         <div className="option" data-selected={selected == "mobi" ? true : false} onClick={()=> setSelected('mobi')}>
-          <IoPhonePortraitOutline/>
-          <p>BLUE ERP Mobi</p>
+          
+          <img src={a2} alt="" />
         </div>
        </div>
 
@@ -100,10 +108,10 @@ export function ComoFunciona(){
         { selected == 'blue' ?
          <div className="box blue">
           <div className="text">
-           <h3>BLUE ERP</h3>
+          <img src={b1} alt="" />
 
            <p>
-           Reconhecido como o sistema de Gestão Empresarial (ERP) online mais completo do Brasil, a BLUE ERP oferece módulos robustos e variados, trazendo aos nossos clientes o que há de mais avançado em tecnologia para Gestão Financeira, Vendas, Emissão de Notas Fiscais, Controle Avançado de Estoque, Compras e Produção.
+           Reconhecido como o sistema de Gestão Empresarial (ERP) online mais completo do Brasil, a BLUE ERP oferece módulos robustos e variados, trazendo aos nossos clientes o que há de mais avançado em tecnologia para <strong onClick={()=> navigate('/controle-financeiro')}> Gestão Financeira</strong> , <strong  onClick={()=> navigate('/controle-de-vendas')}> Vendas</strong>, <strong onClick={()=> navigate('/gestao-fiscal')}> Emissão de Notas Fiscais</strong>, <strong onClick={()=> navigate('/controle-de-estoque')}> Controle Avançado de Estoque</strong>, <strong onClick={()=> navigate('/gestao-de-compras')}> Compras </strong> e <strong onClick={()=> navigate('/controle-de-produçao')}> Produção</strong>.
 <br /><br />
 Em um ERP que se propõe a ser completo, não poderia faltar um módulo exclusivo para Gestão de Clientes. Exatamente, com a BLUE ERP, você conta com um poderoso sistema de gestão empresarial que inclui um módulo CRM moderno e eficiente.
 <br /><br />
@@ -128,7 +136,7 @@ Compreendendo que o empreendedorismo digital é uma das grandes tendências de m
         { selected == 'lite' ?
          <div className="box lite">
          <div className="text">
-          <h3>BLUE ERP Lite</h3>
+         <img src={b3} alt="" />
 
           <p>
           Sabemos que a vida online nem sempre é perfeita. Mesmo com o aumento do acesso à internet, instabilidades na conexão podem ocorrer a qualquer momento. Mas a sua empresa não pode parar, certo? Pensando nisso, criamos uma versão prática, eficiente e instalável.
@@ -153,7 +161,7 @@ Além disso, todos os dados da sua conta BLUE ERP podem ser sincronizados com o 
         { selected == 'mobi' ?
         <div className="box mobi">
         <div className="text">
-        <h3>BLUE Mobi</h3>
+        <img src={b2} alt="" />
         
         <p>
         Oferecer alternativas online e offline para desktop é essencial, mas e quando você está em uma feira, na casa do cliente, ou simplesmente quer ganhar agilidade ao gerar pedidos e consultar produtos fora do seu caixa?

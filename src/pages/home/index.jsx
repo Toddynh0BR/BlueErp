@@ -7,6 +7,8 @@ import MouseFollower from "../../components/mouse";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
+import { Preload } from "../../components/preload";
+
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { FaAnglesRight } from "react-icons/fa6";
 import { GoShieldCheck } from "react-icons/go";
@@ -26,6 +28,10 @@ import n4 from "../../assets/n5.svg";
 import n6 from "../../assets/n6.svg";
 import n7 from "../../assets/n7.svg";
 import n8 from "../../assets/n8.svg";
+
+import a1 from "./assets/1.png";
+import a2 from "./assets/2.png";
+import a3 from "./assets/3.png";
 
 import siteDesk from "../../assets/siteDesk.png";
 import liteDesk from "../../assets/liteDesk.png";
@@ -428,8 +434,7 @@ Frota - Gestão da frota de veículos
         <div className="right">
          <div className="container">
           <div className="card" onClick={()=> navigate('/loja-virtual')}>
-            <img src={site} alt="icon" className="Icon Site"/>
-            <span><strong>Loja</strong> Virtual</span>
+            <img src={a1} alt="icon" className="Icon Site"/>
             <ul>
               <li><GoShieldCheck/>Sistema de <strong>  Pagamento;</strong></li>
               <li><GoShieldCheck/>Layout <strong>  Responsivo;</strong></li>
@@ -441,8 +446,7 @@ Frota - Gestão da frota de veículos
           </div>
 
           <div className="card" onClick={()=> navigate('/app-de-vendas')}>
-            <img src={mobi} alt="icon" className="Icon Mobi"/>
-            <span><strong>App</strong> de Vendas</span>
+           <img src={a2} alt="icon" className="Icon Site"/>
             <ul>
               <li><GoShieldCheck/>Leitor de <strong> Codigo de Barras;</strong></li>
               <li><GoShieldCheck/>Vendas <strong> Externas;</strong></li>
@@ -456,8 +460,7 @@ Frota - Gestão da frota de veículos
 
          <div className="container">
           <div className="card" onClick={()=> navigate('/app-de-vendas')}>
-            <img src={mobi} alt="icon" className="Icon Mobi"/>
-            <span><strong>App</strong> de Vendas</span>
+          <img src={a2} alt="icon" className="Icon Site"/>
             <ul>
               <li><GoShieldCheck/>Leitor de <strong> Codigo de Barras;</strong></li>
               <li><GoShieldCheck/>Vendas <strong> Externas;</strong></li>
@@ -468,8 +471,7 @@ Frota - Gestão da frota de veículos
             <img src={mobiDesk} alt="Imagem a ser feita" className="Image"/>
           </div>
           <div className="card" onClick={()=> navigate('/loja-offline')}>
-            <img src={lite} alt="icon" className="Icon"/>
-            <span><strong>Offline</strong> ERP</span>
+          <img src={a3} alt="icon" className="Icon Site"/>
             <ul>
               <li><GoShieldCheck/>Notas em <strong> Contigência;</strong></li>
               <li><GoShieldCheck/>Pedidos e <strong> Orçamentos;</strong></li>

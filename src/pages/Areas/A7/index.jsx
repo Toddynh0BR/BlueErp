@@ -229,228 +229,195 @@ export function A7(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" className="especial"/>
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" className="especial"/>
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de estoque
-        </span>
+  <div className="right">
+    <span>
+      Gestão de estoque
+    </span>
 
-        <h4>
-        Quero 
-        <strong> gerenciar estoque</strong>
-        </h4>
+    <h4>
+      Quero 
+      <strong> gerenciar estoque</strong>
+    </h4>
 
-        <p>
-        O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até entregas.
-        </p>
+    <p>
+      O BLUE ERP possui um <strong>moderno</strong> e <strong>completo</strong> módulo de gestão de estoque que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até entregas.
+    </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-      
-      </S.Main3>
+<S.Main4 data-color={false}>
+  <h2><strong>
+    Para você não perder mais vendas </strong> por falta de mercadorias!
+  </h2>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>
-        Para você não perder mais vendas </strong> por falta de mercadorias!
+  <div className="texts">
+    <div className="text">
+      <span>Entrada de estoque</span>
+      <p>
+        Pensando em facilitar o <strong>controle de estoque</strong> de compras feitas por sua empresa, o BLUE ERP possui a funcionalidade de realizar <strong>entradas de mercadorias</strong> no estoque de acordo com a importação da nota emitida pelo seu fornecedor, otimizando recursos para o crescimento do negócio.
+      </p>
+    </div>
 
-</h2>
+    <div className="text">
+      <span>Relatórios para controle de estoque</span>
+      <p>
+        Acompanhe o saldo de estoque do seu negócio por meio de informações <strong>seguras</strong>! Disponibilizamos um poderoso relatório que descreve as movimentações de entrada e de saída dos produtos, garantindo dados reais para a sua <strong>tomada de decisão</strong> e o seu planejamento financeiro!
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Entrada de estoque</span>
-            <p>
-            
-            Pensando em facilitar o controle de estoque de compras feitas por sua empresa, o BLUE ERP possui a funcionalidade de realizar entradas de mercadorias no estoque de acordo com a importação da nota emitida pelo seu fornecedor, otimizando recursos para o crescimento do negócio.
-            </p>
-          </div>
+    <div className="text">
+      <span>Impressão de etiquetas</span>
+      <p>
+        Para vender materiais de construção em larga escala é claro que você precisa de <strong>etiquetas</strong>. E nada melhor que ter a segurança de que você poderá imprimir <strong>quantas etiquetas desejar</strong>, com as proporções e informações necessárias. Tudo isso de modo <strong>automático</strong>, diretamente do seu Sistema ERP.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span>  Relatórios para controle de estoque</span>
-            <p>
-          
-            Acompanhe o saldo de estoque do seu negócio por meio de informações seguras! Disponibilizamos um poderoso relatório que descreve as movimentações de entrada e de saída dos produtos, garantindo dados reais para a sua tomada de decisão e o seu planejamento financeiro!
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-          <div className="text">
-            <span> Impressão de etiquetas</span>
-            <p>
-           
-            Para vender materiais de construção em larga escala é claro que você precisa de etiquetas. E nada melhor que ter a segurança de que você poderá imprimir quantas etiquetas desejar, com as proporções e informações necessárias. Tudo isso de modo automático, diretamente do seu Sistema ERP.
-            </p>
-          </div>
-        </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>
+      Gestão de vendas
+    </span>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <h4>
+      Quero 
+      <strong> vender mais</strong>
+    </h4>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Gestão de vendas
-        </span>
+    <p>
+      Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua loja de cosméticos e perfumaria, com um <strong>frente de caixa mais ágil</strong> na loja física. Ou garantindo o acesso dos clientes aos produtos que você comercializa, seja por <strong>loja virtual</strong> ou catálogo online, aplicando preços diferenciados e fazendo toda a gestão da sua equipe de vendedores.
+    </p>
 
-        <h4>
-        Quero 
-        <strong> vender mais</strong>
-        </h4>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <p>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua loja de cosméticos e perfumaria, com um frente de caixa mais ágil na loja física. Ou garantindo o acesso dos clientes aos produtos que você comercializa, seja por loja virtual ou catálogo online, aplicando preços diferenciados e fazendo toda a gestão da sua equipe de vendedores.
-        </p>
+  <img src={Back} alt="" className="bottom"/>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={true}>
+  <h2><strong>Gerencie seus pedidos </strong> de um jeito simples!</h2>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <div className="texts">
+    <div className="text">
+      <span>PDV Frente de Caixa</span>
+      <p>
+        Para realizar vendas diretas para o consumidor final, você pode utilizar o <strong>PDV Frente de Caixa</strong> do BLUE ERP. Com ele, é possível importar orçamentos e vendas diretas com emissão de <strong>NFC-e</strong> ou <strong>CF-e SAT</strong>.
+      </p>
+    </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+    <div className="text">
+      <span>Controle de Pedidos e Orçamentos</span>
+      <p>
+        Crie orçamentos e envie por e-mail a seus clientes. Ao serem aprovados, os seus orçamentos se tornam pedidos, gerando <strong>lançamento financeiro</strong> e a baixa dos itens no estoque. Com o BLUE ERP, todas as engrenagens de cada setor da sua empresa alimentícia são interligadas e, assim, vender se torna muito mais simples.
+      </p>
+    </div>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Gerencie seus pedidos </strong> de um jeito simples!
+    <div className="text">
+      <span>Loja Virtual</span>
+      <p>
+        Crie uma loja virtual no BLUE ERP personalizada para sua loja de materiais de construção! O seu cliente poderá acessar seu site e realizar o pedido diretamente por ele, dessa forma, é possível separar os itens que seu cliente comprou e encaminhar a ele. Além de tornar o processo de venda mais ágil, há o controle de <strong>estoque</strong>, financeiro e fiscal de forma prática!
+      </p>
+    </div>
+  </div>
 
-        </h2>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            PDV Frente de Caixa</span>
-            <p>
-       
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
+  <div className="right">
+    <span>
+      Gestão financeira
+    </span>
 
+    <h4>
+      Quero 
+      <strong> gerenciar o financeiro</strong>
+    </h4>
 
-Para realizar vendas diretas para o consumidor final, você pode utilizar o PDV Frente de Caixa do BLUE ERP. Com ele, é possível importar orçamentos e vendas diretas com emissão de NFC-e ou CF-e SAT.
-            </p>
-          </div>
+    <p>
+      Com o BLUE ERP você tem módulos para controlar seu <strong>fluxo de caixa</strong>, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e otimizando recursos para o crescimento do negócio.
+    </p>
 
-          <div className="text">
-            <span> Controle de Pedidos e Orçamentos</span>
-            <p>
-           
-            Crie orçamentos e envie por e-mail a seus clientes. Ao serem aprovados, os seus orçamentos se tornam pedidos, gerando lançamento financeiro e a baixa dos itens no estoque. Com o BLUE ERP, todas as engrenagens de cada setor da sua empresa alimentícia são interligadas e, assim, vender se torna muito mais simples.
-            </p>
-          </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-          <div className="text">
-            <span> Loja Virtual</span>
-            <p>
-           
-Crie uma loja virtual no BLUE ERP personalizada para sua loja de materiais de construção! O seu cliente poderá acessar seu site e realizar o pedido diretamente por ele, dessa forma, é possível separar os itens que seu cliente comprou e encaminhar a ele. Além de tornar o processo de venda mais ágil, há o controle de estoque, financeiro e fiscal de forma prática!
-            </p>
-          </div>
-        </div>
+<S.Main4 data-color={false}>
+  <h2><strong>Descomplique!</strong> Gerencie seu financeiro de forma simples!</h2>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <div className="texts">
+    <div className="text">
+      <span>Faturamento parcial de pedidos</span>
+      <p>
+        Falou em flexibilidade para a gestão financeira, falou BLUE ERP! Outro benefício do nosso módulo financeiro é que você pode <strong>faturar as vendas</strong> como desejar, inclusive, parcialmente. Você acessa o pedido, seleciona o valor pago e automaticamente o status já é atualizado no seu <strong>financeiro</strong>.
+      </p>
+    </div>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+    <div className="text">
+      <span>Gestão de vendedores e metas</span>
+      <p>
+        Gerencie a performance da sua equipe de vendedores, os lançamentos de vendas, os lançamentos de <strong>comissões</strong>, bem como o percentual de metas atingido. Você também pode controlar os dados a que seus vendedores terão acesso, através do controle de <strong>permissões de usuários</strong> ativos em seu sistema.
+      </p>
+    </div>
 
-       <div className="right">
-        <span>
-        Gestão financeira
-        </span>
+    <div className="text">
+      <span>Cobrança de cliente inadimplente</span>
+      <p>
+        Conhecer bem o cliente e ter informações atualizadas sobre o seu comportamento de pagamento são medidas fundamentais para reduzir a inadimplência. Com o BLUE ERP, será possível gerenciar os clientes <strong>devedores</strong> e manter o contato com cada um deles diretamente por envio de <strong>e-mails automáticos</strong>!
+      </p>
+    </div>
+  </div>
 
-        <h4>
-        Quero 
-        <strong> gerenciar o financeiro</strong>
-        </h4>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-        <p>
-        Com o BLUE ERP você tem módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e otimizando recursos para o crescimento do negócio.
-        </p>
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>
+      Gestão Fiscal
+    </span>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <h4>
+      Quero uma
+      <strong> gestão fiscal completa</strong>
+    </h4>
 
-      
-      </S.Main3>
+    <p>
+      Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com tempo para prestar um bom atendimento e conquistar ainda mais clientes.
+    </p>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>
-Descomplique!</strong> Gerencie seu
-financeiro de forma simples!
-</h2>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Faturamento parcial de pedidos</span>
-            <p>
-            
-Falou em flexibilidade para a gestão financeira, falou BLUE ERP! Outro benefício do nosso módulo financeiro é que você pode faturar as vendas como desejar, inclusive, parcialmente. Você acessa o pedido, seleciona o valor pago e automaticamente o status já é atualizado no seu financeiro.
-            </p>
-          </div>
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
-          <div className="text">
-            <span> Gestão de vendedores e metas</span>
-            <p>
-           
-            Gerencie a performance da sua equipe de vendedores, os lançamentos de vendas, os lançamentos de comissões, bem como o percentual de metas atingido. Você também pode controlar os dados a que seus vendedores terão acesso, através do controle de permissões de usuários ativos em seu sistema.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>  Cobrança de cliente inadimplente</span>
-            <p>
-          
-Conhecer bem o cliente e ter informações atualizadas sobre o seu comportamento de pagamento são medidas fundamentais para reduzir a inadimplência. Com o BLUE ERP, será possível gerenciar os clientes devedores e manter o contato com cada um deles diretamente por envio de e-mails automáticos!
-
-
-            </p>
-          </div>
-        </div>
-
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Gestão Fiscal
-        </span>
-
-        <h4>
-        Quero uma
-        <strong>  gestão fiscal completa</strong>
-        </h4>
-
-        <p>
-
-
-
-Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com tempo para prestar um bom atendimento e conquistar ainda mais clientes.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
-
+  <img src={Back} alt="" className="bottom"/>
+</S.Main3>
       <S.Main4 data-color={true}>
         <h2><strong>Descomplique! </strong> Faça a gestão fiscal mais simples e organizada com a BLUE ERP.</h2>
 

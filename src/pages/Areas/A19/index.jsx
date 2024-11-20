@@ -211,181 +211,156 @@ export function A19(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Quero vender mais
+  <div className="right">
+    <span>
+      Quero vender mais
+    </span>
 
-        </span>
+    <h4>
+      <strong> Módulo de vendas </strong>
+      completo para você conquistar mais clientes!
+    </h4>
 
-        <h4>
-        <strong> Módulo de vendas </strong>
-         completo para você conquistar mais clientes!
-        </h4>
+    <p>
+      Seja para realizar <strong>vendas diretas</strong> para o consumidor final ou até mesmo para quem trabalha com <strong>vendas em consignação</strong> para outras lojas, o PDV Frente de Caixa do Blue ERP oferece todas as funcionalidades necessárias. Com ele, é possível <strong>importar orçamentos</strong>, realizar saídas consignadas e, claro, realizar vendas diretas com emissão de NFC-e ou CF-e SAT.
+    </p>
 
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <p>
-        Seja para realizar vendas diretas para o consumidor final ou até mesmo para quem trabalha com vendas em consignação para outras lojas, o PDV Frente de Caixa do Blue ERP oferece todas as funcionalidades necessárias. Com ele, é possível importar orçamentos, realizar saídas consignadas e, claro, realizar vendas diretas com emissão de NFC-e ou CF-e SAT.
-        </p>
+<S.Main4 data-color={false}>
+  <h2>
+    Soluções para comprar pelo melhor preço, <strong>vender mais e conquistar clientes!</strong>
+  </h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <div className="texts">
+    <div className="text">
+      <span>Tabelas de Preços</span>
+      <p>
+        Que tal aplicar <strong>tabelas de preços promocionais</strong> para mercadorias encalhadas no estoque? Com o Blue ERP, você pode ainda oferecer <strong>preços diferenciados</strong> para compras em grande volume ou para clientes fiéis, otimizando suas vendas e gerenciando o estoque de forma eficiente.
+      </p>
+    </div>
 
-      
-      </S.Main3>
+    <div className="text">
+      <span>Módulo de CRM</span>
+      <p>
+        O Blue ERP possui um módulo completo de CRM, que permite <strong>cadastrar toda a sua carteira de clientes</strong> e analisar gráficos atualizados das vendas e negociações. Com essa ferramenta, é possível criar um <strong>funil de vendas</strong>, um pipeline de oportunidades, e projetar ações de marketing. O módulo é uma poderosa ferramenta de força de vendas, ajudando na prospecção de novos clientes e na gestão de leads.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        Soluções para comprar pelo melhor preço, <strong> vender mais e conquistar clientes!</strong>
-</h2>
+    <div className="text">
+      <span>Catálogo Virtual</span>
+      <p>
+        Ampliar as oportunidades de venda para sua marca de Produtos Médicos e Hospitalares ficou mais fácil com o Catálogo Virtual. Você pode criar um <strong>catálogo exclusivo</strong>, enviá-lo por e-mail para sua carteira de clientes e permitir que eles aprovem a compra diretamente no e-mail, integrando a aprovação diretamente ao seu sistema de pedidos.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Tabelas de Preços</span>
-            <p>
-            
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-Que tal aplicar tabelas de preços promocionais para mercadorias encalhadas no estoque? Com o Blue ERP, você pode ainda oferecer preços diferenciados para compras em grande volume ou para clientes fiéis, otimizando suas vendas e gerenciando o estoque de forma eficiente.
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>
+      Quero gerenciar estoques
+    </span>
 
+    <h4>
+      Recursos flexíveis de
+      <strong> armazenamento de mercadorias </strong>
+      para quem tem uma ou várias lojas!
+    </h4>
 
-            </p>
-          </div>
+    <p>
+      O Blue ERP possui um moderno e completo módulo de <strong>gestão de estoque</strong>, que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque, até as entregas. Com esse módulo, sua empresa pode otimizar o <strong>controle de estoque</strong>, garantir a precisão no inventário e melhorar a eficiência nas operações de distribuição, aumentando a agilidade e reduzindo custos.
+    </p>
 
-          <div className="text">
-            <span>Módulo de CRM</span>
-            <p>
-            
-            O Blue ERP possui um módulo completo de CRM, que permite cadastrar toda a sua carteira de clientes e analisar gráficos atualizados das vendas e negociações. Com essa ferramenta, é possível criar um funil de vendas, um pipeline de oportunidades, e projetar ações de marketing. O módulo é uma poderosa ferramenta de força de vendas, ajudando na prospecção de novos clientes e na gestão de leads.
-            </p>
-          </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-          <div className="text">
-            <span>  Catálogo Virtual</span>
-            <p>
-           
-Ampliar as oportunidades de venda para sua marca de Produtos Médicos e Hospitalares ficou mais fácil com o Catálogo Virtual. Você pode criar um catálogo exclusivo, enviá-lo por e-mail para sua carteira de clientes e permitir que eles aprovem a compra diretamente no e-mail, integrando a aprovação diretamente ao seu sistema de pedidos.
-            </p>
-          </div>
-        </div>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Quero gerenciar estoques
-        </span>
+<S.Main4 data-color={true}>
+  <h2>Para você <strong>não perder mais vendas</strong> por falta de mercadorias!</h2>
 
-        <h4>
-        Recursos flexíveis de 
+  <div className="texts">
+    <div className="text">
+      <span>Múltiplos Depósitos</span>
+      <p>
+        O sistema permite gerenciar diferentes <strong>locais de armazenamento</strong> de forma centralizada e sem a necessidade de licenças separadas para cada depósito ou filial. Isso facilita a organização e controle, tornando a operação mais eficiente e flexível.
+      </p>
+    </div>
 
-        <strong> armazenamento de mercadorias </strong>
-        para quem tem uma ou várias lojas!
-        </h4>
+    <div className="text">
+      <span>Cadastro de Produtos Controlados por Número de Série</span>
+      <p>
+        O Blue ERP permite o registro de produtos simples e variáveis, incluindo itens controlados por número de <strong>série</strong> ou lote. Com isso, é possível gerenciar detalhadamente os produtos, atendendo a demandas específicas de controle e rastreabilidade.
+      </p>
+    </div>
 
+    <div className="text">
+      <span>Endereçamento de Estoque</span>
+      <p>
+        O sistema facilita a localização dos produtos no estoque, permitindo que você informe o <strong>local exato de armazenamento</strong>, como corredor ou prateleira. Isso agiliza a busca e localização dos itens, melhorando o atendimento ao cliente e a eficiência operacional.
+      </p>
+    </div>
+  </div>
 
-        <p>
-        O Blue ERP possui um moderno e completo módulo de gestão de estoque, que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque, até as entregas. Com esse módulo, sua empresa pode otimizar o controle de estoque, garantir a precisão no inventário e melhorar a eficiência nas operações de distribuição, aumentando a agilidade e reduzindo custos.
-        </p>
+  <div className="texts">
+    <div className="text">
+      <span>Gerar Ordem de Compras</span>
+      <p>
+        Com recursos automatizados, você pode criar <strong>ordens de compra</strong> a partir de pedidos realizados de maneira prática, garantindo o reabastecimento do estoque de forma eficiente e sem falhas.
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>Gestão de Produção (PCP)</span>
+      <p>
+        O Blue ERP oferece ferramentas para gerenciar todo o processo produtivo de fábricas, desde o cadastro de insumos até a criação de ordens de produção. O sistema permite controlar requisitos de qualidade, fazer <strong>simulações de produção</strong> e otimizar os processos de fabricação, ideal para indústrias de qualquer porte.
+      </p>
+    </div>
+  </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-      <S.Main4 data-color={true}>
-        <h2>Para você <strong> não perder mais vendas </strong> por falta de mercadorias!
-        </h2>
+  <div className="right">
+    <span>
+      Quero gerenciar meu financeiro
+    </span>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Múltiplos Depósitos
-            </span>
-            <p>
-            O sistema permite gerenciar diferentes locais de armazenamento de forma centralizada e sem a necessidade de licenças separadas para cada depósito ou filial. Isso facilita a organização e controle, tornando a operação mais eficiente e flexível.
+    <h4>
+      Funcionalidades para ter uma
+      <strong> gestão financeira eficiente!</strong>
+    </h4>
 
-            </p>
-          </div>
+    <p>
+      Com o módulo de Gestão Fiscal do Blue ERP, a emissão de <strong>notas fiscais</strong> se torna um processo simples e ágil, permitindo que você e sua equipe tenham mais tempo para focar no atendimento ao cliente e impulsionar o crescimento do seu negócio. Esse sistema automatizado garante que todos os documentos fiscais sejam emitidos de forma eficiente e em conformidade com a legislação vigente, facilitando o seu dia a dia e aprimorando a experiência do cliente.
+    </p>
 
-          <div className="text">
-            <span> Cadastro de Produtos Controlados por Número de Série</span>
-            <p>
-            O Blue ERP permite o registro de produtos simples e variáveis, incluindo itens controlados por número de série ou lote. Com isso, é possível gerenciar detalhadamente os produtos, atendendo a demandas específicas de controle e rastreabilidade.
-
-            </p>
-          </div>
-
-          <div className="text">
-            <span> Endereçamento de Estoque</span>
-            <p>
-            O sistema facilita a localização dos produtos no estoque, permitindo que você informe o local exato de armazenamento, como corredor ou prateleira. Isso agiliza a busca e localização dos itens, melhorando o atendimento ao cliente e a eficiência operacional.
-            </p>
-          </div>
-        </div>
-
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Gerar Ordem de Compras
-            </span>
-            <p>
-           Com recursos automatizados, você pode criar ordens de compra a partir de pedidos realizados de maneira prática, garantindo o reabastecimento do estoque de forma eficiente e sem falhas.
-            </p>
-          </div>
-
-          <div className="text">
-            <span> Gestão de Produção (PCP)</span>
-            <p>
-            O Blue ERP oferece ferramentas para gerenciar todo o processo produtivo de fábricas, desde o cadastro de insumos até a criação de ordens de produção. O sistema permite controlar requisitos de qualidade, fazer simulações de produção e otimizar os processos de fabricação, ideal para indústrias de qualquer porte.
-            </p>
-          </div>
-
-        </div>
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Quero gerenciar meu financeiro
-        </span>
-
-        <h4>
-        Funcionalidades para ter uma 
-        <strong> gestão financeira eficiente!</strong>
-        </h4>
-
-
-        <p>
-        Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se torna um processo simples e ágil, permitindo que você e sua equipe tenham mais tempo para focar no atendimento ao cliente e impulsionar o crescimento do seu negócio. Esse sistema automatizado garante que todos os documentos fiscais sejam emitidos de forma eficiente e em conformidade com a legislação vigente, facilitando o seu dia a dia e aprimorando a experiência do cliente.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
-
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
       <S.Main4 data-color={false}>
         <h2>       
         Funcionalidades para ter uma <strong> gestão financeira eficiente!</strong>

@@ -8,7 +8,7 @@ export const Container = styled.div`
 `
 
 export const Main = styled.main`
-height: 100vh;
+height: 110vh;
 width: 100%;
 
 background-image: url(${backGeral});
@@ -84,23 +84,25 @@ padding-top: 10rem;
  width: 100%;
  
  background-color: #7400cc8c;
- padding: 0rem 10rem;
+ padding: 0rem 20rem;
  position: absolute;
  bottom: 0;
 
  justify-content: space-between;
  align-items: flex-start;
  display: flex;
+ gap: 1rem;
 
  .card {
-  height: 10rem;
-  width: 18rem;
+  height: 12rem;
+  width: 17rem;
 
-  margin-top: -5rem;
+  margin-top: -6rem;
   background-color: #FFFFFF;
   border-radius: .5rem;
   padding: 2rem;
 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -109,6 +111,11 @@ padding-top: 10rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: #7300cc;
+
+  svg {
+    height: 4rem;
+    width: 4rem;
+  }
 
   &:hover {
    cursor: pointer;
@@ -222,7 +229,7 @@ padding: 0rem 10rem 5rem;
 
  span {
   line-height: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.3rem;
   color: #7300cc;
 
@@ -272,7 +279,7 @@ padding: 0rem 10rem 5rem;
 
  span {
   line-height: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.3rem;
   color: #7300cc;
 

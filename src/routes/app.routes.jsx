@@ -8,6 +8,7 @@ import { Home } from '../pages/home';
 
 
 //tipos
+import { ChatEmpresarial } from '../pages/chatEmpresarial';
 import { LojaVirtual } from '../pages/lojaVirtual';
 import { LojaOffline } from '../pages/lojaLite';
 import { AppVenda } from '../pages/appVenda';
@@ -95,6 +96,7 @@ export function AppRoutes() {
       <Route path="/app-de-vendas" element={<AppVenda />}/>
       <Route path="/loja-virtual" element={<LojaVirtual />}/>
       <Route path="/loja-offline" element={<LojaOffline />}/>
+      <Route path="/chat-empresarial" element={<ChatEmpresarial />}/>
 
       <Route path="/ferramentas-administrativas" element={<RelatoriosAdm />}/>
       <Route path="/sistema-online" element={<SistemaOnline />}/>

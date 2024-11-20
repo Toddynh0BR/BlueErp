@@ -3,6 +3,11 @@ import styled from "styled-components";
 import svg2 from "../../assets/back2.svg";
 import svg from "../../assets/back.svg"
 
+
+import a1 from "./assets/1-1.png";
+import a2 from "./assets/2-1.png";
+import a3 from "./assets/3-1.png";
+
 export const Container = styled.header`
 height: 7rem;
 width: 100%;
@@ -19,11 +24,12 @@ gap: 4rem;
 
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 background-color: #FFFFFF;
+overflow: hidden;
 padding: 0 4rem;
 z-index: 20;
 
 img {
- height: 7rem;
+ height: 9rem;
 
  cursor: pointer;
 }
@@ -115,7 +121,7 @@ img {
   height: 5rem;
 
   img {
-   height: 5rem;
+   height: 8rem;
   }
 
   .Right {
@@ -224,18 +230,17 @@ opacity: 1;
   justify-content: space-between;
   align-items: center;
   display: flex;
+  overflow: hidden;
 
   border-bottom: 1px solid #88848471;
+  position: relative;
   list-style: none;
-  padding: 1.5rem;
 
-  img {
-   width: 10rem;
-  }
   svg {
    font-size: 1.8rem;
    color: #7300cc;
-   margin-right: 1rem;
+   position: absolute;
+   right: 1rem;
   }
 
   &:hover {
@@ -245,6 +250,19 @@ opacity: 1;
     margin-right: 0;
    }
   }
+ }
+
+ .selectSite {
+  background-image: url(${a1});
+  background-size: 120%;
+ }
+ .selectMobi {
+  background-image: url(${a2});
+  background-size: 120%;
+ }
+ .selectLite {
+  background-image: url(${a3});
+  background-size: 120%;
  }
 }
 
@@ -363,7 +381,7 @@ opacity: 1;
  .select {
   .selectSite {
    background-color: #FFFFFF;
-   filter: brightness(90%);
+   filter: brightness(80%);
   }
  }
 }
@@ -372,7 +390,7 @@ opacity: 1;
  .select {
   .selectMobi {
    background-color: #FFFFFF;
-   filter: brightness(90%);
+   filter: brightness(80%);
   }
  }
 }
@@ -381,7 +399,7 @@ opacity: 1;
  .select {
   .selectLite {
    background-color: #FFFFFF;
-   filter: brightness(90%);
+   filter: brightness(80%);
   }
  }
 }
@@ -447,12 +465,21 @@ ul {
  li {
   width: 80%;
   
+  align-items: center;
+  display: flex;
+  gap: .5rem;
+
   list-style: none;
   padding: .8rem .5rem;
 
   font-size: 1.4rem;
   color: #7300cc;
 
+  svg {
+    width: 2rem;
+    height: 2rem;
+    color: #7300cc;
+  }
   &:hover {
    background-color: rgba(116, 0, 204, 0.425);
    cursor: pointer;
@@ -547,7 +574,7 @@ background-color: rgba(116, 0, 204, 0.425);
 }
 
 .box {
-height: 40rem;
+height: 50rem;
 width: 100rem;
 
 transform: translateX(-50%);
@@ -574,6 +601,13 @@ ul {
 
  background-color:#e2e2e2;
  padding: 2.5rem 1rem 0 3rem;
+
+ img {
+  height: 6rem;
+  width: 6rem;
+
+  margin-bottom: 2rem;
+ }
 
  h3 {
   font-size: 1.6rem;

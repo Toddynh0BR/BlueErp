@@ -48,6 +48,10 @@ display: flex;
  align-items: center;
  display: flex;
  gap: 2rem;
+
+ img {
+  cursor: pointer;
+ }
 }
 
 button {
@@ -112,7 +116,7 @@ display: flex;
 .Logo {
  width: 15rem;
 
- filter: brightness(10000%);
+ filter: invert(1) brightness(100000000%);
  cursor: pointer;
 }
 
@@ -227,12 +231,18 @@ display: flex;
   }
  }
 
+
  .bigCollum {
   height: 100%;
   width: 30rem;
 
   flex-direction: column;
   display: flex;
+
+  
+ .ads1 {
+  border-radius: 0 2rem 0 0 0;
+ }
 
   img {
    cursor: pointer;
@@ -261,15 +271,33 @@ display: flex;
 
   width: 100%;
 
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+
   border-bottom: 1px solid #5e5e5ec2;
   padding: 2rem 1rem; 
   list-style: none; 
+
+  svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #7300cc;
+    transition: 0s ease-in-out;
+  }
+  img {
+    transition: 0s ease-in-out;
+  }
 
   &:hover {
     background-color: #7300cc;
     border-radius: .5rem;
     cursor: pointer;
     color: #FFFFFF;
+
+    svg {
+      fill: #FFFFFF;
+    }
   }
  }
 }

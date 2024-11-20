@@ -20,6 +20,10 @@ import siteDesk from "../../assets/siteDesk.png";
 import liteDesk from "../../assets/liteDesk.png";
 import mobiDesk from "../../assets/mobiDesk.png";
 
+import a1 from "./assets/1-2.png";
+import a2 from "./assets/2-2.png";
+import a3 from "./assets/3-2.png";
+
 export function Ecosystem(){
   const section1Ref = useRef(null);
   const section2Ref = useRef(null);
@@ -103,26 +107,22 @@ export function Ecosystem(){
         <div className="right">
          <div className="box">
           <div className="card c1" onClick={()=> navigate('/loja-virtual')}>
-           <h4>BLUE ERP</h4>
-           <span><strong>Loja</strong> Virtual</span>
+           <img src={a1} alt="" className="Logo"/>
            <img src={siteDesk} alt="desk" className="Image"/>
           </div>
 
           <div className="card c2" onClick={()=> navigate('/app-de-vendas')}>
-           <h4>BLUE Mobi</h4>
-           <span><strong>APP</strong> de Vendas</span>
+          <img src={a2} alt="" className="Logo"/>
            <img src={mobiDesk} alt="desk" className="Image"/>
           </div>
 
           <div className="card c3" onClick={()=> navigate('/app-de-vendas')}>
-          <h4>BLUE Mobi</h4>
-          <span><strong>APP</strong> de Vendas</span>
+          <img src={a2} alt="" className="Logo"/>
            <img src={mobiDesk} alt="desk" className="Image"/>
           </div>
 
           <div className="card c4" onClick={()=> navigate('/loja-offline')}>
-          <h4>BLUE ERP Lite</h4>
-          <span><strong>ERP</strong> Offline</span>
+          <img src={a3} alt="" className="Logo"/>
            <img src={liteDesk} alt="desk" className="Image"/>
           </div>
          </div>

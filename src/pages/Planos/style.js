@@ -214,6 +214,25 @@ padding: 0 5rem;
 ul {
  width: 100%;
 
+header, footer {
+  height: 5.6rem;
+  width: 100%;
+
+  align-items: center;
+  display: flex;
+
+  background-color: #8f00fc;
+  padding-left: 5rem;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+footer {
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 10rem;
+}
 
  li:nth-child(even) {
   background-color: #f0f0f0; /* Cor para os itens ímpares */

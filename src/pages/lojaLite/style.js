@@ -9,7 +9,7 @@ export const Container = styled.div`
 `
 
 export const Main = styled.main`
-height: 100vh;
+height: 110vh;
 width: 100%;
 
 background-image: url(${backLite});
@@ -104,7 +104,7 @@ padding-top: 5rem;
 .Center {
  width: 100%;
 
- padding: 0rem 20rem;
+ padding: 0rem 10rem;
  
  justify-content: space-between;
  align-items: center;
@@ -168,24 +168,25 @@ padding-top: 5rem;
  width: 100%;
  
  background-color: #7400cc8c;
- padding: 0rem 20rem;
+ padding: 0rem 10rem;
  position: absolute;
  bottom: 0;
- gap: 1rem;
 
  justify-content: space-between;
  align-items: flex-start;
  display: flex;
+ gap: 1rem;
 
  .card {
-  height: 8rem;
+  height: 12rem;
   width: 17rem;
 
-  margin-top: -3rem;
+  margin-top: -6rem;
   background-color: #FFFFFF;
   border-radius: .5rem;
   padding: 2rem;
 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -194,6 +195,11 @@ padding-top: 5rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: #7300cc;
+
+  svg {
+    height: 4rem;
+    width: 4rem;
+  }
 
   &:hover {
    cursor: pointer;
@@ -272,7 +278,7 @@ align-items: center;
 position: relative;
 display: flex;
 
-padding: 0rem 20rem;
+padding: 0rem 10rem;
 
 .left {
  width: 45%;
@@ -378,7 +384,7 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 
-padding: 0rem 20rem;
+padding: 0 10rem;
 
 .EspecialIMG {
   border-radius: 1rem;
@@ -536,7 +542,7 @@ align-items: center;
 display: flex;
 
 background-image:  url(${backLite2});
-padding: 0rem 20rem;
+padding: 0 10rem;
 
 
 .left {
@@ -599,7 +605,7 @@ export const Main5 = styled.div`
 height: 70vh;
 width: 100%;
 
-padding: 0rem 20rem;
+padding: 0 10rem;
 
 justify-content: center;
 flex-direction: column;
@@ -720,7 +726,7 @@ display: flex;
  display: flex;
  gap: 3rem;
 
- padding: 0 0 0 15rem;
+ margin-left: 3rem;
 
  h2 {
   font-size: 2.7rem;

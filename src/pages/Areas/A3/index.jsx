@@ -226,7 +226,7 @@ export function A3(){
         </h4>
 
         <p>
-        Implementar um software para assistência técnica é essencial para empresas que desejam crescer com suporte e estrutura para gerenciar serviços, vendas, contratos e diversos tipos de negociações. No Blue ERP, você encontra ferramentas que aumentam a produtividade e ajudam a impulsionar o faturamento, oferecendo a estrutura necessária para expandir seus negócios de forma eficiente e organizada.
+        Implementar um software para <strong> assistência técnica </strong>é essencial para empresas que desejam crescer com suporte e estrutura para gerenciar serviços, vendas, contratos e diversos tipos de negociações. No Blue ERP, você encontra ferramentas que aumentam a produtividade e ajudam a impulsionar o faturamento, oferecendo a estrutura necessária para expandir seus negócios de forma eficiente e organizada.
         </p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
@@ -245,7 +245,7 @@ export function A3(){
             <span>   Cadastro Ilimitado de Serviços</span>
             <p>
          
-Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conforme as normas vigentes, incluindo informações detalhadas sobre impostos, classificação de serviço e código específico.
+Tenha a <strong> liberdade </strong> de cadastrar todos os serviços prestados por sua empresa conforme as normas vigentes, incluindo informações detalhadas sobre impostos, classificação de serviço e <strong> código específico.</strong>
 
 
             </p>
@@ -289,7 +289,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
         </h4>
         
         <p>
-        Para impulsionar suas vendas, é essencial contar com ferramentas que aumentem a visibilidade da sua empresa de serviços. Com a automação de processos, fica mais fácil para os clientes acessarem os produtos que você oferece, ao mesmo tempo em que o controle de mercadorias no estoque se torna mais prático e eficiente.
+        Para <strong> impulsionar suas vendas, </strong> é essencial contar com ferramentas que <strong> aumentem a visibilidade </strong> da sua empresa de serviços. Com a <strong> automação de processos, </strong> fica mais fácil para os clientes acessarem os produtos que você oferece, ao mesmo tempo em que o controle de mercadorias no estoque se torna mais prático e eficiente.
         </p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
@@ -312,7 +312,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <span>           
             Tabelas de Preços:</span>
             <p>
-            Aplique preços diferenciados, como promoções para mercadorias encalhadas ou descontos para compras em grande volume ou para clientes fidelizados, facilitando a gestão do seu estoque.
+            Aplique <strong> preços diferenciados, </strong> como promoções para mercadorias encalhadas ou descontos para compras em grande volume ou para clientes fidelizados, <strong> facilitando a gestão do seu estoque.</strong>
             </p>
           </div>
 
@@ -321,7 +321,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <p>
             
             
-             Crie um catálogo virtual exclusivo para sua loja, que pode ser enviado por e-mail para seus clientes. Eles podem aprovar compras diretamente no e-mail, com o pedido sendo automaticamente atualizado no sistema.
+             Crie um <strong> catálogo virtual exclusivo </strong> para sua loja, que pode ser enviado por e-mail para seus clientes. Eles podem aprovar compras diretamente no e-mail, com o pedido sendo <strong> automaticamente </strong> atualizado no sistema.
             </p>
           </div>
 
@@ -329,7 +329,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <span> Módulo de CRM:</span>
             <p>
             
-            Organize e gerencie sua carteira de clientes com um módulo de CRM completo. Visualize gráficos atualizados de vendas e negociações, crie funis de vendas e tenha uma visão clara das oportunidades de negócios e ações de marketing.
+            Organize e gerencie sua carteira de clientes com um <strong> módulo de CRM completo. </strong> Visualize gráficos atualizados de vendas e negociações, crie funis de vendas e tenha uma visão clara das <strong> oportunidades </strong> de negócios e ações de marketing.
             </p>
           </div>
         </div>
@@ -339,7 +339,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <span>           
             Cadastro ilimitado de serviços:</span>
             <p>
-             Registre todos os serviços que sua empresa oferece, conforme a legislação, já com impostos, classificação e código de cada serviço.
+            <strong> Registre todos os serviços que sua empresa oferece, </strong> conforme a legislação, já com impostos, classificação e código de cada serviço.
             </p>
           </div>
 
@@ -349,7 +349,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             
             
             
-             Ganhe agilidade no cadastro de ordens de serviço, com preenchimento automático dos dados do cliente. Agende, imprima ou envie a ordem por e-mail para o cliente, tudo de forma simplificada.
+             Ganhe <strong> agilidade </strong> no cadastro de ordens de serviço, com <strong> preenchimento automático </strong> dos dados do cliente. Agende, imprima ou envie a ordem por e-mail para o cliente, tudo de forma simplificada.
             </p>
           </div>
 
@@ -357,7 +357,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <span> Acompanhamento dos Técnicos:</span>
             <p>
             
-            Cadastre técnicos e permita que cada um crie e imprima laudos personalizados para suas ordens de serviço. Além disso, você pode monitorar a performance e o andamento dos serviços de cada membro da sua equipe.
+            Cadastre técnicos e permita que cada um crie e imprima laudos <strong> personalizados </strong> para suas ordens de serviço. Além disso, você pode monitorar a performance e o andamento dos serviços de cada membro da sua equipe.
             </p>
           </div>
         </div>
@@ -385,7 +385,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
         </h4>
 
         <p>
-        Com o BLUE ERP, você conta com módulos para gerenciar seu fluxo de caixa, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
+        Com o BLUE ERP, você conta com <strong> módulos para gerenciar seu fluxo de caixa, </strong> realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma <strong> organização eficaz </strong> da sua <strong> gestão financeira.</strong>  Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
         </p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
@@ -403,7 +403,7 @@ Tenha a liberdade de cadastrar todos os serviços prestados por sua empresa conf
             <p>
             
 
-Gerencie o desempenho da sua equipe de vendas, controlando as vendas realizadas, os lançamentos de comissões e o percentual de metas atingidas. Você também pode administrar as permissões de acesso dos vendedores aos dados, garantindo maior controle sobre as informações.
+Gerencie o <strong>desempenho da sua equipe de vendas, </strong> controlando as vendas realizadas, os lançamentos de comissões e o percentual de metas atingidas. Você também pode <strong> administrar as permissões de acesso dos vendedores aos dados, </strong> garantindo maior controle sobre as informações.
             </p>
           </div>
 
@@ -429,7 +429,7 @@ Acompanhe a lucratividade do seu negócio com dados seguros e precisos! Oferecem
             <span>Faturamento em Lote</span>
             <p>
             
-Com esta ferramenta, você pode faturar múltiplos pedidos em apenas três etapas simples: emitir as respectivas notas fiscais, gerar os boletos e enviá-los por e-mail aos seus clientes – tudo de uma vez!
+Com esta ferramenta, você pode <strong> faturar múltiplos pedidos </strong> em apenas três etapas simples: <strong> emitir as respectivas notas fiscais, </strong> gerar os boletos e enviá-los por e-mail aos seus clientes – tudo de uma vez!
             </p>
           </div>
 
@@ -437,7 +437,7 @@ Com esta ferramenta, você pode faturar múltiplos pedidos em apenas três etapa
             <span>Faturamento Parcial de Pedidos</span>
             <p>
             
-A flexibilidade é uma das grandes vantagens do BLUE ERP! Nosso módulo financeiro permite que você fature os pedidos da forma que preferir, inclusive de forma parcial. Basta acessar o pedido, selecionar o valor pago e o status será automaticamente atualizado no seu financeiro.
+A <strong> flexibilidade </strong> é uma das grandes vantagens do BLUE ERP! Nosso <strong> módulo financeiro </strong> permite que você fature os pedidos da forma que preferir, inclusive de forma parcial. Basta acessar o pedido, selecionar o valor pago e o status será automaticamente atualizado no seu financeiro.
             </p>
           </div>
 
@@ -445,7 +445,7 @@ A flexibilidade é uma das grandes vantagens do BLUE ERP! Nosso módulo financei
             <span>Gestão de Contratos</span>
             <p>
             
-            Para quem presta serviços, como assistências técnicas que atendem outras empresas, o gerenciamento de contratos é essencial. Com o BLUE ERP, você pode criar contratos personalizados, com lançamentos financeiros automáticos e emissão de NFS-e, facilitando sua gestão de forma eficiente.
+            Para quem presta serviços, como assistências técnicas que atendem outras empresas, o <strong> gerenciamento de contratos </strong> é essencial. Com o BLUE ERP, você pode criar <strong> contratos personalizados,</strong> com lançamentos financeiros automáticos e emissão de NFS-e, facilitando sua gestão de forma eficiente.
 
             </p>
           </div>
@@ -469,7 +469,7 @@ A flexibilidade é uma das grandes vantagens do BLUE ERP! Nosso módulo financei
 
         <p>
 
-        Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas fiscais se torna um processo rápido e descomplicado, permitindo que você e sua equipe tenham mais tempo para oferecer um atendimento de qualidade e conquistar novos clientes. Configure os impostos necessários e emita seus documentos fiscais com a garantia de estar sempre em conformidade com a legislação vigente.
+        Com o <strong> módulo de Gestão Fiscal </strong> do BLUE ERP, a <strong> emissão de notas fiscais </strong> se  torna um processo rápido e descomplicado, permitindo que você e sua equipe tenham mais tempo para oferecer um atendimento de qualidade e conquistar novos clientes. Configure os impostos necessários e emita seus documentos fiscais com a garantia de estar sempre em conformidade com a legislação vigente.
         </p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
@@ -491,7 +491,7 @@ A flexibilidade é uma das grandes vantagens do BLUE ERP! Nosso módulo financei
             <span>  Emissão de NFS-e</span>
             <p>
           
-Com nosso sistema para emissão de Nota Fiscal de Serviço Eletrônica (NFS-e), é possível integrar ordens de serviço e emitir documentos fiscais rapidamente com apenas alguns cliques. E não se preocupe, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre evoluindo para oferecer as melhores ferramentas para sua empresa.
+Com nosso sistema para <strong> emissão de Nota Fiscal </strong> de Serviço Eletrônica (NFS-e), é possível integrar ordens de serviço e emitir documentos fiscais <strong> rapidamente </strong> com apenas alguns cliques. E não se preocupe, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre evoluindo para oferecer as melhores ferramentas para sua empresa.
             </p>
           </div>
 
@@ -499,7 +499,7 @@ Com nosso sistema para emissão de Nota Fiscal de Serviço Eletrônica (NFS-e), 
             <span>Emissão de NFC-e e CF-e SAT</span>
             <p>
             
-Para empresas que, além de prestar serviços, também comercializam produtos, como muitas assistências técnicas, a emissão de NFC-e ou CF-e SAT é fundamental. Com o PDV e o módulo fiscal do BLUE ERP, você pode emitir esses e outros documentos fiscais de forma ágil, basta começar!
+Para empresas que, além de prestar serviços, também comercializam produtos, como muitas assistências técnicas, a <strong> emissão de NFC-e ou CF-e SAT </strong>  é fundamental. Com o PDV e o módulo fiscal do BLUE ERP, você pode  emitir esses e outros documentos fiscais de forma ágil, basta começar!
             </p>
           </div>
 
@@ -507,7 +507,7 @@ Para empresas que, além de prestar serviços, também comercializam produtos, c
             <span>Configurações de ICMS</span>
             <p>
             
-            O BLUE ERP oferece facilidades para manter sua empresa em conformidade com o Fisco. Entre suas funcionalidades, estão campos que permitem configurar valores complexos de ICMS Efetivo, ICMS Desonerado e todas as informações sobre Substituição Tributária (ST).
+            O BLUE ERP oferece <strong> facilidades para manter sua empresa em conformidade com o Fisco. </strong>  Entre suas funcionalidades, estão campos que permitem configurar valores complexos de <strong>  ICMS Efetivo, ICMS Desonerado e todas as informações sobre Substituição Tributária (ST).</strong>
             </p>
           </div>
 
@@ -515,7 +515,7 @@ Para empresas que, além de prestar serviços, também comercializam produtos, c
             <span>Facilitador de SPED Fiscal</span>
             <p>
             
-            Com o recurso de SPED Fiscal do BLUE ERP, você gera os arquivos com base nas entradas de XML dos fornecedores e nas saídas de produtos a partir das notas fiscais emitidas, incluindo informações dos Blocos K e H.
+            Com o recurso de <strong> SPED Fiscal do BLUE ERP,</strong> você gera os arquivos com base nas entradas de <strong> XML </strong> dos fornecedores e nas saídas de produtos a partir das notas fiscais emitidas, incluindo informações dos Blocos K e H.
             </p>
           </div>
         </div>

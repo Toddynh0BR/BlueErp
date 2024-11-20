@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 import backGeral from "./assets/backGeral.svg";
-import backSite from "./assets/backSite.svg";
+import BackSite from "./assets/backSite.svg";
 
 export const Container = styled.div`
 background-color: #FFFFFF;
 `
 
 export const Main = styled.main`
-height: 100vh;
+height: 110vh;
 width: 100%;
 
 background-image: url(${backGeral});
@@ -103,7 +103,7 @@ padding-top: 5rem;
 .Center {
  width: 100%;
 
- padding: 0rem 20rem;
+padding: 0 10rem;
  
  justify-content: space-between;
  align-items: center;
@@ -163,23 +163,25 @@ padding-top: 5rem;
  width: 100%;
  
  background-color: #7400cc8c;
- padding: 0rem 20rem;
+padding: 0 10rem;
  position: absolute;
  bottom: 0;
 
  justify-content: space-between;
  align-items: flex-start;
  display: flex;
+ gap: 1rem;
 
  .card {
-  height: 8rem;
+  height: 12rem;
   width: 17rem;
 
-  margin-top: -3rem;
+  margin-top: -6rem;
   background-color: #FFFFFF;
   border-radius: .5rem;
   padding: 2rem;
 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -188,6 +190,11 @@ padding-top: 5rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: #7300cc;
+
+  svg {
+    height: 4rem;
+    width: 4rem;
+  }
 
   &:hover {
    cursor: pointer;
@@ -265,7 +272,7 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 
-padding: 0rem 20rem;
+padding: 0 10rem;
 
 .left {
  width: 45%;
@@ -356,7 +363,7 @@ align-items: center;
 display: flex;
 
 
-padding: 0rem 20rem;
+padding: 0 10rem;
 
 .left {
  .title {
@@ -510,12 +517,24 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 
-padding: 0rem 20rem;
+padding: 0 10rem;
+position: relative;
 
-background-image: url(${backSite});
+.back {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+background-image: url(${BackSite});
+background-size: cover;
 
 .left {
-
+ z-index: 2;
  img {
   transform: scale(85%);
  }
@@ -525,6 +544,8 @@ background-image: url(${backSite});
  flex-direction: column;
  display: flex;
  gap: 1rem;
+
+ z-index: 2;
 
  h2 {
   font-weight: 400;
@@ -600,3 +621,118 @@ background-image: url(${backSite});
   }
 }
 ` 
+
+export const Main5 = styled.div`
+min-height: 100vh;
+width: 100%;
+
+justify-content: space-between;
+align-items: center;
+display: flex;
+gap: 5rem;
+
+padding: 0 5rem;
+position: relative;
+
+.back {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+background-image: url(${BackSite});
+background-size: cover;
+
+.left {
+ z-index: 2;
+ img {
+  transform: scale(85%);
+ }
+}
+
+.right {
+ flex-direction: column;
+ display: flex;
+ gap: 1rem;
+
+ z-index: 2;
+
+ h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #FFFFFF;
+
+  margin-bottom: 2rem;
+ }
+
+ h4 {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+
+  margin-top: 1rem;
+ }
+
+ p {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+ }
+
+ button {
+  width: 30rem;
+  height: 6rem;
+
+  margin-top: 2rem;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
+  border: 1px solid #7300cc;  
+
+  border-radius: 6rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #7300cc; 
+
+  &:hover {
+   background-color: #7300cc;
+   border: 1px solid #FFFFFF;
+   transform: scale(105%);
+   cursor: pointer;
+   color: #FFFFFF;
+  }
+ }
+}
+
+@media (max-width: 450px) {
+  justify-content: flex-start;
+  flex-direction: column;
+
+  min-height: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  
+  .left {
+   display: none;
+  }
+
+  .right {
+    align-items: center;
+   h2 {
+    font-size: 2rem;
+   }
+
+   h4 {
+    font-size: 1.7rem;
+   }
+
+   p {
+    font-size: 1.2rem;
+   }
+  }
+}
+` 
+

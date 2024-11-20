@@ -215,220 +215,167 @@ export function A5(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de vendas e ordens de serviços
-        </span>
+  <div className="right">
+    <span>Gestão de vendas e ordens de serviços</span>
 
-        <h4>
-        Quero vender mais
-        </h4>
+    <h4>Quero vender mais</h4>
 
+    <p>
+      Implementar um software para a <strong>prestação de serviços</strong> é essencial para empresas que desejam crescer, com uma <strong>estrutura robusta</strong> para controlar tanto a venda de produtos quanto a prestação de serviços. Com os recursos do módulo de vendas do <strong>BLUE ERP</strong>, você pode expandir a visibilidade da sua empresa de assistência técnica de eletrodomésticos, tornando o gerenciamento mais eficiente e integrado, facilitando o controle de todas as operações.
+    </p>
 
-        <p>
-        Implementar um software para a prestação de serviços é essencial para empresas que desejam crescer, com uma estrutura robusta para controlar tanto a venda de produtos quanto a prestação de serviços. Com os recursos do módulo de vendas do **BLUE ERP**, você pode expandir a visibilidade da sua empresa de assistência técnica de eletrodomésticos, tornando o gerenciamento mais eficiente e integrado, facilitando o controle de todas as operações.
-        </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2><strong>Gerencie suas vendas</strong> de um jeito simples!</h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>PDV Frente de Caixa</span>
+      <p>
+        Para realizar vendas diretas ao consumidor final, você pode utilizar o <strong>PDV Frente de Caixa</strong> do BLUE ERP. Com ele, é possível <strong>importar orçamentos</strong> e realizar vendas diretas, emitindo NFC-e ou CF-e SAT de forma rápida e eficiente.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>
-        Gerencie suas vendas</strong> de um jeito simples!
-</h2>
+    <div className="text">
+      <span>Controle de Pedidos e Orçamentos</span>
+      <p>
+        Crie <strong>orçamentos</strong> e envie-os por e-mail para seus clientes. Após a aprovação, os orçamentos são convertidos em pedidos, gerando lançamentos financeiros e a <strong>baixa dos itens no estoque</strong>. Com o BLUE ERP, todos os setores da sua empresa de vendas e manutenção de equipamentos estão interligados, tornando o processo de vendas muito mais simples e ágil.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>PDV Frente de Caixa</span>
-            <p>
-            
-            Para realizar vendas diretas ao consumidor final, você pode utilizar o PDV Frente de Caixa do BLUE ERP. Com ele, é possível importar orçamentos e realizar vendas diretas, emitindo NFC-e ou CF-e SAT de forma rápida e eficiente.
-            </p>
-          </div>
+    <div className="text">
+      <span>Controle de Ordens de Serviço</span>
+      <p>
+        Aumente a <strong>agilidade</strong> e eficiência ao cadastrar ordens de serviço no BLUE ERP. O sistema preenche automaticamente os documentos com os dados do cliente cadastrado, permitindo incluir todas as <strong>informações necessárias</strong>, agendar serviços, e até mesmo imprimir ou enviar a ordem de serviço por e-mail ao cliente.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span>Controle de Pedidos e Orçamentos</span>
-            <p>
-            
-Crie orçamentos e envie-os por e-mail para seus clientes. Após a aprovação, os orçamentos são convertidos em pedidos, gerando lançamentos financeiros e a baixa dos itens no estoque. Com o BLUE ERP, todos os setores da sua empresa de vendas e manutenção de equipamentos estão interligados, tornando o processo de vendas muito mais simples e ágil.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> Controle de Ordens de Serviço</span>
-            <p>
-           
-            Aumente a agilidade e eficiência ao cadastrar ordens de serviço no BLUE ERP. O sistema preenche automaticamente os documentos com os dados do cliente cadastrado, permitindo incluir todas as informações necessárias, agendar serviços, e até mesmo imprimir ou enviar a ordem de serviço por e-mail ao cliente.
-            </p>
-          </div>
-        </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Engajamento com o cliente</span>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <h4>Quero <strong>potencializar minhas vendas</strong></h4>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Engajamento com o cliente
-        </span>
+    <p>
+      O engajamento de clientes é crucial para consolidar a <strong>reputação</strong> e melhorar a imagem da sua empresa de eletrodomésticos no mercado. Para ajudar nesse processo, o BLUE ERP oferece diversos recursos que você pode aplicar em sua loja, com o objetivo de <strong>atrair novos clientes</strong> e fidelizar os existentes, garantindo um relacionamento duradouro e de confiança.
+    </p>
 
-        <h4>
-        Quero 
-        <strong>  potencializar minhas vendas</strong>
-        </h4>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <p>
-        O engajamento de clientes é crucial para consolidar a reputação e melhorar a imagem da sua empresa de eletrodomésticos no mercado. Para ajudar nesse processo, o BLUE ERP oferece diversos recursos que você pode aplicar em sua loja, com o objetivo de atrair novos clientes e fidelizar os existentes, garantindo um relacionamento duradouro e de confiança.
-        </p>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={true}>
+  <h2>Mais opções para <strong>impulsionar o seu negócio!</strong></h2>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <div className="texts">
+    <div className="text">
+      <span>BLUE Loja</span>
+      <p>
+        Crie uma <strong>loja virtual personalizada</strong> com o BLUE Loja para sua empresa! Com essa solução, seus clientes podem acessar seu site e fazer pedidos diretamente, facilitando a separação dos itens comprados e o envio para eles. Além de tornar o processo de venda mais ágil, você tem <strong>controle completo sobre o estoque</strong>, financeiro e fiscal de forma prática e integrada.
+      </p>
+    </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+    <div className="text">
+      <span>Controle por Cashback</span>
+      <p>
+        A prática de <strong>Cashback</strong> está se tornando cada vez mais comum em diversos segmentos de venda. Ao adquirir um item na sua loja, o cliente paga o valor total e recebe um <strong>crédito para utilizar em compras futuras</strong>. O BLUE ERP oferece esse recurso, permitindo que você o implemente facilmente em sua loja de eletrodomésticos!
+      </p>
+    </div>
 
-      <S.Main4 data-color={true}>
-        <h2>Mais opções para <strong> impulsionar o seu negócio!</strong>
-        </h2>
+    <div className="text">
+      <span>Tabelas de Preço</span>
+      <p>
+        Que tal aplicar <strong>tabelas de preços promocionais</strong> para mercadorias que estão encalhadas no estoque? Com o BLUE ERP, você pode aplicar preços diferenciados para <strong>clientes</strong> ou criar promoções, tornando o relacionamento com seus clientes mais próximo e incentivando a fidelidade.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            BLUE Loja</span>
-            <p>
-           
-Crie uma loja virtual personalizada com o BLUE Loja para sua empresa! Com essa solução, seus clientes podem acessar seu site e fazer pedidos diretamente, facilitando a separação dos itens comprados e o envio para eles. Além de tornar o processo de venda mais ágil, você tem controle completo sobre o estoque, financeiro e fiscal de forma prática e integrada.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> Controle por Cashback</span>
-            <p>
-            
-            
-           
-            A prática de Cashback está se tornando cada vez mais comum em diversos segmentos de venda. Ao adquirir um item na sua loja, o cliente paga o valor total e recebe um crédito para utilizar em compras futuras. O BLUE ERP oferece esse recurso, permitindo que você o implemente facilmente em sua loja de eletrodomésticos!
-            </p>
-          </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-          <div className="text">
-            <span> Tabelas de Preço</span>
-            <p>
-            
-           
-            Que tal aplicar tabelas de preços promocionais para mercadorias que estão encalhadas no estoque? Com o BLUE ERP, você pode aplicar preços diferenciados para clientes ou criar promoções, tornando o relacionamento com seus clientes mais próximo e incentivando a fidelidade.
-            </p>
-          </div>
-        </div>
+  <div className="right">
+    <span>Gestão de estoque</span>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <h4>Quero <strong>gerenciar estoque</strong></h4>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+    <p>
+      Com o BLUE ERP, você conta com módulos para gerenciar seu <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
+    </p>
 
-       <div className="right">
-        <span>
-        Gestão de estoque
-        </span>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <h4>
-        Quero 
-        <strong>  gerenciar estoque</strong>
-        </h4>
+<S.Main4 data-color={false}>
+  <h2><strong>Para você não perder mais vendas</strong> por falta de mercadorias!</h2>
 
+  <div className="texts">
+    <div className="text">
+      <span>Entrada de Estoque</span>
+      <p>
+        Com o BLUE ERP, o controle de estoque para as compras realizadas pela sua assistência técnica se torna mais simples. A funcionalidade de <strong>entrada de mercadorias</strong> permite importar automaticamente as notas fiscais emitidas pelos fornecedores, otimizando recursos e ajudando no crescimento do seu negócio.
+      </p>
+    </div>
 
-        <p>
-        Com o BLUE ERP, você conta com módulos para gerenciar seu fluxo de caixa, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
-        </p>
+    <div className="text">
+      <span>Código de Barras</span>
+      <p>
+        O controle de produtos por <strong>código de barras</strong> facilita significativamente a gestão de estoque, especialmente em lojas de cosméticos e perfumarias. Com o uso de leitores de código de barras, você pode realizar movimentações internas de entrada e saída entre depósitos e durante as vendas de forma rápida e precisa.
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>Relatórios para Controle de Estoque</span>
+      <p>
+        Acompanhe o saldo do estoque do seu negócio com informações seguras e precisas. O BLUE ERP disponibiliza um <strong>relatório completo</strong> que descreve todas as movimentações de entrada e saída dos produtos, garantindo dados confiáveis para sua tomada de decisão e planejamento financeiro.
+      </p>
+    </div>
+  </div>
 
-      
-      </S.Main3>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-      <S.Main4 data-color={false}>
-        <h2><strong>Para você não perder mais vendas </strong> por falta de mercadorias!</h2>
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Gestão Fiscal e Financeira</span>
 
-        <div className="texts">
-          <div className="text">
-            <span>Entrada de Estoque</span>
-            <p>
-            
-            Com o BLUE ERP, o controle de estoque para as compras realizadas pela sua assistência técnica se torna mais simples. A funcionalidade de entrada de mercadorias permite importar automaticamente as notas fiscais emitidas pelos fornecedores, otimizando recursos e ajudando no crescimento do seu negócio.
-            </p>
-          </div>
+    <h4>Quero <strong>gestão fiscal e financeira completa</strong></h4>
 
-          <div className="text">
-            <span> Código de Barras</span>
-            <p>
-           
-            O controle de produtos por código de barras facilita significativamente a gestão de estoque, especialmente em lojas de cosméticos e perfumarias. Com o uso de leitores de código de barras, você pode realizar movimentações internas de entrada e saída entre depósitos e durante as vendas de forma rápida e precisa.
-            </p>
-          </div>
+    <p>
+      Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de <strong>notas fiscais</strong> se tornou um processo simples e ágil. Além disso, você tem à disposição módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, gerenciar centros de custos e elaborar planos de contas, tudo para otimizar a organização da sua gestão financeira.
+    </p>
 
-          <div className="text">
-            <span> Relatórios para Controle de Estoque</span>
-            <p>
-           
-Acompanhe o saldo do estoque do seu negócio com informações seguras e precisas. O BLUE ERP disponibiliza um relatório completo que descreve todas as movimentações de entrada e saída dos produtos, garantindo dados confiáveis para sua tomada de decisão e planejamento financeiro.
-            </p>
-          </div>
-        </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Gestão Fiscal e Financeira
-        </span>
-
-        <h4>
-        Quero 
-        <strong>  gestão fiscal e financeira completa</strong>
-        </h4>
-
-
-        <p>
-
-        Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas fiscais se tornou um processo simples e ágil. Além disso, você tem à disposição módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, gerenciar centros de custos e elaborar planos de contas, tudo para otimizar a organização da sua gestão financeira.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
       <S.Main4 data-color={true}>
         <h2><strong>Descomplique! </strong> Gerencie seu

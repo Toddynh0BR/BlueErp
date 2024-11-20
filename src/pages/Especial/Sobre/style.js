@@ -4,7 +4,8 @@ import Back1 from "../assets/FundoEspecial.jpg"
 import Back2 from "../assets/FundoEspecial2.jpg";
 
 export const Container = styled.div`
-
+max-width: 100%;
+overflow: hidden;
 `
 
 export const Main = styled.main`
@@ -52,7 +53,14 @@ width: 100%;
 
 position: absolute;
 bottom: 6rem;
+left: 0;
 
+align-items: center;
+display: flex;
+
+img {
+ width: 100%;
+}
 }
 
 .balls {
@@ -134,7 +142,17 @@ bottom: 6rem;
 }
 
 .CloudBottom {
+width: 100%;
+overflow: hidden;
+
+align-items: center;
+display: flex;
+
+bottom: 6rem;
+img {
 width: 400%;
+margin-left: -150%;
+}
 }
 }
 `
@@ -443,6 +461,31 @@ width: 100%;
  }
 }
 
+.three {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+
+  margin-top: 10rem;
+  padding: 0 10rem;
+
+  div {
+    text-align: center;
+
+    span {
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: #7300cc;
+
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #5a5a5a;
+    }
+  }
+}
+
 @media (max-width: 450px){
 
 .slider {
@@ -454,6 +497,14 @@ width: 100%;
    text-align: center;
    font-size: 2.5rem;
   }
+}
+
+.three {
+  flex-direction: column;
+  gap: 2rem;
+
+  margin-top: 5rem;
+  padding: 0 2rem;
 }
 }
 `

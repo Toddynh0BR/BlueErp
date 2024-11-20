@@ -7,7 +7,7 @@ export const Container = styled.div`
 `
 
 export const Main = styled.main`
-height: 100vh;
+height: 110vh;
 width: 100%;
 
 background-image: url(${backGeral});
@@ -102,7 +102,7 @@ padding-top: 5rem;
 .Center {
  width: 100%;
 
- padding: 0rem 20rem;
+ padding: 0rem 10rem;
  
  justify-content: space-between;
  align-items: center;
@@ -162,7 +162,7 @@ padding-top: 5rem;
  width: 100%;
  
  background-color: #7400cc8c;
- padding: 0rem 20rem;
+ padding: 0rem 10rem;
  position: absolute;
  bottom: 0;
 
@@ -172,14 +172,15 @@ padding-top: 5rem;
  gap: 1rem;
 
  .card {
-  height: 8rem;
+  height: 12rem;
   width: 17rem;
 
-  margin-top: -3rem;
+  margin-top: -6rem;
   background-color: #FFFFFF;
   border-radius: .5rem;
   padding: 2rem;
 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -188,6 +189,11 @@ padding-top: 5rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: #7300cc;
+
+  svg {
+    height: 4rem;
+    width: 4rem;
+  }
 
   &:hover {
    cursor: pointer;
@@ -265,7 +271,7 @@ justify-content: space-between;
 align-items: center;
 display: flex;
 
-padding: 0rem 20rem;
+padding: 0rem 10rem;
 
 .left {
  .title {

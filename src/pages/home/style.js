@@ -383,20 +383,12 @@ display: flex;
 
   background-color: #FFFFFF;
   border-radius: 1rem;
-  padding: 3rem 2rem;
+  padding:  1rem 2rem;
 
   .Icon {
-   width: 13rem;
-   margin-bottom: .5rem;
+   width: 18rem;
   }
-  .Mobi {
-   width: 11rem;
-   margin-bottom: .0rem;
-  }
-  .Site {
-   width: 9rem;
-   margin-bottom: .2rem;
-  }
+
   span {
    color: rgba(0,0,198,1);
    font-size: 1.4rem;
@@ -407,6 +399,7 @@ display: flex;
   ul {
    width: 100%;
 
+   margin-top: -1rem;
    flex-direction: column;
    display: flex;
    gap: 1rem;

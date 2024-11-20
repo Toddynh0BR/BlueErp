@@ -210,229 +210,177 @@ export function A10(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de serviços e contrato
-        </span>
+  <div className="right">
+    <span>Gestão de serviços e contrato</span>
 
-        <h4>
-        Quero organizar minha 
-       <strong>  gestão de Serviços</strong>
-       </h4>
+    <h4>
+      Quero organizar minha <strong>gestão de Serviços</strong>
+    </h4>
 
-        <p>
-        Implementar um software para a prestação de serviço é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar serviços, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
-        </p>
+    <p>
+      Implementar um <strong>software para a prestação de serviço</strong> é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar <strong>serviços, vendas, contratos</strong> e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
+    </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-      
-      </S.Main3>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Gerencie seus serviços </strong> de um jeito simples!
+  </h2>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        
-<strong>
-Gerencie seus serviços </strong> de um jeito simples!
+  <div className="texts">
+    <div className="text">
+      <span>Controle de Ordens de Serviços</span>
+      <p>
+        Ganhe <strong>agilidade e eficiência</strong> cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado e você pode incluir todas as <strong>informações desejadas</strong>, podendo agendar serviços, imprimir ou enviar a OS por <strong>e-mail</strong> para o cliente.
+      </p>
+    </div>
 
-</h2>
+    <div className="text">
+      <span>Tipos de Contratos</span>
+      <p>
+        Um dos diversos benefícios do BLUE ERP é poder criar <strong>tipos de contratos personalizados</strong>! Na empresa de instalação e manutenção elétrica, sabemos que há diversos serviços prestados, como <strong>manutenção</strong> e instalação de painéis, máquinas e equipamentos industriais. Pensando nisso, nosso ERP permite que você crie os tipos de contratos específicos para cada execução.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span> Controle de Ordens de Serviços</span>
-            <p>
-            
-           
-            Ganhe agilidade e eficiência cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado e você pode incluir todas as informações desejadas, podendo agendar serviços, imprimir ou enviar a OS por e-mail para o cliente.
-            </p>
-          </div>
+    <div className="text">
+      <span>Criação do Contrato</span>
+      <p>
+        Com os tipos de contratos já configurados no sistema, ficou muito mais fácil realizar a <strong>geração do seu contrato</strong>. É possível definir o contratante, as <strong>datas de duração do contrato</strong>, valor total e das parcelas e até a comissão do técnico ou vendedor. Dessa forma, ao imprimir o contrato cadastrado, automaticamente os dados inseridos serão informados na impressão, tornando o processo muito mais <strong>rápido</strong>!
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span> Tipos de Contratos</span>
-            <p>
-           
-Um dos diversos benefícios do BLUE ERP é poder criar tipos de contratos personalizados! Na empresa de instalação e manutenção elétrica, sabemos que há diversos serviços prestados, como manutenção e instalação de painéis, máquinas e equipamentos industriais. Pensando nisso, nosso ERP permite que você crie os tipos de contratos específicos para cada execução.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> Criação do Contrato</span>
-            <p>
-           
-Com os tipos de contratos já configurados no sistema, ficou muito mais fácil realizar a geração do seu contrato. É possível definir o contratante, as datas de duração do contrato, valor total e das parcelas e até a comissão do técnico ou vendedor. Dessa forma, ao imprimir o contrato cadastrado, automaticamente os dados inseridos serão informados na impressão, tornando o processo muito mais rápido!
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Agenda de tarefas e controle de oportunidades</span>
 
+    <h4>
+      Quero controlar minha <strong>agenda de tarefas</strong> e ter <strong>o controle de oportunidades</strong>
+    </h4>
 
-            </p>
-          </div>
-        </div>
+    <p>
+      O BLUE ERP conta com a <strong>integração das ferramentas do Google</strong>. Essa integração traz mais facilidade ao seu dia a dia empresarial, gerindo as <strong>tarefas dos colaboradores</strong>, como compromissos com clientes, de forma organizada. Através do Pipe do BLUE ERP você tem a facilidade de manter sua equipe informada para que aproveitem os <strong>contatos</strong> e você ainda acompanha as negociações em um só lugar.
+    </p>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       
-Agenda de tarefas e controle de oportunidades
-        </span>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <h4>
-        Quero controlar minha 
-       <strong>   agenda de tarefas </strong>
-       e ter
-       <strong>  o controle de oportunidades </strong>
-       </h4>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-        <p>
-        O BLUE ERP conta com a integração das ferramentas do Google. Essa integração traz mais facilidade ao seu dia a dia empresarial, gerindo as tarefas dos colaboradores, como compromissos com clientes, de forma organizada. Através do Pipe do BLUE ERP você tem a facilidade de manter sua equipe informada para que aproveitem os contatos e você ainda acompanha as negociações em um só lugar.
-        </p>
+<S.Main4 data-color={true}>
+  <h2>Para você ter mais <strong>controle sobre seus negócios!</strong></h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <div className="texts">
+    <div className="text">
+      <span>Calendário de Tarefa</span>
+      <p>
+        O BLUE ERP oferece o recurso de <strong>agenda de tarefas</strong> que pode ser sincronizada com a <strong>Agenda Google</strong>, caso essa tenha sido configurada no sistema. Nesse processo de agendamento, é possível definir <strong>tarefas e lembretes</strong> dos colaboradores da sua organização, com o intuito de manter um melhor controle das atividades a serem realizadas.
+      </p>
+    </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+    <div className="text">
+      <span>CRM</span>
+      <p>
+        A ferramenta de <strong>oportunidades</strong> registra os contatos realizados com os clientes e seu objetivo principal é auxiliar na <strong>fidelização de clientes</strong>, através do entendimento de suas necessidades e expectativas. Com isso, sua empresa ficará mais organizada e irá identificar e aproveitar as melhores <strong>oportunidades de venda</strong>!
+      </p>
+    </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+    <div className="text">
+      <span>Pipe CRM</span>
+      <p>
+        Com o <strong>Pipe do BLUE ERP</strong>, é fácil manter sua equipe focada nas oportunidades de maior valor. Você pode gerenciar seu Pipe alinhado aos seus negócios para que as equipes de vendas priorizem os <strong>prospects existentes</strong> e potenciais clientes mais importantes.
+      </p>
+    </div>
+  </div>
 
-      <S.Main4 data-color={true}>
-        <h2>Para você ter mais <strong> controle sobre seus negócios!</strong>
-        </h2>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Calendário de Tarefa</span>
-            <p>
-          
-            O BLUE ERP oferece o recurso de agenda de tarefas que pode ser sincronizada com a Agenda Google, caso essa tenha sido configurada no sistema. Nesse processo de agendamento, é possível definir tarefas e lembretes dos colaboradores da sua organização, com o intuito de manter um melhor controle das atividades a serem realizadas.
-            </p>
-          </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-          <div className="text">
-            <span>CRM</span>
-            <p>
-            
-A ferramenta de oportunidades registra os contatos realizados com os clientes e seu objetivo principal é auxiliar na fidelização de clientes, através do entendimento de suas necessidades e expectativas. Com isso, sua empresa ficará mais organizada e irá identificar e aproveitar as melhores oportunidades de venda!
+  <div className="right">
+    <span>Quero gerenciar meu financeiro</span>
 
+    <h4>
+      Quero <strong>gerenciar o financeiro</strong> da minha empresa
+    </h4>
 
+    <p>
+      Com essa ferramenta, em 3 passos simples você pode <strong>faturar diversos pedidos</strong>, emitir suas respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por <strong>e-mail</strong> a seus clientes. Tudo isso, de uma só vez!
+    </p>
 
-            </p>
-          </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-          <div className="text">
-            <span>Pipe CRM</span>
-            <p>
-            
-            Com o Pipe do BLUE ERP, é fácil manter sua equipe focada nas oportunidades de maior valor. Você pode gerenciar seu Pipe alinhado aos seus negócios para que as equipes de vendas priorizem os prospects existentes e potenciais clientes mais importantes.
-            </p>
-          </div>
-        </div>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Descomplique!</strong> Gerencie seu financeiro de forma simples!
+  </h2>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <div className="texts">
+    <div className="text">
+      <span>Geração de Boletos e de Credenciadora</span>
+      <p>
+        Além de ser possível emitir boletos no BLUE ERP pela sua conta bancária, temos o recurso <strong>BLUE Bank</strong> que conta com a automação de processos como a <strong>geração de boletos</strong> e recebimentos no cartão de crédito e débito, além do envio de <strong>links de pagamento</strong>.
+      </p>
+    </div>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+    <div className="text">
+      <span>Cobrança de Cliente Inadimplente</span>
+      <p>
+        Conhecer bem o cliente e ter informações atualizadas sobre o seu <strong>comportamento de pagamento</strong> são medidas fundamentais para reduzir a inadimplência. Com o BLUE ERP, será possível gerenciar os <strong>clientes devedores</strong> e manter o contato com cada um deles diretamente por envio de <strong>e-mails automáticos</strong>!
+      </p>
+    </div>
 
-       <div className="right">
-        <span>
-        Quero gerenciar meu financeiro
-        </span>
+    <div className="text">
+      <span>Faturar Pedidos em Lote</span>
+      <p>
+        Com essa ferramenta, em 3 passos simples você pode <strong>faturar diversos pedidos</strong>, emitir suas respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por <strong>e-mail</strong> a seus diferentes clientes. Tudo isso, de uma só vez! Basta realizar a configuração dos dados no sistema BLUE ERP e esse processo facilitará os processos em sua empresa.
+      </p>
+    </div>
+  </div>
 
-        <h4>
-        Quero  
-       <strong>  gerenciar o financeiro </strong>
-       da minha empresa
-       </h4>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-        <p>
-        Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas notas fiscais, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
-        </p>
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Quero gestão fiscal completa</span>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <h4>
+      Quero uma <strong>gestão fiscal completa</strong>
+    </h4>
 
-      
-      </S.Main3>
+    <p>
+      Com o nosso sistema para emissão de <strong>nota fiscal de serviço eletrônica</strong> (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns <strong>cliques</strong>. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores <strong>ferramentas</strong> à sua empresa.
+    </p>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        <strong>Descomplique! </strong> Gerencie seu
-        financeiro de forma simples!
-</h2>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span> Geração de Boletos e de Credenciadora</span>
-            <p>
-           
-            Além de ser possível emitir boletos no BLUE ERP pela sua conta bancária, temos o recurso BLUE Bank que conta com a automação de processos como a geração de boletos e recebimentos no cartão de crédito e débito, além do envio de links de pagamento.
-            </p>
-          </div>
-
-          <div className="text">
-            <span> Cobrança de Cliente Inadimplente</span>
-            <p>
-           
-            Conhecer bem o cliente e ter informações atualizadas sobre o seu comportamento de pagamento são medidas fundamentais para reduzir a inadimplência. Com o BLUE ERP, será possível gerenciar os clientes devedores e manter o contato com cada um deles diretamente por envio de e-mails automáticos!
-            </p>
-          </div>
-
-          <div className="text">
-            <span> Faturar Pedidos em Lote</span>
-            <p>
-           
-            Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas notas fiscais, gerar boletos e enviá-los por e-mail a seus diferentes clientes. Tudo isso, de uma só vez! Basta realizar a configuração dos dados no sistema BLUE ERP e esse processo facilitará os processos em sua empresa.
-            </p>
-          </div>
-        </div>
-
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Quero gestão fiscal completa
-        </span>
-
-        <h4>
-        Quero uma 
-       <strong>  gestão fiscal completa </strong>
-       </h4>
-
-        <p>
-        Com o nosso sistema para emissão de nota fiscal de serviço eletrônica (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns cliques. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores ferramentas à sua empresa.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
+</S.Main3>
 
       <S.Main4 data-color={true}>
         <h2><strong>Descomplique! </strong> Faça a gestão fiscal mais simples e organizada com a BLUE ERP.</h2>

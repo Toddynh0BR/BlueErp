@@ -212,163 +212,120 @@ export function A12(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Quero gerir a produção
-        </span>
+  <div className="right">
+    <span>Quero gerir a produção</span>
+    <h4>Os recursos certos <strong>para a sua empresa de produção de alimentos decolar!</strong></h4>
+    <p>
+      Independentemente do <strong>porte da sua empresa de confecção</strong>, o Blue ERP oferece módulos completos que permitem gerenciar todas as etapas do processo, desde a <strong>compra de insumos até a produção</strong>, venda e entrega dos produtos finalizados.
+    </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        
-        <h4>
-        Os recursos certos 
-       <strong>   para a sua empresa de produção de alimentos decolar!</strong>
-       </h4>
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
-        <p>
-        Independentemente do porte da sua empresa de confecção, o Blue ERP oferece módulos completos que permitem gerenciar todas as etapas do processo, desde a compra de insumos até a produção, venda e entrega dos produtos finalizados.
-        </p>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2>Gerencie a produção dos alimentos e seus insumos de um jeito simples!</h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>Controle de Lote e Validade</span>
+      <p>
+        Para vender produtos alimentícios <strong>controlados por lotes</strong> e <strong>validades</strong>, é essencial contar com um ERP que armazene essas informações e facilite os processos de venda e produção. Com o Blue ERP, você tem a <strong>segurança de que essas informações estão sempre atualizadas</strong> e acessíveis, com relatórios detalhados que auxiliam no gerenciamento e no controle.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        Gerencie a produção dos alimentos e seus insumos
-de um jeito simples!
-</h2>
+    <div className="text">
+      <span>Produtos Compostos</span>
+      <p>
+        Um grande benefício de usar um ERP especializado no seu segmento é a possibilidade de cadastrar até mesmo os <strong>insumos utilizados na produção de alimentos</strong>. Com o Blue ERP, você pode registrar a quantidade exata de <strong>insumos</strong> que compõem os produtos alimentícios fabricados pela sua empresa, garantindo um controle detalhado e eficiente de sua produção.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Controle de Lote e Validade</span>
-            <p>
-          
+    <div className="text">
+      <span>KIT de Produto</span>
+      <p>
+        Com o Blue ERP, é possível cadastrar produtos como <strong>KITs</strong>, onde os insumos necessários para a produção desses KITs são automaticamente informados nas <strong>vendas e Ordens de Produção</strong>. Isso otimiza significativamente o processo de faturamento e fabricação, tornando a gestão de <strong>estoque e produção</strong> mais ágil e precisa.
+      </p>
+    </div>
+  </div>
 
-Para vender produtos alimentícios controlados por lotes e validades, é essencial contar com um ERP que armazene essas informações e facilite os processos de venda e produção. Com o Blue ERP, você tem a segurança de que essas informações estão sempre atualizadas e acessíveis, com relatórios detalhados que auxiliam no gerenciamento e no controle.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> Produtos Compostos</span>
-            <p>
-           
-Um grande benefício de usar um ERP especializado no seu segmento é a possibilidade de cadastrar até mesmo os insumos utilizados na produção de alimentos. Com o Blue ERP, você pode registrar a quantidade exata de insumos que compõem os produtos alimentícios fabricados pela sua empresa, garantindo um controle detalhado e eficiente de sua produção.
-            </p>
-          </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Quero vender mais</span>
+    <h4>Para isso, nada melhor que contar com <strong>ferramentas que impulsionam a sua loja de produtos alimentícios!</strong></h4>
+    <p>
+      Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a <strong>visibilidade da sua loja de produtos alimentícios</strong>, oferecendo um frente de caixa mais ágil e facilitando o acesso dos clientes aos produtos que você comercializa, seja por <strong>loja virtual</strong> ou catálogo online. O sistema permite aplicar preços diferenciados e realizar toda a <strong>gestão da sua equipe de vendas</strong>, garantindo maior controle e eficiência no processo.
+    </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-          <div className="text">
-            <span>  KIT de Produto</span>
-            <p>
-          
-            Com o Blue ERP, é possível cadastrar produtos como KITs, onde os insumos necessários para a produção desses KITs são automaticamente informados nas vendas e Ordens de Produção. Isso otimiza significativamente o processo de faturamento e fabricação, tornando a gestão de estoque e produção mais ágil e precisa.
-            </p>
-          </div>
-        </div>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       
-       Quero vender mais
-        </span>
+<S.Main4 data-color={true}>
+  <h2><strong>Gerenciamento centralizado</strong> e as mercadorias no lugar certo!</h2>
 
-        
-        <h4>
-        Para isso, nada melhor que contar com 
-       <strong> ferramentas que impulsionam a sua loja de produtos alimentícios!</strong>
-       </h4>
+  <div className="texts">
+    <div className="text">
+      <span>PDV Frente de Caixa</span>
+      <p>
+        Para realizar vendas diretas ao consumidor final, o Blue ERP oferece o <strong>PDV Frente de Caixa</strong>, uma solução eficiente que permite importar orçamentos e realizar vendas diretas com emissão de <strong>NFC-e</strong> ou <strong>CF-e SAT</strong>, garantindo praticidade e agilidade no processo de vendas.
+      </p>
+    </div>
 
-        <p>
-     
-Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a visibilidade da sua loja de produtos alimentícios, oferecendo um frente de caixa mais ágil e facilitando o acesso dos clientes aos produtos que você comercializa, seja por loja virtual ou catálogo online. O sistema permite aplicar preços diferenciados e realizar toda a gestão da sua equipe de vendas, garantindo maior controle e eficiência no processo.
-        </p>
+    <div className="text">
+      <span>Controle de Pedidos e Orçamentos</span>
+      <p>
+        Com o Blue ERP, você pode criar <strong>orçamentos</strong> e enviá-los por e-mail aos seus clientes. Quando aprovados, os orçamentos se tornam <strong>pedidos</strong>, gerando automaticamente lançamentos financeiros e a baixa dos itens no estoque. Assim, todas as áreas da sua empresa alimentícia ficam <strong>interligadas</strong>, garantindo um fluxo de trabalho integrado e eficiente.
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>E-commerce de Alimentação e Delivery</span>
+      <p>
+        Crie sua loja virtual para receber pedidos do seu <strong>restaurante</strong>, lanchonete ou delivery de alimentos e bebidas! Com o Blue ERP, seus clientes podem acessar o site e fazer <strong>encomendas</strong> diretamente online. Isso facilita a produção ou separação dos itens comprados, além de permitir o envio rápido e eficiente para os clientes.
+      </p>
+    </div>
+  </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Gerenciamento centralizado </strong> e as mercadorias no lugar certo!
-        </h2>
+  <div className="right">
+    <span>Gestão Financeira e Fiscal</span>
+    <h4>Gerencie de maneira conectada o <strong>Fiscal e Financeiro</strong> da sua empresa de alimentos!</h4>
+    <p>
+      Com o Blue ERP, você conta com módulos completos para controlar seu <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, gerenciar centros de custos e criar planos de contas, permitindo uma gestão financeira eficiente. Isso garante que você faça o melhor uso do capital da sua empresa, <strong>reduzindo custos</strong> e otimizando recursos para o crescimento sustentável.
+      <br /><br />
+      Com o módulo de Gestão Fiscal do Blue ERP, a emissão de <strong>notas fiscais</strong> se tornou um processo simples e ágil. Isso libera mais tempo para você e sua equipe focarem no atendimento ao cliente e na expansão dos negócios. Configure os impostos necessários e emita seus documentos fiscais com a certeza de que sua empresa está sempre em conformidade com a <strong>legislação vigente</strong>.
+    </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            PDV Frente de Caixa</span>
-            <p>
-          
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-Para realizar vendas diretas ao consumidor final, o Blue ERP oferece o PDV Frente de Caixa, uma solução eficiente que permite importar orçamentos e realizar vendas diretas com emissão de NFC-e ou CF-e SAT, garantindo praticidade e agilidade no processo de vendas.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>Controle de Pedidos e Orçamentos</span>
-            <p>
-            
-Com o Blue ERP, você pode criar orçamentos e enviá-los por e-mail aos seus clientes. Quando aprovados, os orçamentos se tornam pedidos, gerando automaticamente lançamentos financeiros e a baixa dos itens no estoque. Assim, todas as áreas da sua empresa alimentícia ficam interligadas, garantindo um fluxo de trabalho integrado e eficiente.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>E-commerce de Alimentação e Delivery</span>
-            <p>
-            
-            Crie sua loja virtual para receber pedidos do seu restaurante, lanchonete ou delivery de alimentos e bebidas! Com o Blue ERP, seus clientes podem acessar o site e fazer encomendas diretamente online. Isso facilita a produção ou separação dos itens comprados, além de permitir o envio rápido e eficiente para os clientes.
-            </p>
-          </div>
-        </div>
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Gestão Financeira e Fiscal
-        </span>
-
-        
-        <h4>
-        Gerencie de maneira conectada o  
-       <strong>   Fiscal e Financeiro </strong>
-       da sua empresa de alimentos!
-       </h4>
-
-        <p>
-        Com o Blue ERP, você conta com módulos completos para controlar seu fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e criar planos de contas, permitindo uma gestão financeira eficiente. Isso garante que você faça o melhor uso do capital da sua empresa, reduzindo custos e otimizando recursos para o crescimento sustentável.
-<br /><br />
-Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se tornou um processo simples e ágil. Isso libera mais tempo para você e sua equipe focarem no atendimento ao cliente e na expansão dos negócios. Configure os impostos necessários e emita seus documentos fiscais com a certeza de que sua empresa está sempre em conformidade com a legislação vigente.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
 
       <S.Main4 data-color={false}>
         <h2>

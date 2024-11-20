@@ -208,243 +208,186 @@ export function A11(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de serviços
-        </span>
+  <div className="right">
+    <span>Gestão de serviços</span>
 
-        <h4>
-        Quero organizar minha 
-       <strong>  gestão de Serviços </strong>
-       </h4>
+    <h4>
+      Quero organizar minha <strong>gestão de Serviços</strong>
+    </h4>
 
+    <p>
+      Implementar um software para a <strong>prestação de serviço</strong> é fundamental para empresas que buscam formas de crescer com suporte e estrutura para <strong>controlar serviços</strong>, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua <strong>produtividade</strong> e alavancar seu faturamento.
+    </p>
 
-        <p>
-        Implementar um software para a prestação de serviço é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar serviços, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
-        </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Gerencie seus serviços</strong> de um jeito simples!
+  </h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>Cadastro ilimitado de Serviços</span>
+      <p>
+        Tenha total liberdade para cadastrar todos os <strong>serviços prestados</strong> por sua empresa de Engenharia de acordo com a <strong>legislação vigente</strong>, já discriminando impostos, a classificação do serviço e o código. Esse cadastro completo do seu serviço fará com que o processo de <strong>emissão de notas</strong> seja mais automatizado, aumentando a eficiência da sua empresa.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        
-<strong>
-Gerencie seus serviços </strong> de um jeito simples!
+    <div className="text">
+      <span>Cadastro ilimitado de Ordens de Serviços</span>
+      <p>
+        Ganhe agilidade e eficiência cadastrando <strong>ordens de serviço</strong> no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do <strong>cliente cadastrado</strong> e você pode incluir todas as informações desejadas, podendo <strong>agendar serviços</strong>, imprimir ou enviar a OS por e-mail para o cliente.
+      </p>
+    </div>
 
-</h2>
+    <div className="text">
+      <span>Acompanhamento dos Técnicos</span>
+      <p>
+        Cadastre todos os seus técnicos e cada um deles terá autonomia para criar o seu próprio <strong>laudo</strong> para cada OS, podendo imprimir essas informações de forma <strong>personalizada</strong>. Além disso, você pode acompanhar a <strong>performance</strong> e o andamento dos serviços realizados por cada membro da sua equipe técnica.
+      </p>
+    </div>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Cadastro ilimitado de Serviços</span>
-            <p>
-            
-Tenha total liberdade para cadastrar todos os serviços prestados por sua empresa de Engenharia de acordo com a legislação vigente, já discriminando impostos, a classificação do serviço e o código. Esse cadastro completo do seu serviço fará com que o processo de emissão de notas seja mais automatizado, aumentando a eficiência da sua empresa.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-          <div className="text">
-            <span>Cadastro ilimitado de Ordens de Serviços</span>
-            <p>
-            
-            Ganhe agilidade e eficiência cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado e você pode incluir todas as informações desejadas, podendo agendar serviços, imprimir ou enviar a OS por e-mail para o cliente.
-            </p>
-          </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Gestão de contratos</span>
 
-          <div className="text">
-            <span>  Acompanhamento dos Técnicos</span>
-            <p>
-          
-            Cadastre todos os seus técnicos e cada um deles terá autonomia para criar o seu próprio laudo para cada OS, podendo imprimir essas informações de forma personalizada. Além disso, você pode acompanhar a performance e o andamento dos serviços realizados por cada membro da sua equipe técnica.
-            </p>
-          </div>
-        </div>
+    <h4>
+      Quero uma <strong>gestão de contratos automatizada</strong>
+    </h4>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <p>
+      Para quem trabalha com a <strong>prestação de serviços</strong>, como por exemplo, as empresas prestadoras de serviços de engenharia que atendem outras empresas ou até mesmo clientes finais, é comum trabalhar com <strong>contratos</strong> para cada projeto.
+    </p>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       
-       Gestão de contratos
-        </span>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <h4>
-        Quero uma 
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-       <strong> gestão de contratos automatizada </strong>
-       </h4>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
+<S.Main4 data-color={true}>
+  <h2>Para você ter mais <strong>controle sobre seus negócios!</strong></h2>
 
-        <p>
-        Para quem trabalha com a prestação de serviços, como por exemplo, as empresas prestadoras de serviços de engenharia que atendem outras empresas ou até mesmo clientes finais, é comum trabalhar com contratos para cada projeto.
+  <div className="texts">
+    <div className="text">
+      <span>Tipos de Contratos</span>
+      <p>
+        Uma das grandes vantagens do Blue ERP é a possibilidade de criar <strong>tipos de contratos personalizados</strong>. Em uma empresa que oferece serviços de engenharia, sabemos que existem diversas modalidades de <strong>serviços prestados</strong>, como consultoria, supervisão de obras, construção e desenvolvimento de projetos. Pensando nisso, nosso ERP permite que você configure <strong>tipos de contratos específicos</strong> para cada tipo de serviço.
+      </p>
+    </div>
 
+    <div className="text">
+      <span>Criação do Contrato</span>
+      <p>
+        Com os tipos de contratos já configurados no sistema, fica muito mais simples <strong>gerar seus contratos</strong>. É possível definir o contratante, as datas de início e término do contrato, o <strong>valor total</strong> e das parcelas, além da comissão do técnico ou vendedor. Assim, ao gerar o contrato para impressão, todos os dados inseridos serão automaticamente preenchidos, acelerando consideravelmente o processo.
+      </p>
+    </div>
 
-        </p>
+    <div className="text">
+      <span>Campos Personalizados</span>
+      <p>
+        O Blue ERP oferece uma variedade de campos padrão para preencher no contrato. No entanto, se você precisar adicionar informações extras que devem ser armazenadas no sistema e também aparecer na impressão do contrato, nós pensamos em tudo para você! Com o módulo de <strong>atributos</strong>, você pode criar campos <strong>personalizados</strong> e específicos para registrar as informações que desejar.
+      </p>
+    </div>
+  </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <div className="right">
+    <span>Gestão Financeira</span>
 
-      <S.Main4 data-color={true}>
-        <h2>Para você ter mais <strong> controle sobre seus negócios!</strong>
-        </h2>
+    <h4>
+      Quero <strong>gerenciar o financeiro</strong> da minha empresa
+    </h4>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Tipos de Contratos</span>
-            <p>
-          
-            Uma das grandes vantagens do Blue ERP é a possibilidade de criar tipos de contratos personalizados. Em uma empresa que oferece serviços de engenharia, sabemos que existem diversas modalidades de serviços prestados, como consultoria, supervisão de obras, construção e desenvolvimento de projetos. Pensando nisso, nosso ERP permite que você configure tipos de contratos específicos para cada tipo de serviço.
-            </p>
-          </div>
+    <p>
+      Com o Blue ERP, você conta com módulos completos para gerenciar o <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, controlar centros de custos e organizar <strong>planos de contas</strong>, permitindo uma gestão financeira eficiente. Dessa forma, você pode otimizar o uso do capital da sua empresa, reduzir custos e maximizar os recursos para impulsionar o crescimento do negócio.
+    </p>
 
-          <div className="text">
-            <span>Criação do Contrato</span>
-            <p>
-            
-Com os tipos de contratos já configurados no sistema, fica muito mais simples gerar seus contratos. É possível definir o contratante, as datas de início e término do contrato, o valor total e das parcelas, além da comissão do técnico ou vendedor. Assim, ao gerar o contrato para impressão, todos os dados inseridos serão automaticamente preenchidos, acelerando consideravelmente o processo.
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Descomplique!</strong> Gerencie seu financeiro de forma simples!
+  </h2>
 
-            </p>
-          </div>
+  <div className="texts">
+    <div className="text">
+      <span>Faturamento em Lote</span>
+      <p>
+        Com essa funcionalidade, em apenas três passos simples, você pode faturar várias ordens de serviço, emitir as respectivas <strong>notas fiscais</strong> de serviço, gerar boletos e enviá-los diretamente por e-mail aos seus clientes. Tudo isso em um único processo! Basta configurar os dados no sistema Blue ERP e esse procedimento tornará o dia a dia da sua empresa muito mais ágil e eficiente.
+      </p>
+    </div>
 
-          <div className="text">
-            <span>Campos Personalizados</span>
-            <p>
-            
-O Blue ERP oferece uma variedade de campos padrão para preencher no contrato. No entanto, se você precisar adicionar informações extras que devem ser armazenadas no sistema e também aparecer na impressão do contrato, nós pensamos em tudo para você! Com o módulo de atributos, você pode criar campos personalizados e específicos para registrar as informações que desejar.
+    <div className="text">
+      <span>Faturamento Parcial de Ordens de Serviço</span>
+      <p>
+        Quando se trata de flexibilidade na gestão financeira, o Blue ERP é a solução! Outro recurso valioso do nosso módulo financeiro é a possibilidade de <strong>faturar ordens de serviço</strong> de maneira parcial. Basta acessar a ordem de serviço, selecionar o valor pago, e o status será automaticamente atualizado no seu sistema financeiro, facilitando ainda mais o controle.
+      </p>
+    </div>
 
+    <div className="text">
+      <span>Gestão de Vendedores e Metas</span>
+      <p>
+        Gerencie o desempenho da sua equipe técnica, acompanhe as ordens de serviço realizadas, o lançamento de <strong>comissões</strong> e o cumprimento das metas estabelecidas. Você também pode controlar os dados a que seus técnicos terão acesso, por meio do sistema de <strong>permissões de usuários ativos</strong>, garantindo total controle sobre as informações no seu sistema.
+      </p>
+    </div>
+  </div>
 
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+    Experimente
+  </button>
+</S.Main4>
 
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Gestão Fiscal</span>
 
+    <h4>
+      Quero uma <strong>gestão fiscal completa</strong>
+    </h4>
 
+    <p>
+      Com o nosso sistema para emissão de <strong>Nota Fiscal de Serviço</strong> Eletrônica (NFS-e), você pode integrar ordens de serviço e contratos e gerar seus documentos fiscais rapidamente, com apenas alguns cliques. E o melhor, o Blue ERP já conta com integração com mais de 1.200 municípios e está em constante evolução para oferecer as melhores ferramentas para a sua empresa.
+    </p>
 
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-
-            </p>
-          </div>
-        </div>
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Gestão Financeira
-        </span>
-
-        <h4>
-        Quero  
-       <strong>  gerenciar o financeiro </strong>
-       da minha empresa
-       </h4>
-
-
-        <p>
-       
-Com o Blue ERP, você conta com módulos completos para gerenciar o fluxo de caixa, realizar projeções de receitas e despesas, controlar centros de custos e organizar planos de contas, permitindo uma gestão financeira eficiente. Dessa forma, você pode otimizar o uso do capital da sua empresa, reduzir custos e maximizar os recursos para impulsionar o crescimento do negócio.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
-
-      <S.Main4 data-color={false}>
-        <h2>
-        <strong>Descomplique! </strong> Gerencie seu
-        financeiro de forma simples!
-</h2>
-
-        <div className="texts">
-          <div className="text">
-            <span>Faturamento em Lote</span>
-            <p>
-           
-
-Com essa funcionalidade, em apenas três passos simples, você pode faturar várias ordens de serviço, emitir as respectivas notas fiscais de serviço, gerar boletos e enviá-los diretamente por e-mail aos seus clientes. Tudo isso em um único processo! Basta configurar os dados no sistema Blue ERP e esse procedimento tornará o dia a dia da sua empresa muito mais ágil e eficiente.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>Faturamento Parcial de Ordens de Serviço</span>
-            <p>
-            
-            Quando se trata de flexibilidade na gestão financeira, o Blue ERP é a solução! Outro recurso valioso do nosso módulo financeiro é a possibilidade de faturar ordens de serviço de maneira parcial. Basta acessar a ordem de serviço, selecionar o valor pago, e o status será automaticamente atualizado no seu sistema financeiro, facilitando ainda mais o controle.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>  Gestão de Vendedores e Metas</span>
-            <p>
-          
-            Gerencie o desempenho da sua equipe técnica, acompanhe as ordens de serviço realizadas, o lançamento de comissões e o cumprimento das metas estabelecidas. Você também pode controlar os dados a que seus técnicos terão acesso, por meio do sistema de permissões de usuários ativos, garantindo total controle sobre as informações no seu sistema.
-            </p>
-          </div>
-        </div>
-
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Gestão Fiscal
-        </span>
-
-        <h4>
-        Quero uma
-       <strong>   gestão fiscal completa</strong>
-       </h4>
-
-
-        <p>
-        
-Com o nosso sistema para emissão de Nota Fiscal de Serviço Eletrônica (NFS-e), você pode integrar ordens de serviço e contratos e gerar seus documentos fiscais rapidamente, com apenas alguns cliques. E o melhor, o Blue ERP já conta com integração com mais de 1.200 municípios e está em constante evolução para oferecer as melhores ferramentas para a sua empresa.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
 
       <S.Main4 data-color={true}>
         <h2><strong>Gerenciamento centralizado </strong> e as mercadorias no lugar certo!</h2>

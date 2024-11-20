@@ -188,27 +188,23 @@ export function A1(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de vendas
-        </span>
+  <div className="right">
+    <span>Gestão de vendas</span>
 
-        <h4>
-        Quero <strong> vender mais</strong>
-        </h4>
-        <p>
-    Com as funcionalidades do módulo de vendas do Blue ERP, você pode melhorar a visibilidade da sua loja de ferramentas e ferragens, tornando o processo de checkout mais eficiente no ambiente físico. Além disso, garante que seus clientes tenham fácil acesso aos produtos que você oferece, aplicando preços especiais e gerenciando de forma eficiente sua equipe de vendedores.
-        </p>
+    <h4>
+      Quero <strong>vender mais</strong>
+    </h4>
+    <p>
+      Com as funcionalidades do módulo de vendas do Blue ERP, você pode melhorar a <strong>visibilidade da sua loja</strong> de ferramentas e ferragens, tornando o processo de checkout mais eficiente no ambiente físico. Além disso, garante que seus clientes tenham <strong>fácil acesso aos produtos</strong> que você oferece, aplicando preços especiais e gerenciando de forma eficiente sua <strong>equipe de vendedores</strong>.
+    </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
       <S.Main4 data-color={false}>
         <h2><strong>Gerencie seus pedidos</strong> de um jeito simples!</h2>
@@ -244,29 +240,26 @@ export function A1(){
       </S.Main4>
 
       <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-        Gestão de estoque
-        </span>
+  <div className="left">
+    <span>Gestão de estoque</span>
 
-        <h4>
-          Quero  <strong> gerenciar estoque</strong>
-        </h4>
+    <h4>
+      Quero <strong>gerenciar estoque</strong>
+    </h4>
 
-        <p>
-        O Blue ERP conta com um módulo de gestão de estoque moderno e abrangente, que permite gerenciar todas as etapas, desde a compra de mercadorias até a sua localização em diferentes depósitos. Além disso, possibilita o acompanhamento do giro de produtos em estoque e a organização das entregas.
-        </p>
+    <p>
+      O Blue ERP conta com um módulo de <strong>gestão de estoque moderno</strong> e abrangente, que permite gerenciar todas as etapas, desde a compra de mercadorias até a sua localização em diferentes depósitos. Além disso, possibilita o <strong>acompanhamento do giro de produtos</strong> em estoque e a <strong>organização das entregas</strong>.
+    </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
       <S.Main4 data-color={true}>
         <h2><strong>Para você não perder  mais vendas </strong> por falta de mercadorias!</h2>
@@ -304,30 +297,27 @@ Para facilitar o controle de estoque das compras realizadas pela sua loja de fer
         </button>
       </S.Main4>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+      <S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Gestão fiscal</span>
 
-       <div className="right">
-        <span>
-        Gestão financeira
-        </span>
+    <h4>
+      Quero uma <strong>gestão fiscal completa</strong>
+    </h4>
 
-        <h4>
-          Quero 
-        <strong> gerenciar o financeiro</strong>
-        </h4>
+    <p>
+      Com o módulo de <strong>Gestão Fiscal</strong> do Blue ERP, a emissão de notas fiscais se tornou um processo <strong>simples e eficiente</strong>, permitindo que você e sua equipe tenham mais tempo para oferecer um <strong>excelente atendimento</strong> e conquistar ainda mais clientes.
+    </p>
 
-        <p>
-        Com o Blue ERP, você conta com módulos que permitem controlar seu fluxo de caixa, realizar projeções de receitas e despesas, além de gerenciar centros de custos e planos de contas para organizar sua gestão financeira. Isso garante que você invista o capital da sua empresa de maneira eficiente, reduzindo custos e otimizando recursos para o crescimento do seu negócio.
-        </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
-      
-      </S.Main3>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
       <S.Main4 data-color={false}>
         <h2><strong>

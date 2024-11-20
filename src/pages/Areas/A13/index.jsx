@@ -213,224 +213,181 @@ export function A13(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Gestão de estoque
-        </span>
-        
-        <h4>
-        Quero 
-      <strong>   gerenciar estoque</strong>
+  <div className="right">
+    <span>Gestão de estoque</span>
+    
+    <h4>
+      Quero <strong>gerenciar estoque</strong>
+    </h4>
 
-      </h4>
+    <p>
+      O Blue ERP conta com um módulo de <strong>gestão de estoque moderno</strong> e completo, que possibilita o gerenciamento de todas as etapas, desde a <strong>compra de mercadorias</strong>, a organização em diferentes depósitos, o controle do giro de estoque até as entregas. Com isso, você tem total controle sobre o inventário da sua empresa, garantindo eficiência e precisão em cada processo.
+    </p>
 
-        <p>
-       
-O Blue ERP conta com um módulo de gestão de estoque moderno e completo, que possibilita o gerenciamento de todas as etapas, desde a compra de mercadorias, a organização em diferentes depósitos, o controle do giro de estoque até as entregas. Com isso, você tem total controle sobre o inventário da sua empresa, garantindo eficiência e precisão em cada processo.
-        </p>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Para você não perder mais vendas</strong> por falta de mercadorias!
+  </h2>
 
-      
-      </S.Main3>
+  <div className="texts">
+    <div className="text">
+      <span>Entrada de Estoque</span>
+      <p>
+        Para facilitar o controle de estoque das compras realizadas pela sua empresa de cosméticos e perfumaria, o Blue ERP oferece a funcionalidade de realizar <strong>entradas de mercadorias</strong> com base na <strong>importação da nota fiscal</strong> emitida pelo seu fornecedor. Essa integração otimiza o processo e auxilia no crescimento do seu negócio ao garantir um controle mais preciso e eficiente do estoque.
+      </p>
+    </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-       <strong> Para você não perder mais vendas </strong> por falta de mercadorias!
-</h2>
+    <div className="text">
+      <span>Código de Barras</span>
+      <p>
+        O controle de produtos por código de barras é uma excelente maneira de <strong>otimizar a gestão de estoque</strong> em sua loja de cosméticos e perfumaria. Com o Blue ERP, você pode utilizar um <strong>leitor de código de barras</strong> para realizar movimentações internas de entrada e saída de produtos, além de transferências entre depósitos e processos de venda, garantindo agilidade e precisão nas operações.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span> Entrada de Estoque</span>
-            <p>
-           
-            Para facilitar o controle de estoque das compras realizadas pela sua empresa de cosméticos e perfumaria, o Blue ERP oferece a funcionalidade de realizar entradas de mercadorias com base na importação da nota fiscal emitida pelo seu fornecedor. Essa integração otimiza o processo e auxilia no crescimento do seu negócio ao garantir um controle mais preciso e eficiente do estoque.
-            </p>
-          </div>
+    <div className="text">
+      <span>Impressão de Etiquetas</span>
+      <p>
+        Ao vender produtos de beleza em larga escala, a necessidade de <strong>etiquetas precisas</strong> e em grande quantidade é essencial. O Blue ERP oferece a opção de imprimir quantas <strong>etiquetas forem necessárias</strong>, com as proporções e informações exigidas, de maneira automática, diretamente do sistema, garantindo praticidade e conformidade com os requisitos do seu negócio.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span> Código de Barras</span>
-            <p>
-           
-            O controle de produtos por código de barras é uma excelente maneira de otimizar a gestão de estoque em sua loja de cosméticos e perfumaria. Com o Blue ERP, você pode utilizar um leitor de código de barras para realizar movimentações internas de entrada e saída de produtos, além de transferências entre depósitos e processos de venda, garantindo agilidade e precisão nas operações.
-            </p>
-          </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-          <div className="text">
-            <span> Impressão de Etiquetas</span>
-            <p>
-           
-Ao vender produtos de beleza em larga escala, a necessidade de etiquetas precisas e em grande quantidade é essencial. O Blue ERP oferece a opção de imprimir quantas etiquetas forem necessárias, com as proporções e informações exigidas, de maneira automática, diretamente do sistema, garantindo praticidade e conformidade com os requisitos do seu negócio.
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Gestão de vendas</span>
 
+    <h4>
+      Quero <strong>vender mais</strong>
+    </h4>
 
-            </p>
-          </div>
-        </div>
+    <p>
+      Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a <strong>visibilidade da sua loja</strong> de cosméticos e perfumaria, tornando o processo de vendas mais ágil na loja física através de um <strong>frente de caixa moderno</strong>. Além disso, o Blue ERP permite que seus clientes acessem seus produtos de forma fácil, seja por meio de uma loja virtual ou catálogo online, com a possibilidade de aplicar preços diferenciados. O sistema também oferece ferramentas para gerir eficientemente sua equipe de vendedores, otimizando toda a operação de vendas da sua loja.
+    </p>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       
-       Gestão de vendas
-        </span>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <h4>
-        Quero
-      <strong>    vender mais</strong>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-      </h4>
+<S.Main4 data-color={true}>
+  <h2>
+    <strong>Gerencie seus pedidos</strong> de um jeito simples!
+  </h2>
 
-        <p>
-        Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a visibilidade da sua loja de cosméticos e perfumaria, tornando o processo de vendas mais ágil na loja física através de um frente de caixa moderno. Além disso, o Blue ERP permite que seus clientes acessem seus produtos de forma fácil, seja por meio de uma loja virtual ou catálogo online, com a possibilidade de aplicar preços diferenciados. O sistema também oferece ferramentas para gerir eficientemente sua equipe de vendedores, otimizando toda a operação de vendas da sua loja.
-        </p>
+  <div className="texts">
+    <div className="text">
+      <span>PDV Frente de Caixa</span>
+      <p>
+        Com o Blue ERP, você pode realizar <strong>vendas diretas</strong> para o consumidor final de forma rápida e eficiente utilizando o PDV Frente de Caixa. Além de importar orçamentos e realizar vendas diretas, o sistema permite a emissão de <strong>NFC-e ou CF-e SAT</strong>. Se sua loja também trabalha com vendas consignadas, o PDV do Blue ERP também está preparado para atender essa necessidade.
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>Blue Loja</span>
+      <p>
+        Crie uma <strong>loja virtual personalizada</strong> no Blue Loja e comece a vender perfumes, maquiagem e todos os itens de beleza que seus clientes estão em busca. Seu cliente poderá acessar seu site, realizar compras diretamente por ele, e você poderá separar e enviar os produtos de forma prática e rápida.
+      </p>
+    </div>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+    <div className="text">
+      <span>Controle por Cashback</span>
+      <p>
+        O Blue ERP também oferece <strong>controle completo</strong> sobre o sistema de cashback, uma tendência crescente no mercado de vendas. Ao comprar um item em sua loja, o cliente paga o valor total e recebe um <strong>crédito para futuras compras</strong>. Esse recurso está disponível tanto para sua loja física quanto para sua loja virtual, tornando a experiência de compra ainda mais vantajosa para seus clientes.
+      </p>
+    </div>
+  </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Gerencie seus pedidos </strong> de um jeito simples!
-        </h2>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            PDV Frente de Caixa</span>
-            <p>
-          
+  <div className="right">
+    <span>Gestão financeira</span>
 
-Com o Blue ERP, você pode realizar vendas diretas para o consumidor final de forma rápida e eficiente utilizando o PDV Frente de Caixa. Além de importar orçamentos e realizar vendas diretas, o sistema permite a emissão de NFC-e ou CF-e SAT. Se sua loja também trabalha com vendas consignadas, o PDV do Blue ERP também está preparado para atender essa necessidade.
-            </p>
-          </div>
+    <h4>
+      Quero <strong>gerenciar o financeiro</strong>
+    </h4>
 
-          <div className="text">
-            <span>Blue Loja</span>
-            <p>
-            
-Crie uma loja virtual totalmente personalizada no Blue Loja e comece a vender perfumes, maquiagem e todos os itens de beleza que seus clientes estão em busca. Seu cliente poderá acessar seu site, realizar compras diretamente por ele, e você poderá separar e enviar os produtos de forma prática e rápida.
-            </p>
-          </div>
+    <p>
+      Com o Blue ERP, você conta com módulos completos para controlar seu <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas. Esses recursos ajudam a organizar sua gestão financeira de forma eficiente, garantindo que o capital da sua empresa seja investido de maneira estratégica, reduzindo custos e otimizando recursos para impulsionar o crescimento do seu negócio.
+    </p>
 
-          <div className="text">
-            <span>Controle por Cashback</span>
-            <p>
-            
-O Blue ERP também oferece controle completo sobre o sistema de cashback, uma tendência crescente no mercado de vendas. Ao comprar um item em sua loja, o cliente paga o valor total e recebe um crédito para usar em futuras compras. Esse recurso está disponível tanto para sua loja física quanto para sua loja virtual, tornando a experiência de compra ainda mais vantajosa para seus clientes.
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
-            </p>
-          </div>
-        </div>
+<S.Main4 data-color={false}>
+  <h2>
+    <strong>Descomplique!</strong> Gerencie seu financeiro de forma simples!
+  </h2>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <div className="texts">
+    <div className="text">
+      <span>Faturamento Parcial de Pedidos</span>
+      <p>
+        Tenha total controle sobre o faturamento das suas vendas. Com a possibilidade de <strong>faturar pedidos parcialmente</strong>, você acessa o pedido, seleciona o valor pago e o sistema atualiza automaticamente o status no financeiro.
+      </p>
+    </div>
 
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
+    <div className="text">
+      <span>Gestão de Vendedores e Metas</span>
+      <p>
+        Acompanhe de perto a performance da sua <strong>equipe de vendas</strong>, controle as comissões, verifique o percentual de metas atingidas e configure permissões para controlar o acesso de cada vendedor às informações do sistema.
+      </p>
+    </div>
 
-       <div className="right">
-        <span>
-        Gestão financeira
-        </span>
+    <div className="text">
+      <span>Cobrança de Clientes Inadimplentes</span>
+      <p>
+        O BLUE ERP facilita a gestão de inadimplência ao permitir o <strong>envio de e-mails automáticos</strong> para os clientes devedores, garantindo que o acompanhamento do comportamento de pagamento seja eficiente e a inadimplência seja reduzida.
+      </p>
+    </div>
+  </div>
 
-                <h4>
-                Quero 
-       <strong> gerenciar o financeiro </strong>
-     
-       </h4>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-        <p>
-        Com o Blue ERP, você conta com módulos completos para controlar seu fluxo de caixa, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas. Esses recursos ajudam a organizar sua gestão financeira de forma eficiente, garantindo que o capital da sua empresa seja investido de maneira estratégica, reduzindo custos e otimizando recursos para impulsionar o crescimento do seu negócio.
-        </p>
+<S.Main3 ref={section4Ref}>
+  <div className="left">
+    <span>Gestão Fiscal</span>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <h4>
+      Quero uma <strong>gestão fiscal completa</strong>
+    </h4>
 
-      
-      </S.Main3>
+    <p>
+      Com o módulo de Gestão Fiscal do BLUE ERP, a <strong>emissão de notas</strong> se tornou um processo simples e ágil, deixando você e sua equipe com mais tempo para prestar um bom atendimento e conquistar ainda mais clientes.
+    </p>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        <strong>Descomplique! </strong> Gerencie seu
-        financeiro de forma simples!
-</h2>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-        <div className="texts">
-          <div className="text">
-            <span> Faturamento Parcial de Pedidos</span>
-            <p>
-           Tenha total controle sobre o faturamento das suas vendas. Com a possibilidade de faturar pedidos parcialmente, você acessa o pedido, seleciona o valor pago e o sistema atualiza automaticamente o status no financeiro.
-            </p>
-          </div>
+  <div className="right">
+    <img src={Image9} alt="" />
+  </div>
 
-          <div className="text">
-            <span>Gestão de Vendedores e Metas</span>
-            <p>
-             Acompanhe de perto a performance da sua equipe de vendas, controle as comissões, verifique o percentual de metas atingidas e configure permissões para controlar o acesso de cada vendedor às informações do sistema.
-            </p>
-          </div>
-
-          <div className="text">
-            <span>Cobrança de Clientes Inadimplentes</span>
-            <p>
-             O BLUE ERP facilita a gestão de inadimplência ao permitir o envio de e-mails automáticos para os clientes devedores, garantindo que o acompanhamento do comportamento de pagamento seja eficiente e a inadimplência seja reduzida.
-            </p>
-          </div>
-        </div>
-
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section4Ref}>
-       <div className="left">
-       <span>
-       Gestão Fiscal
-        </span>
-
-        <h4>
-        Quero uma 
-      <strong>  gestão fiscal completa</strong>
-
-      </h4>
-
-        <p>
-        Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com mais tempo para prestar um bom atendimento e conquistar ainda mais clientes.
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-       <div className="right">
-       <img src={Image9} alt="" />
-       
-       </div>
-
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
-
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
       <S.Main4 data-color={true}>
         <h2>
       <strong> Descomplique! </strong>  Faça a gestão fiscal mais simples e organizada com BLUE ERP.</h2>

@@ -100,10 +100,15 @@ export function Planos(){
 
       <S.Plans>
         <ul>
+          <header>
+            <p>Recursos que fazem da Blue ERP única</p>
+          </header>
+
+
           <li>
            <div className="name">
             Usuários
-            <p>(29,90 por usuário adicional)</p>
+            <p>(R$ 29,90 por usuário adicional)</p>
            </div>
 
            <div className="plans">
@@ -117,6 +122,27 @@ export function Planos(){
 
             <div className="plan">
               5
+            </div>
+           </div>
+          </li>
+
+          <li>
+           <div className="name">
+            Multi-Empresa - Filiais
+            <p>(R$ 299,00 por filial)</p>
+           </div>
+
+           <div className="plans">
+            <div className="plan">
+            <IoShieldCheckmarkOutline size={20} color="rgb(9, 194, 9)"/>
+            </div>
+
+            <div className="plan">
+            <IoShieldCheckmarkOutline size={20} color="rgb(9, 194, 9)"/>
+            </div>
+
+            <div className="plan">
+             <IoShieldCheckmarkOutline size={20} color="rgb(9, 194, 9)"/>
             </div>
            </div>
           </li>
@@ -641,6 +667,10 @@ export function Planos(){
             </div>
            </div>
           </li>
+
+          <footer>
+            Essas são as funcionalidades do sistema mais completo do Brasil!
+          </footer>
         </ul>
       </S.Plans>
       <Footer/>

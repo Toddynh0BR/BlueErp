@@ -211,189 +211,149 @@ export function A9(){
       </S.Ecossistem>
 
       <S.Main3 ref={section1Ref}>
-       <div className="left">
-       <img src={Image6} alt="" />
-       </div>
+  <div className="left">
+    <img src={Image6} alt="" />
+  </div>
 
-       <div className="right">
-        <span>
-        Quero vender mais
-        </span>
+  <div className="right">
+    <span>Quero vender mais</span>
 
-        <h4>
-        Tenha mais flexibilidade para 
-        <strong> comercializar produtos e serviços!</strong>
-        </h4>
+    <h4>
+      Tenha mais flexibilidade para <strong>comercializar produtos e serviços!</strong>
+    </h4>
 
+    <p>
+      Ganhe <strong>agilidade</strong> e <strong>eficiência</strong> cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado, e você pode incluir todas as informações que desejar, além de agendar serviços, <strong>imprimir</strong> ou enviar a OS por e-mail para o cliente.
+    </p>
 
-        <p>
-        Ganhe agilidade e eficiência cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado, e você pode incluir todas as informações que desejar, além de agendar serviços, imprimir ou enviar a OS por e-mail para o cliente.
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
+<S.Main4 data-color={false}>
+  <h2>
+    Soluções para comprar pelo melhor preço, <strong>vender mais</strong> e conquistar clientes!
+  </h2>
 
-        </p>
+  <div className="texts">
+    <div className="text">
+      <span>Tabelas de Preços</span>
+      <p>
+        Que tal aplicar <strong>tabelas de preços promocionais</strong> para mercadorias encalhadas no seu estoque? Você pode, ainda, definir <strong>preços diferenciados</strong> para compras em grande volume ou para <strong>clientes fiéis</strong>!
+      </p>
+    </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+    <div className="text">
+      <span>Módulo de CRM</span>
+      <p>
+        Crie um <strong>funil de vendas</strong>, acompanhe a evolução das negociações e dos serviços prestados, e tenha um <strong>pipeline de oportunidades</strong>, conquistando uma visão panorâmica do relacionamento com seus clientes.
+      </p>
+    </div>
 
-      
-      </S.Main3>
+    <div className="text">
+      <span>Alterar OS em Massa</span>
+      <p>
+        Realize alterações em massa na listagem de Ordens de Serviço. Você pode: <strong>cancelar ordens selecionadas</strong>, finalizar ordens selecionadas e modificar o status de várias OS de uma só vez, garantindo mais <strong>eficiência</strong> na gestão da sua empresa.
+      </p>
+    </div>
+  </div>
 
-      <S.Main4 data-color={false}>
-        <h2>
-        Soluções para comprar pelo melhor preço, <strong> vender mais e conquistar clientes!</strong>
-</h2>
+  <div className="texts">
+    <div className="text">
+      <span>Controle de Equipamentos</span>
+      <p>
+        Controle os equipamentos presentes em cada ordem de serviço. Para serviços externos, é possível informar todos os equipamentos retirados da empresa para execução do serviço. Em oficinas mecânicas, pode-se registrar em qual <strong>veículo</strong> de cliente o serviço foi prestado.
+      </p>
+    </div>
 
-        <div className="texts">
-          <div className="text">
-            <span>Tabelas de Preços</span>
-            <p>
-            
-            Que tal aplicar tabelas de preços promocionais para mercadorias encalhadas no seu estoque? Você pode, ainda, definir preços diferenciados para compras em grande volume ou para clientes fiéis!
-            </p>
-          </div>
+    <div className="text">
+      <span>Catálogo Virtual</span>
+      <p>
+        Amplie as oportunidades de venda da sua loja de autopeças, criando um <strong>catálogo virtual exclusivo</strong>, que pode ser enviado por e-mail e impactar toda a sua carteira de clientes. O cliente pode aprovar a compra com um <strong>botão diretamente no e-mail</strong>, gerando o pedido no sistema.
+      </p>
+    </div>
 
-          <div className="text">
-            <span>Módulo de CRM</span>
-            <p>
-            
-            Crie um funil de vendas, acompanhe a evolução das negociações e dos serviços prestados, e tenha um pipeline de oportunidades, conquistando uma visão panorâmica do relacionamento com seus clientes.
-            </p>
-          </div>
+    <div className="text">
+      <span>Relatórios de Vendas</span>
+      <p>
+        Monitorar as vendas da sua empresa nunca foi tão simples! Com o BLUE ERP, você conta com <strong>gráficos de vendas</strong> e fluxo de caixa em tempo real, além de rankings de <strong>produtos mais vendidos</strong> e principais clientes.
+      </p>
+    </div>
+  </div>
 
-          <div className="text">
-            <span>Alterar OS em Massa</span>
-            <p>
-            
-            Realize alterações em massa na listagem de Ordens de Serviço. Você pode: cancelar ordens selecionadas, finalizar ordens selecionadas e modificar o status de várias OS de uma só vez, garantindo mais eficiência na gestão da sua empresa.
-            </p>
-          </div>
-        </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-        <div className="texts">
-          <div className="text">
-            <span>Controle de Equipamentos</span>
-            <p>
-            
-Controle os equipamentos presentes em cada ordem de serviço. Para serviços externos, é possível informar todos os equipamentos retirados da empresa para execução do serviço. Em oficinas mecânicas, pode-se registrar em qual veículo de cliente o serviço foi prestado.
-            </p>
-          </div>
+<S.Main3 ref={section2Ref}>
+  <div className="left">
+    <span>Quero gerenciar estoques</span>
 
-          <div className="text">
-            <span>Catálogo Virtual</span>
-            <p>
-            
-            Amplie as oportunidades de venda da sua loja de autopeças, criando um catálogo virtual exclusivo, que pode ser enviado por e-mail e impactar toda a sua carteira de clientes. O cliente pode aprovar a compra com um botão diretamente no e-mail, gerando o pedido no sistema.
-            </p>
-          </div>
+    <h4>
+      Tenha um ERP <strong>multiempresa, multiusuário</strong> e com vários depósitos!
+    </h4>
 
-          <div className="text">
-            <span> Relatórios de Vendas</span>
-            <p>
-           
-Monitorar as vendas da sua empresa nunca foi tão simples! Com o BLUE ERP, você conta com gráficos de vendas e fluxo de caixa em tempo real, além de rankings de produtos mais vendidos e principais clientes.
+    <p>
+      Nada melhor que, ao fazer a busca de um produto, o sistema já lhe retorne a localização do item. No BLUE ERP, você pode informar o <strong>local exato de armazenamento</strong> de cada mercadoria, como corredor ou prateleira.
+    </p>
 
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
 
-            </p>
-          </div>
-        </div>
+  <div className="right">
+    <img src={Image7} alt="" />
+  </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
+  <img src={Back} alt="" className="bottom" />
+</S.Main3>
 
-      <S.Main3 ref={section2Ref}>
-       <div className="left">
-       <span>
-       Quero gerenciar estoques
-        </span>
+<S.Main4 data-color={true}>
+  <h2><strong>Gestão de estoque e expedição</strong> alinhadas para as suas vendas decolarem!</h2>
 
-                <h4>
-                Tenha um ERP  
-        <strong> multiempresa, multiusuário </strong>
-        e com vários depósitos!
-        </h4>
+  <div className="texts">
+    <div className="text">
+      <span>Cadastro de Produtos Similares</span>
+      <p>
+        Ao incluir os dados de uma venda, os <strong>produtos similares</strong> também serão carregados, facilitando a oferta de produtos adicionais a seus clientes ou, simplesmente, possibilitando a oferta de uma maior variedade de mercadorias, sem perder tempo buscando uma a uma no sistema.
+      </p>
+    </div>
 
+    <div className="text">
+      <span>Notas de Entrada</span>
+      <p>
+        Com o BLUE ERP, você pode cadastrar cada <strong>NF de Entrada</strong> recebida, a partir de uma ordem de compra ou importando o arquivo XML recebido do seu fornecedor. E assim, o lançamento da nota de entrada é vinculado diretamente ao <strong>financeiro</strong> e ao estoque.
+      </p>
+    </div>
 
-        <p>
-        Nada melhor que, ao fazer a busca de um produto, o sistema já lhe retorne a localização do item. No BLUE ERP, você pode informar o local exato de armazenamento de cada mercadoria, como corredor ou prateleira.
-        </p>
+    <div className="text">
+      <span>Gestão de Expedição</span>
+      <p>
+        Controle a saída de suas mercadorias com o módulo de <strong>Gestão de Expedição</strong> do BLUE ERP. Com ele, você gerencia a armazenagem, separação, despacho e a efetiva entrega dos itens de qualquer lugar e a qualquer momento.
+      </p>
+    </div>
+  </div>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
+  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+</S.Main4>
 
-       <div className="right">
-       <img src={Image7} alt="" />
-       
-       </div>
+<S.Main3 ref={section3Ref}>
+  <div className="left">
+    <img src={Image8} alt="" />
+  </div>
 
-       <img src={Back} alt="" className="bottom"/>
-      </S.Main3>
+  <div className="right">
+    <span>Quero gerenciar meu financeiro</span>
 
-      <S.Main4 data-color={true}>
-        <h2><strong>Gestão de estoque e expedição </strong> alinhadas para as suas vendas decolarem!
-        </h2>
+    <h4>
+      O seu <strong>planejamento orçamentário</strong> ainda é baseado em achismo?
+    </h4>
 
-        <div className="texts">
-          <div className="text">
-            <span>           
-            Cadastro de Produtos Similares</span>
-            <p>
-           
-            Ao incluir os dados de uma venda, os produtos similares também serão carregados, facilitando a oferta de produtos adicionais a seus clientes ou, simplesmente, possibilitando a oferta de uma maior variedade de mercadorias, sem perder tempo buscando uma a uma no sistema.
-            </p>
-          </div>
+    <p>
+      Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
+    </p>
 
-          <div className="text">
-            <span> Notas de Entrada</span>
-            <p>
-           
-Com o BLUE ERP, você pode cadastrar cada NF de Entrada recebida, a partir de uma ordem de compra ou importando o arquivo XML recebido do seu fornecedor. E assim, o lançamento da nota de entrada é vinculado diretamente ao financeiro e ao estoque.
-
-
-            </p>
-          </div>
-
-          <div className="text">
-            <span> Gestão de Expedição</span>
-            <p>
-           
-            Controle a saída de suas mercadorias com o módulo de Gestão de Expedição do BLUE ERP. Com ele, você gerencia a armazenagem, separação, despacho e a efetiva entrega dos itens de qualquer lugar e a qualquer momento.
-            </p>
-          </div>
-        </div>
-
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
-          Experimente
-        </button>
-      </S.Main4>
-
-      <S.Main3 ref={section3Ref}>
-       <div className="left">
-       <img src={Image8} alt="" />
-       </div>
-
-       <div className="right">
-        <span>
-        Quero gerenciar meu financeiro
-        </span>
-
-        <h4>
-        O seu  
-        <strong> planejamento orçamentário </strong>
-        ainda é baseado em achismo?
-        </h4>
-
-
-        <p>
-        Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas notas fiscais, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
-        </p>
-
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
-       </div>
-
-      
-      </S.Main3>
+    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  </div>
+</S.Main3>
 
       <S.Main4 data-color={false}>
         <h2>

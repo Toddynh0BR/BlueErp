@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import BackGeral from "../../assets/backGeral.svg";
 
 import i1 from "./assets/logoAmazon.jpg";
 import i2 from "./assets/logoMl.jpg";
@@ -36,8 +37,8 @@ text-align: center;
 display: flex;
 gap: 2rem;
 
-background: rgb(0,0,198);
-background: linear-gradient(120deg, rgba(0,0,198,1) 0%, rgba(115,0,204,1) 100%);
+background-image: url(${BackGeral});
+background-size: cover;
 
 h2 {
  font-size: 3.3rem;

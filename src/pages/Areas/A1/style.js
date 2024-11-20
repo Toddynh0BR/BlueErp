@@ -326,7 +326,7 @@ padding: 0rem 10rem 5rem;
 
  span {
   line-height: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.3rem;
   color: #7300cc;
 
@@ -376,7 +376,7 @@ padding: 0rem 10rem 5rem;
 
  span {
   line-height: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.3rem;
   color: #7300cc;
 
