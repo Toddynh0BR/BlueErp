@@ -54,8 +54,8 @@ export function SistemaOnline(){
        <div className="Center">
        <div className="left">
         <h2>
-        Com o nosso Sistema Online, as informações da <br />
-        sua empresa estão sempre ao seu alcance.
+        Com o nosso <strong> Sistema Online, </strong> as informações da <br />
+        sua empresa estão <strong> sempre ao seu alcance.</strong>
         </h2>
 
         <p>
@@ -129,10 +129,11 @@ export function SistemaOnline(){
         </span>
 
         <p>
-        Com o módulo Usuários e Permissões da BLUE ERP, você cadastra usuários para acessar a base de dados da empresa de maneira segura e rastreável.
-        <br />
-        Cada colaborador possui credenciais próprias, e você pode personalizar as permissões individualmente, definindo quais ferramentas podem ser consultadas e editadas.
-        </p>
+    Com o módulo <strong>Usuários e Permissões</strong> da BLUE ERP, você cadastra usuários para acessar a base de dados da empresa de maneira segura e <strong>rastreável</strong>.
+    <br />
+    Cada colaborador possui credenciais próprias, e você pode personalizar as <strong>permissões</strong> individualmente, definindo quais ferramentas podem ser consultadas e editadas.
+</p>
+
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -146,10 +147,11 @@ export function SistemaOnline(){
         </span>
 
         <p>
-Com o BLUE Mobi, você e sua equipe de vendas têm em mãos uma solução completa e intuitiva para realizar vendas diretamente pelo smartphone. O aplicativo possibilita buscas de produtos por código de barras, cadastros rápidos, geração de pedidos e orçamentos, e acompanhamento de múltiplos estoques. Além disso, você pode emitir e enviar cupons fiscais por e-mail e contar com um PDV móvel, ideal para vendas em qualquer local. 
-<br /><br />
-Totalmente sincronizado com o BLUE ERP, o BLUE Mobi atualiza suas transações instantaneamente, garantindo que todos os registros estejam sempre em dia, mesmo longe do computador.
-        </p>
+    Com o <strong>BLUE Mobi</strong>, você e sua equipe de vendas têm em mãos uma solução completa e intuitiva para realizar vendas diretamente pelo smartphone. O aplicativo possibilita buscas de produtos por <strong>código de barras</strong>, cadastros rápidos, geração de pedidos e orçamentos, e acompanhamento de múltiplos estoques. Além disso, você pode emitir e enviar cupons fiscais por e-mail e contar com um PDV móvel, ideal para vendas em qualquer local. 
+    <br /><br />
+    Totalmente sincronizado com o BLUE ERP, o BLUE Mobi atualiza suas transações instantaneamente, garantindo que todos os registros estejam sempre em dia, mesmo longe do computador.
+</p>
+
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -172,10 +174,11 @@ Totalmente sincronizado com o BLUE ERP, o BLUE Mobi atualiza suas transações i
         </span>
 
         <p>
-Com o BLUE ERP, a aprovação de orçamentos fica prática e ágil. Envie orçamentos diretamente por e-mail para seus clientes, permitindo que eles analisem e aprovem os detalhes de qualquer lugar, de forma rápida e segura. Esse recurso elimina a burocracia e facilita a comunicação, tornando o processo mais dinâmico e eficaz. 
-<br /><br />
-Seu cliente pode aprovar o orçamento com apenas alguns cliques, mantendo o foco na eficiência e garantindo que a distância não seja um obstáculo para fechar negócios.
-        </p>
+    Com o <strong>BLUE ERP</strong>, a aprovação de orçamentos fica prática e ágil. Envie orçamentos diretamente por e-mail para seus clientes, permitindo que eles analisem e aprovem os detalhes de qualquer lugar, de forma <strong>rápida e segura</strong>. Esse recurso elimina a burocracia e facilita a comunicação, tornando o processo mais dinâmico e eficaz. 
+    <br /><br />
+    Seu cliente pode aprovar o orçamento com apenas alguns cliques, mantendo o foco na eficiência e garantindo que a distância não seja um obstáculo para fechar negócios.
+</p>
+
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -189,11 +192,12 @@ Seu cliente pode aprovar o orçamento com apenas alguns cliques, mantendo o foco
         </span>
 
         <p>
-        Com a BLUE ERP, o envio de documentos por e-mail é prático e flexível. Você pode enviar contratos, notas fiscais para seus clientes, e também compartilhar documentos com fornecedores. Personalize o assunto e o corpo do e-mail para garantir uma comunicação alinhada ao tom da sua empresa.
-        Após cadastrar um orçamento ou uma ordem de compra, basta um clique para que o documento chegue ao destinatário.
-        <br /><br />
-        Além disso, você tem a liberdade de personalizar o próprio documento anexado, tornando o processo ainda mais eficiente e adaptado às necessidades da sua empresa.
-        </p>
+    Com a <strong>BLUE ERP</strong>, o envio de documentos por e-mail é prático e flexível. Você pode enviar contratos, notas fiscais para seus clientes, e também compartilhar documentos com fornecedores. Personalize o assunto e o corpo do e-mail para garantir uma comunicação alinhada ao <strong>tom da sua empresa</strong>.
+    Após cadastrar um orçamento ou uma ordem de compra, basta um clique para que o documento chegue ao destinatário.
+    <br /><br />
+    Além disso, você tem a liberdade de personalizar o próprio documento anexado, tornando o processo ainda mais eficiente e adaptado às necessidades da sua empresa.
+</p>
+
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -219,12 +223,10 @@ Seu cliente pode aprovar o orçamento com apenas alguns cliques, mantendo o foco
         </span>
 
         <p>
-        
-
-Com a BLUE ERP, você pode criar atributos personalizados para atender às especificidades do seu negócio.
-Amplie as possibilidades de cadastro de produtos e vendas com campos próprios e exclusivos, sem ficar limitado aos campos padrão. Tenha total autonomia para adicionar novos campos conforme a necessidade e utilize filtros para encontrar informações rapidamente, facilitando a gestão e organização dos dados.
-Essa personalização garante que o sistema se ajuste às suas operações, trazendo mais eficiência ao seu dia a dia.
-        </p>
+    Com a <strong>BLUE ERP</strong>, você pode criar atributos personalizados para atender às especificidades do seu negócio.
+    Amplie as possibilidades de cadastro de produtos e vendas com campos próprios e exclusivos, sem ficar limitado aos campos padrão. Tenha total autonomia para adicionar novos campos conforme a necessidade e utilize <strong>filtros</strong> para encontrar informações rapidamente, facilitando a gestão e organização dos dados.
+    Essa personalização garante que o sistema se ajuste às suas operações, trazendo mais eficiência ao seu dia a dia.
+</p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -238,11 +240,8 @@ Essa personalização garante que o sistema se ajuste às suas operações, traz
         </span>
 
         <p>
-        
-
-A proteção das informações da sua empresa é nossa prioridade! A BLUE ERP utiliza criptografia de nível bancário para assegurar que todas as transações no seu ERP sejam realizadas com total segurança. Com servidores hospedados na Amazon — líder global em serviços de nuvem — você conta com uma infraestrutura robusta e confiável. Além disso, temos um plano de contingência, garantindo que o sistema esteja sempre disponível, mesmo em situações inesperadas, para que você nunca perca uma venda ou enfrente interrupções indesejadas.
-
-        </p>
+    A proteção das informações da sua empresa é nossa prioridade! A <strong>BLUE ERP</strong> utiliza <strong>criptografia de nível bancário</strong> para assegurar que todas as transações no seu ERP sejam realizadas com total segurança. Com servidores hospedados na <strong>Amazon</strong> — líder global em serviços de nuvem — você conta com uma infraestrutura robusta e confiável. Além disso, temos um plano de contingência, garantindo que o sistema esteja sempre disponível, mesmo em situações inesperadas, para que você nunca perca uma venda ou enfrente interrupções indesejadas.
+</p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -268,11 +267,9 @@ A proteção das informações da sua empresa é nossa prioridade! A BLUE ERP ut
         </span>
 
         <p>
-        
+    Ao migrar para um novo sistema de gestão, a transferência dos cadastros existentes é uma preocupação comum. Para facilitar esse processo, a <strong>BLUE ERP</strong> oferece <strong>planilhas em Excel</strong> que permitem a importação de todos os seus dados anteriores de forma rápida e eficiente. Dependendo do plano contratado, você também pode solicitar a ajuda da nossa equipe de <strong>Implantação</strong> para realizar a importação dos dados do seu antigo ERP, garantindo que todos os seus cadastros sejam corretamente configurados na nova plataforma sem complicações.
+</p>
 
-
-Ao migrar para um novo sistema de gestão, a transferência dos cadastros existentes é uma preocupação comum. Para facilitar esse processo, a BLUE ERP oferece planilhas em Excel que permitem a importação de todos os seus dados anteriores de forma rápida e eficiente. Dependendo do plano contratado, você também pode solicitar a ajuda da nossa equipe de Implantação para realizar a importação dos dados do seu antigo ERP, garantindo que todos os seus cadastros sejam corretamente configurados na nova plataforma sem complicações.
-        </p>
 
         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
        </div>
@@ -286,30 +283,25 @@ Ao migrar para um novo sistema de gestão, a transferência dos cadastros existe
          <div className="card">
           <span>Backup</span>
           <p>
-         
+    Uma das grandes vantagens da <strong>BLUE ERP</strong> é a realização de <strong>backups diários</strong>, garantindo a segurança dos dados da sua empresa com cópias de segurança a cada 24 horas. Se necessário, o usuário pode solicitar a <strong>restauração</strong> desses dados, assegurando que as informações estejam sempre protegidas e disponíveis.
+</p>
 
-
-Uma das grandes vantagens da BLUE ERP é a realização de backups diários, garantindo a segurança dos dados da sua empresa com cópias de segurança a cada 24 horas. Se necessário, o usuário pode solicitar a restauração desses dados, assegurando que as informações estejam sempre protegidas e disponíveis.
-
-
-          </p>
          </div>
 
          <div className="card">
           <span>BLUE no Excel</span>
           <p>
-          
+    Se você precisa analisar informações em planilhas, a <strong>BLUE ERP</strong> facilita esse processo ao permitir que você verifique todos os dados da sua empresa diretamente no <strong>Microsoft Excel</strong>. Essa funcionalidade é ativada com a instalação de um suplemento que sincroniza a <strong>BLUE ERP</strong> com o Excel. Com isso, você pode criar novos relatórios, gerar gráficos e tabelas dinâmicas, tornando o acompanhamento de todos os setores do seu negócio mais fácil e eficiente.
+</p>
 
-Se você precisa analisar informações em planilhas, a BLUE ERP facilita esse processo ao permitir que você verifique todos os dados da sua empresa diretamente no Microsoft Excel. Essa funcionalidade é ativada com a instalação de um suplemento que sincroniza a BLUE ERP com o Excel. Com isso, você pode criar novos relatórios, gerar gráficos e tabelas dinâmicas, tornando o acompanhamento de todos os setores do seu negócio mais fácil e eficiente.
-          </p>
          </div>
 
          <div className="card">
           <span>Integração com Google</span>
           <p>
+    A <strong>BLUE ERP</strong> também permite a integração com o <strong>Google</strong>, possibilitando o compartilhamento de calendários de tarefas e arquivos diretamente com o <strong>Google Drive</strong>. Ao fazer login na BLUE ERP usando uma conta Google, os dados armazenados serão automaticamente compartilhados no Drive, permitindo um aproveitamento multifuncional das informações e facilitando a colaboração entre sua equipe.
+</p>
 
-A BLUE ERP também permite a integração com o Google, possibilitando o compartilhamento de calendários de tarefas e arquivos diretamente com o Google Drive. Ao fazer login na BLUE ERP usando uma conta Google, os dados armazenados serão automaticamente compartilhados no Drive, permitindo um aproveitamento multifuncional das informações e facilitando a colaboração entre sua equipe.
-          </p>
          </div>
         </div>
       </S.Main3>

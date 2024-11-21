@@ -9,7 +9,7 @@ import { IoMdCloudOutline } from "react-icons/io";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiWifiOffLine } from "react-icons/ri";
 
-import { FaInstagram, FaYoutube, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { GoShieldCheck } from "react-icons/go";
 
@@ -34,7 +34,7 @@ export function Footer(){
         <div className="left">
           <h2><strong>Experimente a  Blue ERP </strong> agora e <br /> surpreenda-se com os resultados!</h2>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente agora</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente agora</button>
         </div>
 
         <div className="right">
@@ -87,6 +87,10 @@ export function Footer(){
           <a href="https://www.linkedin.com/company/105473549/" target='blank'>
           <FaLinkedin/>
           </a>
+
+          <a href="https://wa.me/message/KL5UXTDEMTXIK1" target='blank'>
+          <FaWhatsapp/>
+          </a>
         </div>
 
         <div className="eco" onClick={()=> abriNovaRota('/ecossistema')}>
@@ -125,47 +129,70 @@ export function Footer(){
         <div className="topic">
           <h5>Vendas e Serviços</h5>
           <ul>
-            <li className={ path == 'pdv-com-cupom-fiscal-eletronico' ? 'this' : ''} 
+            <li onClick={()=> path == 'pdv-com-cupom-fiscal-eletronico' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'pdv-com-cupom-fiscal-eletronico' ? 'this' : ''} 
                 ><Link to="/pdv-com-cupom-fiscal-eletronico"> PDV com Cupom Fiscal Eletrônico </Link></li>
 
-            <li className={ path == 'controle-de-vendas' ? 'this' : ''}
+            <li onClick={()=> path == 'controle-de-vendas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'controle-de-vendas' ? 'this' : ''}
                 ><Link to='/controle-de-vendas'> Relatórios de Vendas e Serviços </Link></li>
 
-            <li className={ path ==  'loja-virtual' ? 'this' : ''}
+            <li onClick={()=> path == 'loja-virtual' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path ==  'loja-virtual' ? 'this' : ''}
                 ><Link to='/loja-virtual'> Loja Virtual - Blue Loja </Link></li>
 
-            <li className={ path == 'central-de-integra%C3%A7oes' ? 'this' : ''}
+            <li onClick={()=> path == 'app-de-vendas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'app-de-vendas' ? 'this' : ''}
+                ><Link to='/app-de-vendas'> App de Vendas - Blue Mobi</Link></li>
+
+            <li onClick={()=> path == 'loja-offline' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'loja-offline' ? 'this' : ''}
+                ><Link to='/loja-offline'> Loja Offline - Blue Lite</Link></li>
+
+            <li onClick={()=> path == 'central-de-integra%C3%A7oes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'central-de-integra%C3%A7oes' ? 'this' : ''}
                 ><Link to='/central-de-integraçoes'> Central de Integrações </Link></li>
 
-            <li className={ path == 'gestao-de-contratos' ? 'this' : ''}
+            <li onClick={()=> path == 'gestao-de-contratos' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'gestao-de-contratos' ? 'this' : ''}
                 ><Link to='/gestao-de-contratos'> Gestão de Contratos </Link></li>
 
-            <li className={ path == 'gestao-de-servi%C3%A7os' ? 'this' : ''}
+            <li onClick={()=> path == 'gestao-de-servi%C3%A7os' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'gestao-de-servi%C3%A7os' ? 'this' : ''}
                 ><Link to='/gestao-de-serviços'> Gestão de Serviços </Link></li>
 
-            <li className={ path == 'controle-de-vendas' ? 'this' : ''}
+            <li onClick={()=> path == 'controle-de-vendas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'controle-de-vendas' ? 'this' : ''}
                 ><Link to='/controle-de-vendas'> Gestão de Vendas </Link></li>
 
-            <li className={ path == 'catalogo-virtual' ? 'this' : ''}
+            <li onClick={()=> path == 'catalogo-virtual' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'catalogo-virtual' ? 'this' : ''}
                 ><Link to='/catalogo-virtual'> Catálogo Virtual </Link></li>
-            <li className={ path == 'gestao-de-crm' ? 'this' : ''}
+
+            <li onClick={()=> path == 'gestao-de-crm' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'gestao-de-crm' ? 'this' : ''}
                 ><Link to='/gestao-de-crm'> Gestão de CRM </Link></li>
+
           </ul>
         </div>
 
         <div className="topic">
           <h5>Financeiro e Fiscal</h5>
           <ul>
-            <li className={ path == 'controle-financeiro' ? 'this' : ''}
+            <li onClick={()=> path == 'controle-financeiro' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'controle-financeiro' ? 'this' : ''}
                 ><Link to="/controle-financeiro"> Relatórios Financeiros e Fiscais</Link></li>
 
-            <li className={ path == 'gestao-de-compras' ? 'this' : ''}
+            <li onClick={()=> path == 'gestao-de-compras' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'gestao-de-compras' ? 'this' : ''}
                 ><Link to="/gestao-de-compras"> Gestão de Compras</Link></li>
 
-            <li className={ path == 'controle-financeiro' ? 'this' : ''}
+            <li onClick={()=> path == 'controle-financeiro' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'controle-financeiro' ? 'this' : ''}
                 ><Link to="/controle-financeiro"> Gestão Financeira</Link></li>
 
-            <li className={ path == 'gestao-fiscal' ? 'this' : ''}
+            <li onClick={()=> path == 'gestao-fiscal' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+                className={ path == 'gestao-fiscal' ? 'this' : ''}
                 ><Link to="/gestao-fiscal"> Gestão Fiscal</Link></li>
 
           </ul>
@@ -174,25 +201,32 @@ export function Footer(){
         <div className="topic">
           <h5>Administrativo</h5>
           <ul>
-          <li className={ path == 'central-de-integra%C3%A7oes' ? 'this' : ''}
+          <li onClick={()=> path == 'central-de-integra%C3%A7oes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'central-de-integra%C3%A7oes' ? 'this' : ''}
               ><Link to="/central-de-integraçoes"> Integração com o Google Apps</Link></li>
 
-          <li className={ path == 'ferramentas-administrativas' ? 'this' : ''}
+          <li onClick={()=> path == 'ferramentas-administrativas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-administrativas' ? 'this' : ''}
               ><Link to="/ferramentas-administrativas"> Relatórios Administrativos</Link></li>
 
-          <li className={ path == 'ferramentas-administrativas' ? 'this' : ''}
+          <li onClick={()=> path == 'ferramentas-administrativas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-administrativas' ? 'this' : ''}
               ><Link to="/ferramentas-administrativas"> Documentos Personalizados</Link></li>
 
-          <li className={ path == 'ferramentas-administrativas' ? 'this' : ''}
+          <li onClick={()=> path == 'ferramentas-administrativas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-administrativas' ? 'this' : ''}
               ><Link to="/ferramentas-administrativas"> Gestão de Arquivos</Link></li>
 
-          <li className={ path == 'ferramentas-administrativas' ? 'this' : ''}
+          <li onClick={()=> path == 'ferramentas-administrativas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-administrativas' ? 'this' : ''}
               ><Link to="/ferramentas-administrativas"> Gestão de Tarefas</Link></li>
 
-          <li className={ path == 'sistema-online' ? 'this' : ''}
+          <li onClick={()=> path == 'sistema-online' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'sistema-online' ? 'this' : ''}
               ><Link to="/sistema-online"> Sistema Online</Link></li>
 
-          <li className={ path == 'ferramentas-administrativas' ? 'this' : ''}
+          <li onClick={()=> path == 'ferramentas-administrativas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-administrativas' ? 'this' : ''}
               ><Link to="/ferramentas-administrativas"> Gestão de RH</Link></li>
 
           </ul>
@@ -201,19 +235,24 @@ export function Footer(){
         <div className="topic">
           <h5>Logística</h5>
           <ul>
-           <li className={ path == 'gestao-de-expedi%C3%A7ao' ? 'this' : ''}
+           <li onClick={()=> path == 'gestao-de-expedi%C3%A7ao' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+               className={ path == 'gestao-de-expedi%C3%A7ao' ? 'this' : ''}
                ><Link to='/gestao-de-expediçao'> Gestão de Expedição e BLUE Web</Link></li>
 
-           <li className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
+           <li onClick={()=> path == 'controle-de-produ%C3%A7ao' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+               className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
                ><Link to='/controle-de-estoque'> Relatórios de Logística</Link></li>
 
-           <li className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
+           <li onClick={()=> path == 'controle-de-produ%C3%A7ao' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+               className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
                ><Link to='/controle-de-produçao'> Gestão de Produção</Link></li>
 
-           <li className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
+           <li onClick={()=> path == 'controle-de-produ%C3%A7ao' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+               className={ path == 'controle-de-produ%C3%A7ao' ? 'this' : ''}
                ><Link to='/controle-de-produçao'> Gestão de Estoque</Link></li>
 
-           <li className={ path == 'controle-de-estoque' ? 'this' : ''}
+           <li onClick={()=> path == 'controle-de-estoque' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+               className={ path == 'controle-de-estoque' ? 'this' : ''}
                ><Link to='/controle-de-estoque'> Gestão de Frota</Link></li>
 
           </ul>
@@ -226,17 +265,21 @@ export function Footer(){
         <div className="topic">
          <h5>Conheça</h5>
          <ul>
-         <li className={ path == 'parceiros' ? 'this' : ''}
+         <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+             className={ path == 'parceiros' ? 'this' : ''}
              ><Link to='/parceiros'> Parceiros e Integrações </Link></li>
 
-         <li className={ path == 'blue-innovation' ? 'this' : ''}
+         <li onClick={()=> path == 'blue-innovation' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+             className={ path == 'blue-innovation' ? 'this' : ''}
              ><Link to='/blue-innovation'> Sobre a BLUE ERP </Link></li>
 
          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/politica-privacidade/')}>Termos e Condições</li>
-         <li className={ path == 'planos' ? 'this' : ''}
+         <li onClick={()=> path == 'planos' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+             className={ path == 'planos' ? 'this' : ''}
              ><Link to='/planos'> Planos e Preços </Link></li>
 
-         <li className={ path == 'conheça-a-blue-erp' ? 'this' : ''}
+         <li onClick={()=> path == 'conheça-a-blue-erp' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+             className={ path == 'conheça-a-blue-erp' ? 'this' : ''}
              ><Link to='/conheça-a-blue-erp'> Como funciona? </Link></li>
 
          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/contato/')}>Contato</li>
@@ -246,45 +289,56 @@ export function Footer(){
         <div className="topic">
          <h5>Suporte</h5>
          <ul>
-          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Primeiros passos</li>
-          <li onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Abertura de Ticket</li>
+          <li onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Primeiros passos</li>
+          <li onClick={()=> abrirNovaAba('https://blueinnovation.freshdesk.com/support/login')}>Abertura de Ticket</li>
          </ul>
         </div>
 
         <div className="topic">
          <h5>Áreas de Atuação</h5>
          <ul>
-          <li className={ path == 'ferramentas-e-ferragens' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'ferramentas-e-ferragens' ? 'this' : ''}
               > <Link to="/ferramentas-e-ferragens" >Ferramentas e Ferragens</Link></li>
 
-          <li className={ path == 'consultoria-empresarial' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'consultoria-empresarial' ? 'this' : ''}
               ><Link to='/consultoria-empresarial'> Consultoria Empresarial</Link></li>
 
-          <li className={ path == 'lojas-de-informatica' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'lojas-de-informatica' ? 'this' : ''}
               ><Link to='/lojas-de-informatica'> Lojas de Informática</Link></li>
 
-          <li className={ path == 'agencias-de-turismo' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'agencias-de-turismo' ? 'this' : ''}
               ><Link to='/agencias-de-turismo'> Agências de turismo</Link></li>
 
-          <li className={ path == 'loja-de-eletrodomesticos' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'loja-de-eletrodomesticos' ? 'this' : ''}
               ><Link to='/loja-de-eletrodomesticos'> Eletro-domésticos</Link></li>
 
-          <li className={ path == 'lojas-de-informatica' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'lojas-de-informatica' ? 'this' : ''}
               ><Link to='/lojas-de-informatica'> Serviços de TI</Link></li>
 
-          <li className={ path == 'erp-para-loja-virtual' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'erp-para-loja-virtual' ? 'this' : ''}
               ><Link to='/erp-para-loja-virtual'> Loja Virtual</Link></li>
 
-          <li className={ path == 'loja-de-materiais-de-construcao' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'loja-de-materiais-de-construcao' ? 'this' : ''}
               ><Link to='/loja-de-materiais-de-construcao'> Construção</Link></li>
 
-          <li className={ path == 'loja-de-roupas' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'loja-de-roupas' ? 'this' : ''}
               ><Link to='/loja-de-roupas'> Vestuário</Link></li>
 
-          <li className={ path == 'produtos-medicos-e-hospitalares' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'produtos-medicos-e-hospitalares' ? 'this' : ''}
               ><Link to='/produtos-medicos-e-hospitalares'> Produtos Hospitalares</Link></li>
 
-          <li className={ path == 'sistema-para-autopecas' ? 'this' : ''}
+          <li onClick={()=> path == 'parceiros' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'sistema-para-autopecas' ? 'this' : ''}
               ><Link to='/sistema-para-autopecas'> Autopeças</Link></li>
 
          </ul>

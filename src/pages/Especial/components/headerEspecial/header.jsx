@@ -9,8 +9,8 @@ import Logo from "../../assets/1.png";
 
 import { FaUserLarge } from "react-icons/fa6";
 
-import ads1 from "../../assets/bannerMenuSigeBank.png";
-import ads2 from "../../assets/bannerMenuSigeLoja.jpg";
+import ads1 from "../../assets/ne1.png";
+import ads2 from "../../assets/ne2.png";
 
 export function EspecialHeader(){
     const [functionOpen, setFunction] = useState(false);
@@ -67,7 +67,7 @@ export function EspecialHeader(){
          </span>
 
          <span onClick={()=> navigate('/planos')}>Planos</span>
-         <span onClick={()=> abrirNovaAba('https://blueinnovation.com.br/contato/')}>Suporte</span>
+         <span onClick={()=> abrirNovaAba('https://blueinnovation.freshdesk.com/support/login')}>Suporte</span>
 
          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
             Experimente

@@ -74,7 +74,7 @@ export function Header(){
         <span>Planos</span>
        </div>
 
-       <button className="exp" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+       <button className="exp" onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
         Experimente
        </button>
 
@@ -280,7 +280,7 @@ export function Header(){
          <div className="EcoLink">
           <h3><strong>Experimente a  Blue Erp agora</strong>  e descubra se ela é a solução ideal para o seu negócio.</h3>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
           <img src={Hexagon} alt="hexagono" />
          </div>
         </div>

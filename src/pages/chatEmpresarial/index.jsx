@@ -251,6 +251,18 @@ sistema ERP!
         </div>
       </S.Main3>
 
+      <S.Main4>
+        <div className="left">
+        <p>
+        <strong> Você pode baixar o Blue Talk e instalar em seu computador</strong>, tendo ainda mais praticidade para gerenciar a comunicação entre todos os setores da sua empresa.
+        </p>
+        </div>
+
+        <div className="right">
+
+        </div>
+      </S.Main4>
+
       <Footer/>
      </S.Container>
     )

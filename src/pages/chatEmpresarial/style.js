@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import backGeral from "./assets/backGeral.svg";
+import backWhite from "./assets/backGeral copy.svg";
 
 export const Container = styled.div`
 
@@ -415,6 +416,46 @@ button {
  img, .especial, .Especial {
   display: none;
  }
+}
+`
+
+export const Main4 = styled.div`
+height: 50vh;
+width: 100%;
+
+align-items: center;
+display: flex;
+
+.left {
+  height: 100%;
+  width: 50%;
+
+  background-image: url(${backGeral});
+  padding: 2rem 4rem;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+
+  background-image: url(${backWhite});
+  padding: 2rem 4rem;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 `
 

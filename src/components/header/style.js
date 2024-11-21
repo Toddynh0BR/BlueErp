@@ -4,9 +4,9 @@ import svg2 from "../../assets/back2.svg";
 import svg from "../../assets/back.svg"
 
 
-import a1 from "./assets/1-1.png";
-import a2 from "./assets/2-1.png";
-import a3 from "./assets/3-1.png";
+import a1 from "./assets/1-1.svg";
+import a2 from "./assets/2-1.svg";
+import a3 from "./assets/3-1.svg";
 
 export const Container = styled.header`
 height: 7rem;

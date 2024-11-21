@@ -188,7 +188,7 @@ display: flex;
 
 }
 .Functions {
- height: 45rem;
+ height: 43rem;
  width: 100%;
 
  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -239,14 +239,14 @@ display: flex;
   flex-direction: column;
   display: flex;
 
-  
- .ads1 {
-  border-radius: 0 2rem 0 0 0;
- }
 
   img {
-   cursor: pointer;
    flex: 1;
+
+   &:hover {
+    cursor: pointer;
+    filter: saturate(1.5);
+   }
   }
  }
 }
