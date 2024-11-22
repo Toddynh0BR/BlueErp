@@ -62,7 +62,7 @@ export function A4(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -120,7 +120,7 @@ export function A4(){
     <p>
       Outro recurso do sistema Blue ERP que contribui para a organização da sua empresa é o <strong>cadastro de vendedor</strong> dentro do cadastro do cliente. Dessa forma, ao atender um cliente — seja pessoa física ou jurídica — e realizar uma venda, a negociação ficará automaticamente vinculada ao <strong>vendedor designado</strong>. Isso facilita o acompanhamento das vendas e permite um <strong>controle mais preciso</strong> sobre o desempenho de cada vendedor, além de promover um atendimento personalizado e eficiente.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -149,7 +149,7 @@ export function A4(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main5 ref={section2Ref}>
@@ -158,7 +158,7 @@ export function A4(){
     <p>
       Com o Blue ERP, você conta com um sistema de retaguarda completo, permitindo criar <strong>contratos</strong> diretamente na plataforma para a venda de pacotes de viagens, organização de eventos, passeios, jogos e outras atividades. Essa funcionalidade assegura a documentação necessária para cada <strong>transação</strong>, facilitando a gestão da relação entre sua empresa e os clientes. Ter contratos formalizados e organizados em um único sistema torna o processo mais <strong>ágil, seguro e eficiente</strong>, garantindo uma experiência aprimorada e profissional para seus clientes.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -192,7 +192,7 @@ export function A4(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -205,7 +205,7 @@ export function A4(){
     <p>
       Anunciar serviços como pacotes de viagens, eventos esportivos, shows, concertos, seguros de viagem e até mesmo produtos fica muito mais simples com uma <strong>loja virtual</strong>. Com os recursos da Blue Loja, você tem uma plataforma completa para criar seu <strong>e-commerce</strong> de turismo de forma rápida e eficiente!
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -234,7 +234,7 @@ export function A4(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
       <Footer/>

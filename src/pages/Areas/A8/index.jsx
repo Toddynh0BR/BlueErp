@@ -74,7 +74,7 @@ export function A8(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -237,7 +237,7 @@ export function A8(){
       Com os recursos do módulo de vendas do BLUE ERP, você pode <strong> aumentar a visibilidade</strong> da sua loja de artigos de vestuário, com um frente de caixa mais ágil, facilitando o <strong> acesso dos clientes aos produtos</strong> que você comercializa, seja por loja virtual ou catálogo online. Além disso, você pode <strong> aplicar preços diferenciados</strong> e gerenciar toda a sua equipe de vendas.
     </p>
 
-    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -292,7 +292,7 @@ export function A8(){
     </div>
   </div>
 
-  <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -312,7 +312,7 @@ export function A8(){
       O BLUE ERP possui um moderno e completo módulo de gestão de estoque que lhe permite gerenciar todas as etapas, desde a <strong> compra de mercadorias</strong>, a localização em diferentes depósitos, o giro de mercadorias em estoque e até as <strong> entregas</strong>.
     </p>
 
-    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -349,7 +349,7 @@ export function A8(){
     </div>
   </div>
 
-  <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -374,7 +374,7 @@ export function A8(){
       Com o BLUE ERP, você tem módulos para controlar seu <strong> fluxo de caixa</strong>, fazer projeções de receitas e despesas, gerenciar centros de custos e planos de contas, organizando sua gestão financeira, <strong> reduzindo custos</strong> e otimizando recursos para o crescimento do negócio.
     </p>
 
-    <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -440,7 +440,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
         </div>
 
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -462,7 +462,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
         Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com tempo para prestar um bom atendimento e conquistar ainda mais clientes. Configure os impostos necessários e emita NF-e, NFC-e, CF-e SAT e outros documentos fiscais com a certeza de estar sempre em dia com a legislação.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -504,7 +504,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

@@ -64,7 +64,7 @@ export function PDV(){
         no estoque e o lançamento financeiro, automaticamente.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -131,7 +131,7 @@ export function PDV(){
       Com isso, uma das grandes vantagens do nosso PDV é que você começa a economizar <strong>tanto tempo quanto dinheiro</strong> desde o início!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -151,7 +151,7 @@ export function PDV(){
       Além disso, a <strong>emissão de notas e cupons fiscais</strong> também é garantida, podendo ser feita em contingência. Quando a conexão for restabelecida, o sistema envia automaticamente as notas emitidas em contingência para a <strong>SEFAZ</strong> do seu estado. Assim, você pode esquecer as <strong>dores de cabeça</strong> na hora de vender!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -179,7 +179,7 @@ export function PDV(){
       Você também terá acesso a uma variedade de <strong>funcionalidades financeiras</strong>, incluindo o cadastro de credenciadoras para vendas com cartão de crédito ou débito, além de diversos relatórios financeiros, fiscais e de vendas para uma <strong>gestão mais completa</strong> e informada.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -199,7 +199,7 @@ export function PDV(){
       Assim, a BLUE ERP proporciona um controle eficiente das <strong>vendas realizadas por meio de cartões</strong>, garantindo praticidade e segurança na gestão financeira do seu negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -227,7 +227,7 @@ export function PDV(){
       Além disso, você terá acesso a diversos recursos financeiros, como o cadastro de <strong>credenciadoras</strong> para vendas via cartão de crédito ou débito, além de uma variedade de relatórios financeiros, fiscais e de vendas para uma <strong>gestão mais completa</strong> e organizada do seu negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main2>
 

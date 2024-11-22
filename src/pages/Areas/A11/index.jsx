@@ -71,7 +71,7 @@ export function A11(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -223,7 +223,7 @@ export function A11(){
       Implementar um software para a <strong>prestação de serviço</strong> é fundamental para empresas que buscam formas de crescer com suporte e estrutura para <strong>controlar serviços</strong>, vendas, contratos e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua <strong>produtividade</strong> e alavancar seu faturamento.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -255,7 +255,7 @@ export function A11(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -272,7 +272,7 @@ export function A11(){
       Para quem trabalha com a <strong>prestação de serviços</strong>, como por exemplo, as empresas prestadoras de serviços de engenharia que atendem outras empresas ou até mesmo clientes finais, é comum trabalhar com <strong>contratos</strong> para cada projeto.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -308,7 +308,7 @@ export function A11(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -329,7 +329,7 @@ export function A11(){
       Com o Blue ERP, você conta com módulos completos para gerenciar o <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, controlar centros de custos e organizar <strong>planos de contas</strong>, permitindo uma gestão financeira eficiente. Dessa forma, você pode otimizar o uso do capital da sua empresa, reduzir custos e maximizar os recursos para impulsionar o crescimento do negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -361,7 +361,7 @@ export function A11(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -378,7 +378,7 @@ export function A11(){
       Com o nosso sistema para emissão de <strong>Nota Fiscal de Serviço</strong> Eletrônica (NFS-e), você pode integrar ordens de serviço e contratos e gerar seus documentos fiscais rapidamente, com apenas alguns cliques. E o melhor, o Blue ERP já conta com integração com mais de 1.200 municípios e está em constante evolução para oferecer as melhores ferramentas para a sua empresa.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -419,7 +419,7 @@ Com o recurso de faturamento em lote, além de facilitar o processo financeiro d
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

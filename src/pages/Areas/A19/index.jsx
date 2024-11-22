@@ -70,7 +70,7 @@ export function A19(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -229,7 +229,7 @@ export function A19(){
       Seja para realizar <strong>vendas diretas</strong> para o consumidor final ou até mesmo para quem trabalha com <strong>vendas em consignação</strong> para outras lojas, o PDV Frente de Caixa do Blue ERP oferece todas as funcionalidades necessárias. Com ele, é possível <strong>importar orçamentos</strong>, realizar saídas consignadas e, claro, realizar vendas diretas com emissão de NFC-e ou CF-e SAT.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -261,7 +261,7 @@ export function A19(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -282,7 +282,7 @@ export function A19(){
       O Blue ERP possui um moderno e completo módulo de <strong>gestão de estoque</strong>, que permite gerenciar todas as etapas, desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque, até as entregas. Com esse módulo, sua empresa pode otimizar o <strong>controle de estoque</strong>, garantir a precisão no inventário e melhorar a eficiência nas operações de distribuição, aumentando a agilidade e reduzindo custos.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -334,7 +334,7 @@ export function A19(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -358,7 +358,7 @@ export function A19(){
       Com o módulo de Gestão Fiscal do Blue ERP, a emissão de <strong>notas fiscais</strong> se torna um processo simples e ágil, permitindo que você e sua equipe tenham mais tempo para focar no atendimento ao cliente e impulsionar o crescimento do seu negócio. Esse sistema automatizado garante que todos os documentos fiscais sejam emitidos de forma eficiente e em conformidade com a legislação vigente, facilitando o seu dia a dia e aprimorando a experiência do cliente.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
       <S.Main4 data-color={false}>
@@ -420,7 +420,7 @@ Ofereça mais comodidade aos seus clientes com a opção de parcelamento. No Blu
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -443,7 +443,7 @@ Ofereça mais comodidade aos seus clientes com a opção de parcelamento. No Blu
 Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se torna um processo simples e ágil. Ao configurar os impostos necessários, você pode emitir NF-e, NFC-e, CF-e SAT e outros documentos fiscais de forma eficiente, garantindo que sua empresa esteja sempre em dia com a legislação. Dessa forma, você e sua equipe terão mais tempo para se concentrar no que realmente importa: oferecer um excelente atendimento e conquistar ainda mais clientes.
 </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -485,7 +485,7 @@ Com o Blue ERP, você conta com recursos completos para a emissão de NFC-e e CF
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

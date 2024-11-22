@@ -61,7 +61,7 @@ export function GestaoCompras(){
          você adquire pelo melhor preço e impulsiona o crescimento do seu negócio.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -118,7 +118,7 @@ export function GestaoCompras(){
       <br /><br />
       Depois de receber as cotações, você pode analisá-las no próprio sistema e transformar a melhor proposta em uma <strong>ordem de compra aprovada</strong>, trazendo mais praticidade e controle aos processos de compra da sua empresa.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
 </S.Main2>
@@ -129,7 +129,7 @@ export function GestaoCompras(){
     <p>
       As ordens de compra são documentos que autorizam a <strong>aquisição de mercadorias</strong> junto aos fornecedores. Na BLUE ERP, você pode cadastrar suas ordens de compra <strong>manualmente</strong> ou gerá-las a partir de uma cotação. Além disso, é possível <strong>enviar as ordens diretamente para o e-mail</strong> do fornecedor ou imprimir um modelo personalizado de acordo com suas preferências.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <div className="right">
     <img src={Image2} alt="" />
@@ -149,7 +149,7 @@ export function GestaoCompras(){
       <br /><br />
       O registro da nota de entrada é integrado diretamente ao <strong>setor financeiro</strong> e ao estoque, permitindo que você controle a entrada dos itens no estoque e as duplicatas a serem pagas com facilidade.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
 </S.Main2>
@@ -160,7 +160,7 @@ export function GestaoCompras(){
     <p>
       Monitorar todas as <strong>notas fiscais emitidas</strong> para a sua empresa é essencial para evitar problemas futuros. Com a BLUE ERP, você pode acessar, diretamente no módulo de <strong>Gestão de Compras</strong>, todas as notas emitidas contra o seu CNPJ, garantindo um controle eficiente e tranquilo das suas transações.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <div className="right">
     <img src={Image4} alt="" />
@@ -180,7 +180,7 @@ export function GestaoCompras(){
       <br /><br />
       Além disso, você conta com relatórios de <strong>Previsão de Compra</strong>, Grade de Produtos, Inventário e Produtos com Lote e Validade. Com este último, é possível visualizar o saldo de cada produto armazenado, conforme a data de vencimento e o número do lote, evitando o risco de comercializar itens vencidos.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main2>
 

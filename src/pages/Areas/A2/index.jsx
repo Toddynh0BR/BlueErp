@@ -70,7 +70,7 @@ export function A2(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -214,7 +214,7 @@ export function A2(){
       O <strong>Blue ERP</strong> oferece integração com as ferramentas do <strong>Google</strong>, proporcionando mais <strong>facilidade</strong> no seu dia a dia. Essa integração permite gerenciar as tarefas dos colaboradores, como reuniões e visitas aos clientes, de maneira organizada e eficiente.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -246,7 +246,7 @@ export function A2(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -261,7 +261,7 @@ export function A2(){
       Com o <strong>Blue ERP</strong>, você dispõe de módulos para controlar o <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas, proporcionando uma <strong>gestão financeira</strong> organizada. Isso garante que o capital da sua empresa seja investido de forma eficiente, reduzindo custos e otimizando recursos para o crescimento sustentável do negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -299,7 +299,7 @@ export function A2(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -318,7 +318,7 @@ export function A2(){
       Para empresas de consultoria que atendem outras empresas ou clientes finais, é comum formalizar cada projeto com um <strong>contrato</strong> específico. Além da criação de contratos, o <strong>Blue ERP</strong> oferece uma funcionalidade completa para o <strong>gerenciamento</strong> de prestação de serviços por meio da criação de ordens de serviço, facilitando o acompanhamento de cada etapa do processo de consultoria.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -350,7 +350,7 @@ export function A2(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -365,7 +365,7 @@ export function A2(){
       Com o sistema de emissão de <strong>Nota Fiscal de Serviço Eletrônica</strong> (NFS-e) do <strong>Blue ERP</strong>, é possível integrar <strong>ordens de serviço</strong> e contratos, permitindo a emissão de documentos fiscais de forma rápida.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">

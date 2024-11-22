@@ -347,38 +347,53 @@ export function Footer(){
         <div className="topic">
          <h5 className='none'>Áreas de Atuação</h5>
          <ul>
-          <li className={ path == 'telefonia-e-comunicacao' ? 'this' : ''}
+          <li onClick={()=> path == 'telefonia-e-comunicacao' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'telefonia-e-comunicacao' ? 'this' : ''}
               > <Link to="/telefonia-e-comunicacao"> Telefonia e Comunicação </Link></li>
 
-          <li className={ path == 'servicos-de-engenharia' ? 'this' : ''}
+          <li onClick={()=> path == 'servicos-de-engenharia' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'servicos-de-engenharia' ? 'this' : ''}
               > <Link to="/servicos-de-engenharia"> Serviços de Engenharia </Link></li>
 
-          <li className={ path == 'loja-de-produtos-alimenticios' ? 'this' : ''}
+          <li onClick={()=> path == 'loja-de-produtos-alimenticios' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'loja-de-produtos-alimenticios' ? 'this' : ''}
               > <Link to="/loja-de-produtos-alimenticios"> Produtos Alimentícios </Link></li>
 
-          <li className={ path == 'cosmeticos-e-perfumes' ? 'this' : ''}
+          <li onClick={()=> path == 'cosmeticos-e-perfumes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'cosmeticos-e-perfumes' ? 'this' : ''}
               > <Link to="/cosmeticos-e-perfumes"> Cosméticos e Perfumes </Link></li>
 
-          <li className={ path == 'lanchonetes-e-bares' ? 'this' : ''}
+          <li onClick={()=> path == 'lanchonetes-e-bares' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'lanchonetes-e-bares' ? 'this' : ''}
               > <Link to="/lanchonetes-e-bares"> Lanchonetes e Bares </Link></li>
 
-          <li className={ path == 'confeccao-de-roupas' ? 'this' : ''}
+          <li onClick={()=> path == 'confeccao-de-roupas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'confeccao-de-roupas' ? 'this' : ''}
               > <Link to="/confeccao-de-roupas"> Confecção de Roupas </Link></li>
 
-          <li className={ path == 'lojas-de-informatica' ? 'this' : ''}
+          <li onClick={()=> path == 'lojas-de-informatica' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'lojas-de-informatica' ? 'this' : ''}
               > <Link to="/lojas-de-informatica"> Assistência Técnica </Link></li>
 
-          <li className={ path == 'instalacao-e-manutencao-eletrica' ? 'this' : ''}
+          <li onClick={()=> path == 'instalacao-e-manutencao-eletrica' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'instalacao-e-manutencao-eletrica' ? 'this' : ''}
               > <Link to="/instalacao-e-manutencao-eletrica"> Serviços Elétricos </Link></li>
 
-          <li className={ path == 'fabricantes-e-loja-de-moveis' ? 'this' : ''}
+          <li onClick={()=> path == 'fabricantes-e-loja-de-moveis' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'fabricantes-e-loja-de-moveis' ? 'this' : ''}
               > <Link to="/fabricantes-e-loja-de-moveis"> Venda de Móveis </Link></li>
 
-          <li className={ path == 'erp-para-industria' ? 'this' : ''}
+          <li onClick={()=> path == 'erp-para-industria' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'erp-para-industria' ? 'this' : ''}
               > <Link to="/erp-para-industria"> Indústrias </Link></li>
 
-          <li className={ path == 'distribuidoras' ? 'this' : ''}
+          <li onClick={()=> path == 'distribuidoras' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'distribuidoras' ? 'this' : ''}
               > <Link to="/distribuidoras"> Distribuidoras </Link></li>
+
+          <li onClick={()=> path == 'produtos-de-limpeza' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}
+              className={ path == 'produtos-de-limpeza' ? 'this' : ''}
+              > <Link to="/produtos-de-limpeza"> Distribuidoras </Link></li>
 
          </ul>
         </div>

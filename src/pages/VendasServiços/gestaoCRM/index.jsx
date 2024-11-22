@@ -61,7 +61,7 @@ Tenha controle total para acompanhar de perto a evolução das suas oportunidade
 desde o cadastro inicial até a concretização da venda.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -129,7 +129,7 @@ por meio de uma série de gráficos com os resultados atualizados diariamente.
 
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <img src={Set} alt="descer" className="bottom" onClick={()=> handleScrollToSection(section2Ref)}/>
@@ -148,7 +148,7 @@ por meio de uma série de gráficos com os resultados atualizados diariamente.
 
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -179,7 +179,7 @@ Ganhe agilidade na visualização dos seus dados e garanta que nenhuma oportunid
 </strong>
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <img src={Set} alt="descer" className="bottom" onClick={()=> handleScrollToSection(section4Ref)}/>
@@ -199,7 +199,7 @@ Essa funcionalidade registra todos os <strong>contatos realizados com os cliente
 Com esse acompanhamento, você pode otimizar os resultados e desenvolver estratégias de conversão mais eficazes e organizadas.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">     

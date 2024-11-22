@@ -74,7 +74,7 @@ Oferecemos uma gestão de estoque que se integra perfeitamente ao setor financei
 Essa abordagem integrada simplifica os processos e otimiza a operação do seu negócio, independentemente do seu porte!
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -135,7 +135,7 @@ Essa abordagem integrada simplifica os processos e otimiza a operação do seu n
       Dedique seu tempo e energia ao <strong>crescimento e aumento das vendas</strong> da sua empresa, enquanto cuidamos do resto para você!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -153,7 +153,7 @@ Essa abordagem integrada simplifica os processos e otimiza a operação do seu n
       Não perca mais tempo! Inicie agora mesmo a experiência de aproveitar as vantagens do <strong>Sistema de Gestão Empresarial mais completo do Brasil</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -179,7 +179,7 @@ Essa abordagem integrada simplifica os processos e otimiza a operação do seu n
       Agora, considere a possibilidade de acessar tudo isso com apenas alguns cliques, a qualquer hora e em qualquer lugar. Com essa facilidade, você poderá fundamentar suas decisões e estratégias de compra, além de <strong>otimizar a gestão de espaço</strong> e o armazenamento de novas mercadorias.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -197,7 +197,7 @@ Essa abordagem integrada simplifica os processos e otimiza a operação do seu n
       Tudo isso por meio de uma única integração! Tenha controle total do seu negócio com uma interface extremamente <strong>intuitiva</strong>. E o melhor de tudo: as <strong>atualizações de estoque</strong> são realizadas a cada sincronização, garantindo que você não corra o risco de anunciar produtos que não estão disponíveis no seu depósito.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">

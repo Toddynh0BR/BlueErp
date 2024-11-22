@@ -70,7 +70,7 @@ export function ControleProdução(){
 Aprimore sua performance em todas as fases dos processos produtivos, aumentando sua produtividade e otimizando seus resultados.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -132,7 +132,7 @@ Aprimore sua performance em todas as fases dos processos produtivos, aumentando 
             Outro recurso importante é o <strong>descarte de itens produzidos</strong>. Esse descarte é realizado quando a mercadoria não atende aos padrões de qualidade definidos pela empresa para comercialização, garantindo a excelência dos produtos finais.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <img src={Set} alt="descer" className="bottom" onClick={()=> handleScrollToSection(section2Ref)}/>
@@ -150,7 +150,7 @@ Aprimore sua performance em todas as fases dos processos produtivos, aumentando 
             Com o <strong>Sistema de Controle de Produção da BLUE ERP</strong>, é possível cadastrar produtos compostos ou acabados, especificando todos os itens necessários, como matérias-primas e subprodutos. Ao concluir uma <strong>Ordem de Produção</strong>, o sistema realiza automaticamente a baixa das matérias-primas no estoque e registra a entrada dos produtos finalizados, garantindo uma gestão precisa e eficiente.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <div className="right">
@@ -176,7 +176,7 @@ Aprimore sua performance em todas as fases dos processos produtivos, aumentando 
             Com o módulo de <strong>PCP da BLUE ERP</strong>, você conta com ferramentas intuitivas para avaliar a qualidade de cada item produzido. Através de um checklist criado por sua equipe, incluindo todos os critérios que precisam ser verificados em cada produto, é possível registrar no sistema se o item atingiu o nível de qualidade necessário para comercialização. Garanta a excelência e conquiste a confiança dos seus clientes com mais esse recurso oferecido pela BLUE ERP.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <img src={Set} alt="descer" className="bottom" onClick={()=> handleScrollToSection(section4Ref)}/>
@@ -194,7 +194,7 @@ Aprimore sua performance em todas as fases dos processos produtivos, aumentando 
             Entre os principais métodos de controle está o módulo de relatórios, que inclui o <strong>Relatório de PCP: o Simulador de Produção</strong>. Esse recurso gráfico permite visualizar o progresso do processo produtivo, facilitando o monitoramento das demandas de insumos e outros recursos necessários para atender às ordens de produção.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <div className="right">
@@ -220,7 +220,7 @@ Aprimore sua performance em todas as fases dos processos produtivos, aumentando 
             Essa atualização fiscal exige que os gestores intensifiquem o controle de estoque e estejam em conformidade com as regulamentações. Adaptar-se a essa mudança é mais fácil com um <strong>Sistema Integrado de Gestão Empresarial</strong>, como a BLUE ERP, que facilita o cumprimento das obrigações fiscais e organiza seu estoque com eficiência.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
 </S.Main2>

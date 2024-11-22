@@ -56,7 +56,9 @@ gap: 1rem;
  height: 5.6rem;
  width: 25rem;
 
- background-color: #420075;
+background: rgba(126,28,255,1);
+background: linear-gradient(120deg, rgba(126,28,255,1) 0%,  rgba(176,73,255,1) 100%);
+
  border-radius: .5rem;
 
  justify-content: center;
@@ -86,7 +88,9 @@ gap: 1rem;
  } 
 
  &[data-selected="true"]{
-  background-color: #FFFFFF;
+ 
+background: #FFFFFF;
+background: linear-gradient(120deg, #FFFFFF 0%, #FFFFFF 100%);
   color: #7300cc;
 
   p {

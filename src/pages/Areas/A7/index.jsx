@@ -74,7 +74,7 @@ export function A7(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -247,7 +247,7 @@ export function A7(){
       O BLUE ERP possui um <strong>moderno</strong> e <strong>completo</strong> módulo de gestão de estoque que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o giro de mercadorias em estoque e até entregas.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -279,7 +279,7 @@ export function A7(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -299,7 +299,7 @@ export function A7(){
       Com os recursos do módulo de vendas do BLUE ERP, você pode aumentar a visibilidade da sua loja de cosméticos e perfumaria, com um <strong>frente de caixa mais ágil</strong> na loja física. Ou garantindo o acesso dos clientes aos produtos que você comercializa, seja por <strong>loja virtual</strong> ou catálogo online, aplicando preços diferenciados e fazendo toda a gestão da sua equipe de vendedores.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -335,7 +335,7 @@ export function A7(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -359,7 +359,7 @@ export function A7(){
       Com o BLUE ERP você tem módulos para controlar seu <strong>fluxo de caixa</strong>, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e otimizando recursos para o crescimento do negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -389,7 +389,7 @@ export function A7(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -409,7 +409,7 @@ export function A7(){
       Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de notas se tornou um processo simples e ágil, deixando você e sua equipe com tempo para prestar um bom atendimento e conquistar ainda mais clientes.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -449,7 +449,7 @@ export function A7(){
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

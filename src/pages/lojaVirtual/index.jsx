@@ -101,7 +101,7 @@ export function LojaVirtual(){
          ao seu sistema <br /> de gestão!
         </h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -153,7 +153,7 @@ export function LojaVirtual(){
           É a solução para superar qualquer cenário de crise.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -186,7 +186,7 @@ Integração com <br />
 
       
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
       </S.Main4>
 
@@ -211,7 +211,7 @@ Integração com <br />
           rastreamento até o recebimento da mercadoria!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -231,7 +231,7 @@ Integração com <br />
          facilitando o processo de decisão.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -261,7 +261,7 @@ Integração com <br />
          ajustando automaticamente os preços conforme o perfil de cada cliente.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -297,7 +297,7 @@ Integração com <br />
          facilitando o fluxo de preparo e envio.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
       </S.Main4>
 

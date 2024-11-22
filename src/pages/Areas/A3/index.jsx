@@ -71,7 +71,7 @@ export function A3(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -229,7 +229,7 @@ export function A3(){
         Implementar um software para <strong> assistência técnica </strong>é essencial para empresas que desejam crescer com suporte e estrutura para gerenciar serviços, vendas, contratos e diversos tipos de negociações. No Blue ERP, você encontra ferramentas que aumentam a produtividade e ajudam a impulsionar o faturamento, oferecendo a estrutura necessária para expandir seus negócios de forma eficiente e organizada.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       
@@ -269,7 +269,7 @@ Tenha a <strong> liberdade </strong> de cadastrar todos os serviços prestados p
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -292,7 +292,7 @@ Tenha a <strong> liberdade </strong> de cadastrar todos os serviços prestados p
         Para <strong> impulsionar suas vendas, </strong> é essencial contar com ferramentas que <strong> aumentem a visibilidade </strong> da sua empresa de serviços. Com a <strong> automação de processos, </strong> fica mais fácil para os clientes acessarem os produtos que você oferece, ao mesmo tempo em que o controle de mercadorias no estoque se torna mais prático e eficiente.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -362,7 +362,7 @@ Tenha a <strong> liberdade </strong> de cadastrar todos os serviços prestados p
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -388,7 +388,7 @@ Tenha a <strong> liberdade </strong> de cadastrar todos os serviços prestados p
         Com o BLUE ERP, você conta com <strong> módulos para gerenciar seu fluxo de caixa, </strong> realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma <strong> organização eficaz </strong> da sua <strong> gestão financeira.</strong>  Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       
@@ -451,7 +451,7 @@ A <strong> flexibilidade </strong> é uma das grandes vantagens do BLUE ERP! Nos
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -472,7 +472,7 @@ A <strong> flexibilidade </strong> é uma das grandes vantagens do BLUE ERP! Nos
         Com o <strong> módulo de Gestão Fiscal </strong> do BLUE ERP, a <strong> emissão de notas fiscais </strong> se  torna um processo rápido e descomplicado, permitindo que você e sua equipe tenham mais tempo para oferecer um atendimento de qualidade e conquistar novos clientes. Configure os impostos necessários e emita seus documentos fiscais com a garantia de estar sempre em conformidade com a legislação vigente.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -520,7 +520,7 @@ Para empresas que, além de prestar serviços, também comercializam produtos, c
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

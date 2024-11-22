@@ -73,7 +73,7 @@ export function A20(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -230,11 +230,12 @@ export function A20(){
        e com vários depósitos!
        </h4>
 
-        <p>
-        Geralmente, distribuidoras e atacadistas possuem grandes depósitos com um volume e variedade expressivos de produtos. Com o Blue ERP, não é necessário adquirir uma licença para cada depósito. Em uma única plataforma, você pode cadastrar todos os produtos e gerenciar diferentes locais de armazenamento de forma eficiente, independente e flexível. Isso permite um controle centralizado, sem a necessidade de complicações, facilitando a gestão de estoque de grandes volumes e diferentes tipos de mercadorias de maneira otimizada para o seu negócio.
-        </p>
+       <p>
+Geralmente, distribuidoras e atacadistas possuem grandes depósitos com um volume e variedade expressivos de produtos. Com o Blue ERP, não é necessário adquirir uma licença para cada depósito. Em uma única plataforma, você pode cadastrar todos os produtos e gerenciar diferentes locais de armazenamento de forma <strong>eficiente, independente e flexível</strong>. Isso permite um <strong>controle centralizado</strong>, sem a necessidade de complicações, facilitando a gestão de estoque de grandes volumes e diferentes tipos de mercadorias de maneira otimizada para o seu negócio.
+</p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       
@@ -299,7 +300,7 @@ Nada melhor do que, ao buscar um produto, o sistema já informar a sua localiza�
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -316,11 +317,12 @@ Nada melhor do que, ao buscar um produto, o sistema já informar a sua localiza�
        
        </h4>
 
-        <p>
-        Sua equipe de representantes comerciais pode gerar pedidos em consignação e ter total controle sobre as saídas consignadas, acompanhando as entregas e os prazos de devolução. Com o Blue ERP, você também pode definir comissões, aplicar descontos e gerenciar o controle de trocas, proporcionando uma gestão eficiente e transparente.
-        </p>
+       <p>
+Sua equipe de representantes comerciais pode gerar <strong>pedidos em consignação</strong> e ter total controle sobre as <strong>saídas consignadas</strong>, acompanhando as entregas e os prazos de devolução. Com o Blue ERP, você também pode definir comissões, aplicar descontos e gerenciar o controle de trocas, proporcionando uma gestão <strong>eficiente e transparente</strong>.
+</p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -367,7 +369,7 @@ Crie cotações e envie por e-mail para seus fornecedores, que podem preencher o
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -388,11 +390,12 @@ Crie cotações e envie por e-mail para seus fornecedores, que podem preencher o
        com a BLUE ERP.
        </h4>
 
-        <p>
-        Com a ferramenta de Faturamento em Lote do Blue ERP, em apenas 3 passos simples, você pode faturar diversos pedidos simultaneamente, emitir as respectivas notas fiscais, gerar boletos e enviá-los por e-mail para seus clientes. Tudo isso de uma vez, sem burocracia e sem a necessidade de abrir e faturar cada pedido individualmente, otimizando o seu processo financeiro e economizando tempo.
-        </p>
+       <p>
+Com a ferramenta de <strong>Faturamento em Lote</strong> do Blue ERP, em apenas 3 passos simples, você pode faturar diversos pedidos simultaneamente, emitir as respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por e-mail para seus clientes. Tudo isso de uma vez, sem burocracia e sem a necessidade de abrir e faturar cada pedido individualmente, otimizando o seu <strong>processo financeiro</strong> e economizando tempo.
+</p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       
@@ -430,7 +433,7 @@ Crie cotações e envie por e-mail para seus fornecedores, que podem preencher o
         </div>
 
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -447,12 +450,12 @@ Crie cotações e envie por e-mail para seus fornecedores, que podem preencher o
        com caminhão parado por burocracias na emissão!
        </h4>
 
-        <p>
-  
-Simplificamos os processos administrativos e proporcionamos maior agilidade na emissão do seu MDF-e. Com o Blue ERP, seus manifestos são gerados automaticamente a partir dos CTes ou NFes emitidos, sem a necessidade de redigitação manual dos dados. Você pode acompanhar o status dos seus MDF-es em tempo real, onde e quando desejar, e ainda exportá-los em formatos XML ou PDF de maneira prática e eficiente.
+       <p>
+Simplificamos os processos administrativos e proporcionamos maior agilidade na emissão do seu <strong>MDF-e</strong>. Com o Blue ERP, seus manifestos são gerados automaticamente a partir dos <strong>CTes</strong> ou <strong>NFes</strong> emitidos, sem a necessidade de redigitação manual dos dados. Você pode acompanhar o status dos seus MDF-es em tempo real, onde e quando desejar, e ainda exportá-los em formatos XML ou PDF de maneira prática e eficiente.
 </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -496,7 +499,7 @@ Com o Blue ERP, a emissão de CT-e fica mais fácil e eficiente, compatível com
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

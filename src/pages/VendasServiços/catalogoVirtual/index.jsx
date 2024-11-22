@@ -61,7 +61,7 @@ export function CatalogoVirtual(){
         Permita que seus clientes acessem seus produtos e escolham o que desejam, onde e quando quiserem, proporcionando comodidade ao seu público, mesmo à distância.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -124,7 +124,7 @@ export function CatalogoVirtual(){
       Isso proporciona mais agilidade e eficiência, permitindo que você venda mais!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -144,7 +144,7 @@ export function CatalogoVirtual(){
       Dessa forma, seu cliente terá <strong>total clareza e confiança</strong> de que está escolhendo o produto correto.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -172,7 +172,7 @@ export function CatalogoVirtual(){
       Personalize o servidor de e-mails da sua empresa e, assim, se o cliente tiver alguma dúvida, ele poderá responder <strong>diretamente ao e-mail</strong>!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -192,7 +192,7 @@ export function CatalogoVirtual(){
       Quando desejar, basta finalizar o pedido informando seu nome, CPF/CNPJ, e-mail, telefone e a forma de pagamento desejada.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -220,7 +220,7 @@ export function CatalogoVirtual(){
       Ainda, é possível que você emita <strong>nota fiscal</strong> e boletos bancários, caso necessário.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main2>
 

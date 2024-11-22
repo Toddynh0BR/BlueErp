@@ -72,7 +72,7 @@ export function A15(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -229,7 +229,7 @@ export function A15(){
       Com os recursos do módulo de vendas do BLUE ERP você pode aumentar a visibilidade da sua confecção, <strong>automatizando processos</strong>, facilitando o acesso dos clientes aos produtos que você comercializa, aplicando <strong>preços diferenciados</strong> e fazendo toda a gestão da sua equipe comercial.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -284,7 +284,7 @@ export function A15(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -305,7 +305,7 @@ export function A15(){
       Independente do porte da sua empresa de confecção, o Blue ERP oferece módulos completos que possibilitam <strong>gerenciar todas as etapas</strong> do processo, desde a compra de insumos, passando pela produção das peças, até a venda e entrega das roupas finalizadas.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -357,7 +357,7 @@ export function A15(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
     Experimente
   </button>
 </S.Main4>
@@ -382,7 +382,7 @@ export function A15(){
       Com o Blue ERP, você conta com módulos para gerenciar o fluxo de caixa, realizar projeções de receitas e despesas, controlar centros de custos e organizar planos de contas. Isso permite uma <strong>gestão financeira eficiente</strong>, garantindo que você invista o capital da sua empresa de maneira estratégica, <strong>reduzindo custos</strong> e otimizando recursos para impulsionar o crescimento do negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -437,7 +437,7 @@ Com a funcionalidade de faturamento em lote, você pode faturar diversos pedidos
         </div>
 
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -460,7 +460,7 @@ Com a funcionalidade de faturamento em lote, você pode faturar diversos pedidos
 Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se tornou um processo rápido e eficiente, permitindo que você e sua equipe dediquem mais tempo ao atendimento de qualidade e à conquista de novos clientes. Configure os impostos exigidos e emita NF-e, NFC-e, CF-e SAT e outros documentos fiscais com a certeza de estar sempre em conformidade com a legislação vigente.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -511,7 +511,7 @@ O Blue ERP simplifica a geração do arquivo SPED Fiscal, criando o arquivo auto
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

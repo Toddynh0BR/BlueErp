@@ -62,7 +62,7 @@ export function ControleVendas(){
         inúmeras funcionalidades para monitorar todas as etapas do processo de vendas.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -119,7 +119,7 @@ export function ControleVendas(){
       <br /><br />
       Além disso, o sistema oferece <strong>integração financeira</strong> e <strong>fiscal</strong>. Para cada transação, você tem a opção de <strong>emitir notas fiscais</strong> e gerar lançamentos financeiros. E não esqueça da <strong>baixa automática do estoque</strong>, que garante que seus registros estejam sempre atualizados.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -133,7 +133,7 @@ export function ControleVendas(){
       <br /><br />
       Isso permite que você tenha uma <strong>visão abrangente</strong> do relacionamento com seus clientes, além de possibilitar o <strong>acompanhamento</strong> e o <strong>planejamento</strong> de suas ações de marketing e muito mais.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -155,7 +155,7 @@ export function ControleVendas(){
       <br /><br />
       Sem burocracia e sem a necessidade de abrir cada pedido individualmente para faturá-los.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -169,7 +169,7 @@ export function ControleVendas(){
       <br /><br />
       Na <strong>BLUE ERP</strong>, é possível também controlar quais <strong>dados</strong> seus vendedores terão acesso, utilizando o <strong>sistema de permissões</strong> do dashboard de vendedores.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">

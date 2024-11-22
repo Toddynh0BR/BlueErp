@@ -70,7 +70,7 @@ export function A1(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -202,7 +202,7 @@ export function A1(){
       Com as funcionalidades do módulo de vendas do Blue ERP, você pode melhorar a <strong>visibilidade da sua loja</strong> de ferramentas e ferragens, tornando o processo de checkout mais eficiente no ambiente físico. Além disso, garante que seus clientes tenham <strong>fácil acesso aos produtos</strong> que você oferece, aplicando preços especiais e gerenciando de forma eficiente sua <strong>equipe de vendedores</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -234,7 +234,7 @@ export function A1(){
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -251,7 +251,7 @@ export function A1(){
       O Blue ERP conta com um módulo de <strong>gestão de estoque moderno</strong> e abrangente, que permite gerenciar todas as etapas, desde a compra de mercadorias até a sua localização em diferentes depósitos. Além disso, possibilita o <strong>acompanhamento do giro de produtos</strong> em estoque e a <strong>organização das entregas</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -292,7 +292,7 @@ Para facilitar o controle de estoque das compras realizadas pela sua loja de fer
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -309,7 +309,7 @@ Para facilitar o controle de estoque das compras realizadas pela sua loja de fer
       Com o módulo de <strong>Gestão Fiscal</strong> do Blue ERP, a emissão de notas fiscais se tornou um processo <strong>simples e eficiente</strong>, permitindo que você e sua equipe tenham mais tempo para oferecer um <strong>excelente atendimento</strong> e conquistar ainda mais clientes.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -353,7 +353,7 @@ Com essa funcionalidade, você pode faturar várias ordens de serviços em apena
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -374,7 +374,7 @@ Com essa funcionalidade, você pode faturar várias ordens de serviços em apena
         Com o módulo de Gestão Fiscal do Blue ERP, a emissão de notas fiscais se tornou um processo simples e eficiente, permitindo que você e sua equipe tenham mais tempo para oferecer um excelente atendimento e conquistar ainda mais clientes.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -415,7 +415,7 @@ Se você realiza o transporte de produtos para outras cidades ou estados, saiba 
           </div>
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

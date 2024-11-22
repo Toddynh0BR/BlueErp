@@ -73,7 +73,7 @@ export function A13(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -228,7 +228,7 @@ export function A13(){
       O Blue ERP conta com um módulo de <strong>gestão de estoque moderno</strong> e completo, que possibilita o gerenciamento de todas as etapas, desde a <strong>compra de mercadorias</strong>, a organização em diferentes depósitos, o controle do giro de estoque até as entregas. Com isso, você tem total controle sobre o inventário da sua empresa, garantindo eficiência e precisão em cada processo.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -260,7 +260,7 @@ export function A13(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -275,7 +275,7 @@ export function A13(){
       Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a <strong>visibilidade da sua loja</strong> de cosméticos e perfumaria, tornando o processo de vendas mais ágil na loja física através de um <strong>frente de caixa moderno</strong>. Além disso, o Blue ERP permite que seus clientes acessem seus produtos de forma fácil, seja por meio de uma loja virtual ou catálogo online, com a possibilidade de aplicar preços diferenciados. O sistema também oferece ferramentas para gerir eficientemente sua equipe de vendedores, otimizando toda a operação de vendas da sua loja.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -313,7 +313,7 @@ export function A13(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -332,7 +332,7 @@ export function A13(){
       Com o Blue ERP, você conta com módulos completos para controlar seu <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, gerenciar centros de custos e planos de contas. Esses recursos ajudam a organizar sua gestão financeira de forma eficiente, garantindo que o capital da sua empresa seja investido de maneira estratégica, reduzindo custos e otimizando recursos para impulsionar o crescimento do seu negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -364,7 +364,7 @@ export function A13(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -379,7 +379,7 @@ export function A13(){
       Com o módulo de Gestão Fiscal do BLUE ERP, a <strong>emissão de notas</strong> se tornou um processo simples e ágil, deixando você e sua equipe com mais tempo para prestar um bom atendimento e conquistar ainda mais clientes.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -417,7 +417,7 @@ export function A13(){
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

@@ -73,7 +73,7 @@ export function A14(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -229,7 +229,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
       Com os recursos do módulo de vendas do BLUE ERP você pode aumentar a <strong>visibilidade da sua Lanchonete</strong>, com um <strong>frente de caixa mais ágil</strong>, Módulos Foods com recursos especializados para acrescentar <strong>sabores e acompanhamentos</strong> ao pedidos, integração direta com iFood, diferentes tabelas de preços e a criação de combos.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -261,7 +261,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -278,7 +278,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
       O BLUE ERP possui um completo módulo de gestão de <strong>estoque</strong> que lhe permite gerenciar todas as etapas desde a compra de mercadorias, a localização em diferentes depósitos, o <strong>giro de mercadorias</strong> em estoque e até entregas.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -314,7 +314,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -335,7 +335,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
       Com o BLUE ERP você tem módulos para controlar seu <strong>fluxo de caixa</strong>, fazer projeções de receitas e despesas, centros de custos e planos de contas para organizar sua gestão financeira, garantindo que você invista o capital da sua empresa da melhor forma, reduzindo custos e <strong>otimizando recursos</strong> para o crescimento do negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -368,7 +368,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -383,7 +383,7 @@ Emissão de NF-e, NFC-e, CF-e SAT
       No BLUE ERP você pode aumentar a <strong>visibilidade</strong> da sua loja ou restaurante com métodos de venda online, facilitando o acesso dos clientes aos produtos que você comercializa, seja por <strong>loja virtual</strong> ou catálogo online, aplicando preços diferenciados e fazendo toda a gestão da sua equipe de vendas. E o cliente, ao finalizar o pedido, já pode acompanhar no computador ou no celular, o preparo, envio e entrega da compra.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -425,7 +425,7 @@ Amplie as oportunidades de venda do seu restaurante, criando um exclusivo Catál
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

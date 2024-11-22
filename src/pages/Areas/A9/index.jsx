@@ -74,7 +74,7 @@ export function A9(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -226,7 +226,7 @@ export function A9(){
       Ganhe <strong>agilidade</strong> e <strong>eficiência</strong> cadastrando ordens de serviço no BLUE ERP. O sistema preenche os documentos automaticamente com os dados do cliente cadastrado, e você pode incluir todas as informações que desejar, além de agendar serviços, <strong>imprimir</strong> ou enviar a OS por e-mail para o cliente.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -281,7 +281,7 @@ export function A9(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -296,7 +296,7 @@ export function A9(){
       Nada melhor que, ao fazer a busca de um produto, o sistema já lhe retorne a localização do item. No BLUE ERP, você pode informar o <strong>local exato de armazenamento</strong> de cada mercadoria, como corredor ou prateleira.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -332,7 +332,7 @@ export function A9(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -351,7 +351,7 @@ export function A9(){
       Com essa ferramenta, em 3 passos simples você pode faturar diversos pedidos, emitir suas respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por e-mail a seus clientes. Tudo isso, de uma só vez!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -417,7 +417,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
         </div>
 
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -439,7 +439,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
         Com o nosso sistema para emissão de nota fiscal de serviço eletrônica (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns cliques. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores ferramentas à sua empresa.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -481,7 +481,7 @@ Se na sua loja você quer oferecer ainda mais comodidade para sua clientela, que
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

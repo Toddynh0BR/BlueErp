@@ -63,7 +63,7 @@ export function SistemaOnline(){
         impulsionando resultados de alta performance em todos os setores do seu negócio.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -135,7 +135,7 @@ export function SistemaOnline(){
 </p>
 
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       </S.Main2>
@@ -153,7 +153,7 @@ export function SistemaOnline(){
 </p>
 
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -180,7 +180,7 @@ export function SistemaOnline(){
 </p>
 
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       </S.Main2>
@@ -199,7 +199,7 @@ export function SistemaOnline(){
 </p>
 
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -228,7 +228,7 @@ export function SistemaOnline(){
     Essa personalização garante que o sistema se ajuste às suas operações, trazendo mais eficiência ao seu dia a dia.
 </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       </S.Main2>
@@ -243,7 +243,7 @@ export function SistemaOnline(){
     A proteção das informações da sua empresa é nossa prioridade! A <strong>BLUE ERP</strong> utiliza <strong>criptografia de nível bancário</strong> para assegurar que todas as transações no seu ERP sejam realizadas com total segurança. Com servidores hospedados na <strong>Amazon</strong> — líder global em serviços de nuvem — você conta com uma infraestrutura robusta e confiável. Além disso, temos um plano de contingência, garantindo que o sistema esteja sempre disponível, mesmo em situações inesperadas, para que você nunca perca uma venda ou enfrente interrupções indesejadas.
 </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -271,7 +271,7 @@ export function SistemaOnline(){
 </p>
 
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
       </S.Main2>

@@ -71,7 +71,7 @@ export function A5(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -228,7 +228,7 @@ export function A5(){
       Implementar um software para a <strong>prestação de serviços</strong> é essencial para empresas que desejam crescer, com uma <strong>estrutura robusta</strong> para controlar tanto a venda de produtos quanto a prestação de serviços. Com os recursos do módulo de vendas do <strong>BLUE ERP</strong>, você pode expandir a visibilidade da sua empresa de assistência técnica de eletrodomésticos, tornando o gerenciamento mais eficiente e integrado, facilitando o controle de todas as operações.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -258,7 +258,7 @@ export function A5(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -271,7 +271,7 @@ export function A5(){
       O engajamento de clientes é crucial para consolidar a <strong>reputação</strong> e melhorar a imagem da sua empresa de eletrodomésticos no mercado. Para ajudar nesse processo, o BLUE ERP oferece diversos recursos que você pode aplicar em sua loja, com o objetivo de <strong>atrair novos clientes</strong> e fidelizar os existentes, garantindo um relacionamento duradouro e de confiança.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -307,7 +307,7 @@ export function A5(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -324,7 +324,7 @@ export function A5(){
       Com o BLUE ERP, você conta com módulos para gerenciar seu <strong>fluxo de caixa</strong>, realizar projeções de receitas e despesas, definir centros de custos e estruturar planos de contas, proporcionando uma organização eficaz da sua gestão financeira. Isso assegura que o capital da sua empresa seja utilizado da maneira mais eficiente, ajudando a reduzir custos e otimizar recursos para impulsionar o crescimento do seu negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -354,7 +354,7 @@ export function A5(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -367,7 +367,7 @@ export function A5(){
       Com o módulo de Gestão Fiscal do BLUE ERP, a emissão de <strong>notas fiscais</strong> se tornou um processo simples e ágil. Além disso, você tem à disposição módulos para controlar seu fluxo de caixa, fazer projeções de receitas e despesas, gerenciar centros de custos e elaborar planos de contas, tudo para otimizar a organização da sua gestão financeira.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -409,7 +409,7 @@ Com o BLUE ERP, além de emitir boletos diretamente pela sua conta bancária, vo
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

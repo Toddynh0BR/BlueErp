@@ -73,7 +73,7 @@ export function A12(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -222,7 +222,7 @@ export function A12(){
     <p>
       Independentemente do <strong>porte da sua empresa de confecção</strong>, o Blue ERP oferece módulos completos que permitem gerenciar todas as etapas do processo, desde a <strong>compra de insumos até a produção</strong>, venda e entrega dos produtos finalizados.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -258,7 +258,7 @@ export function A12(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -268,7 +268,7 @@ export function A12(){
     <p>
       Com os recursos do módulo de vendas do Blue ERP, você pode aumentar a <strong>visibilidade da sua loja de produtos alimentícios</strong>, oferecendo um frente de caixa mais ágil e facilitando o acesso dos clientes aos produtos que você comercializa, seja por <strong>loja virtual</strong> ou catálogo online. O sistema permite aplicar preços diferenciados e realizar toda a <strong>gestão da sua equipe de vendas</strong>, garantindo maior controle e eficiência no processo.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -304,7 +304,7 @@ export function A12(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -320,7 +320,7 @@ export function A12(){
       <br /><br />
       Com o módulo de Gestão Fiscal do Blue ERP, a emissão de <strong>notas fiscais</strong> se tornou um processo simples e ágil. Isso libera mais tempo para você e sua equipe focarem no atendimento ao cliente e na expansão dos negócios. Configure os impostos necessários e emita seus documentos fiscais com a certeza de que sua empresa está sempre em conformidade com a <strong>legislação vigente</strong>.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Back} alt="" className="bottom" />
@@ -361,7 +361,7 @@ Com o Blue ERP, você pode faturar múltiplos pedidos em apenas 3 passos simples
         </div>
 
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>
@@ -383,7 +383,7 @@ Com o Blue ERP, você pode faturar múltiplos pedidos em apenas 3 passos simples
         O Blue ERP possui um módulo de gestão de estoque moderno e completo, permitindo gerenciar todas as etapas do processo. Desde a compra de mercadorias até a organização em diferentes depósitos, controle do giro de estoque e até a entrega dos produtos, tudo é facilitado para garantir uma gestão eficiente e precisa do seu inventário.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -427,7 +427,7 @@ A utilização de códigos de barras facilita imensamente o controle de estoque 
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

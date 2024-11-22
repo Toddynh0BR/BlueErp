@@ -73,7 +73,7 @@ export function A10(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -225,7 +225,7 @@ export function A10(){
       Implementar um <strong>software para a prestação de serviço</strong> é fundamental para empresas que buscam formas de crescer com suporte e estrutura para controlar <strong>serviços, vendas, contratos</strong> e todo tipo de negociação. No BLUE ERP você encontra ferramentas para aumentar sua produtividade e alavancar seu faturamento.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -257,7 +257,7 @@ export function A10(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -272,7 +272,7 @@ export function A10(){
       O BLUE ERP conta com a <strong>integração das ferramentas do Google</strong>. Essa integração traz mais facilidade ao seu dia a dia empresarial, gerindo as <strong>tarefas dos colaboradores</strong>, como compromissos com clientes, de forma organizada. Através do Pipe do BLUE ERP você tem a facilidade de manter sua equipe informada para que aproveitem os <strong>contatos</strong> e você ainda acompanha as negociações em um só lugar.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -308,7 +308,7 @@ export function A10(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -327,7 +327,7 @@ export function A10(){
       Com essa ferramenta, em 3 passos simples você pode <strong>faturar diversos pedidos</strong>, emitir suas respectivas <strong>notas fiscais</strong>, gerar boletos e enviá-los por <strong>e-mail</strong> a seus clientes. Tudo isso, de uma só vez!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -359,7 +359,7 @@ export function A10(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -374,7 +374,7 @@ export function A10(){
       Com o nosso sistema para emissão de <strong>nota fiscal de serviço eletrônica</strong> (NFS-e), é possível integrar ordens de serviço e emitir seus documentos fiscais em instantes com apenas alguns <strong>cliques</strong>. E não precisa se preocupar, o BLUE ERP possui integração com mais de 1.200 municípios e está sempre avançando para levar as melhores <strong>ferramentas</strong> à sua empresa.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -412,7 +412,7 @@ export function A10(){
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

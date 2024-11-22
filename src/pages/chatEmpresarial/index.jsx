@@ -101,7 +101,7 @@ comunicação interna <br />
 e colaboração</strong>
         </h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -150,7 +150,7 @@ sistema ERP!
          Se sua empresa possui diversos departamentos e deseja otimizar a comunicação entre os colaboradores, a melhor solução é criar canais de interação, onde o compartilhamento de informações seja ágil, seguro e integrado às funcionalidades do seu sistema ERP.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -173,7 +173,7 @@ sistema ERP!
          Imagine a facilidade de enviar mensagens, pedidos, orçamentos e comunicados para seus colaboradores em tempo real, de qualquer lugar. E o melhor de tudo: sem custos adicionais!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -187,7 +187,7 @@ sistema ERP!
          Os administradores do sistema têm a capacidade de controlar o acesso dos usuários. Você pode escolher se deseja que apenas os gestores ou somente a equipe administrativa tenham acesso. A decisão está em suas mãos! Tenha total flexibilidade para organizar a comunicação dentro da sua empresa.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -210,7 +210,7 @@ sistema ERP!
          Como todas as soluções do nosso ecossistema estão totalmente integradas na BLUE ERP, os usuários podem compartilhar informações, pedidos ou qualquer tipo de cadastro diretamente com outros usuários no BLUE Talk. Por exemplo, um vendedor pode gerar um pedido no Cloud e compartilhá-lo diretamente com alguém do setor financeiro no BLUE Talk, basta clicar no botão de enviar pedido. Ou, se estiver no BLUE Talk, é só digitar "/pedido" e enviar automaticamente o pedido desejado.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -224,7 +224,7 @@ sistema ERP!
          Em breve, teremos o recurso de envio de XML de nota fiscal. Com essa funcionalidade, o aplicativo reconhecerá automaticamente o arquivo carregado como um XML e oferecerá a opção de importar a nota de entrada diretamente para a BLUE ERP, movimentando estoques e gerando lançamentos financeiros de forma ágil e eficiente.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -247,7 +247,7 @@ sistema ERP!
          Outro recurso incrível do Blue Talk é a opção de compartilhar lançamentos financeiros com sua equipe. Ao clicar em "anexar", o Talk puxa automaticamente as informações do módulo financeiro da BLUE ERP, permitindo que você envie lançamentos para quitação ou notifique outro setor sobre o pagamento realizado. Com isso, você ganha tempo e traz mais organização ao seu fluxo de caixa!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 

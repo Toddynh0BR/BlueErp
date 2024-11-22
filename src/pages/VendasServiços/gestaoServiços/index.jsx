@@ -61,7 +61,7 @@ export function GestaoServiços(){
         Recursos centralizados para gerenciar a dinâmica da prestação de serviços, oferecendo acesso rápido e fácil!
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -122,7 +122,7 @@ export function GestaoServiços(){
       <br />
       Para <strong>assistências técnicas</strong>, você pode especificar em qual equipamento do cliente o serviço foi realizado.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
 </S.Main2>
@@ -136,7 +136,7 @@ export function GestaoServiços(){
       <br />
       Você pode <strong>cadastrar</strong> todos os seus técnicos, permitindo que cada um crie seu próprio laudo para cada Ordem de Serviço. Essas informações podem ser impressas de forma personalizada sempre que necessário.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <div className="right">
     <div className="Especial">
@@ -161,7 +161,7 @@ export function GestaoServiços(){
       <br />
       Dessa forma, é possível registrar todas as informações de maneira eficiente e manter um controle completo sobre os dados.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
 </S.Main2>
@@ -178,7 +178,7 @@ export function GestaoServiços(){
       <br />
       Todos os documentos podem ser <strong>personalizados</strong>, ajustando os dados de acordo com as necessidades da sua empresa.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <div className="right">
     <img src={Image5} alt="" />
@@ -201,7 +201,7 @@ export function GestaoServiços(){
       <br />
       Isso economiza <strong>tempo</strong> e garante mais eficiência na administração da sua empresa.
     </p>
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main2>
 

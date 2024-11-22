@@ -69,7 +69,7 @@ export function GestaoExpediçao(){
          Administre a armazenagem, seleção, despacho e a entrega efetiva dos itens a partir de qualquer local e a qualquer momento.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -132,7 +132,7 @@ export function GestaoExpediçao(){
       Dedique seu tempo e energia ao crescimento e aumento das vendas da sua empresa, enquanto cuidamos do resto para você!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -148,7 +148,7 @@ export function GestaoExpediçao(){
       Uma das grandes vantagens de utilizar <strong>Ordens de Expedição</strong> é a possibilidade de gerar documentos que reúnem informações essenciais, como o <strong>depósito onde o produto está armazenado</strong>, o cliente, a transportadora encarregada da entrega e o profissional responsável pela separação e despacho dos itens. Essa organização aprimora a eficiência e a produtividade dos processos internos da sua empresa.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -172,7 +172,7 @@ export function GestaoExpediçao(){
       Visando agilizar o processo de despacho, a <strong>BLUE ERP</strong> permite que seus clientes <strong>imprimam etiquetas de despacho</strong> para serem afixadas nas embalagens dos produtos. Essa prática facilita a identificação rápida dos itens e fornece informações essenciais sobre o destinatário e o endereço de entrega.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -188,7 +188,7 @@ export function GestaoExpediçao(){
       Ao realizar a busca por um produto, nada é mais prático do que receber instantaneamente a <strong>localização do item</strong>. Com o sistema, você pode registrar o local exato onde cada mercadoria está armazenada, como o <strong>corredor ou a prateleira específica</strong>. Esse processo assegura uma maneira ágil, independente e flexível de localizar rapidamente um produto, otimizando a eficiência na gestão do estoque.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -212,7 +212,7 @@ export function GestaoExpediçao(){
       Com o <strong>SIGEP WEB</strong>, você tem a capacidade de gerenciar e monitorar todas as suas <strong>postagens diretamente do seu computador</strong>. Essa funcionalidade proporciona maior comodidade ao programar os envios dos seus produtos aos clientes. Antes mesmo de a encomenda ser entregue aos Correios, o sistema gera um <strong>código de rastreamento exclusivo</strong> para cada volume a ser enviado.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section6Ref)} />
 </S.Main2>
@@ -227,7 +227,7 @@ export function GestaoExpediçao(){
       Envie suas mercadorias para os clientes por meio da integração com a transportadora <strong>JadLog</strong>. Com esta parceria, sua empresa pode despachar produtos sem limitações em relação a <strong>embalagens ou peso</strong>, oferecendo maior controle e segurança no processo de entrega. Além disso, essa integração proporciona <strong>economia significativa em logística</strong>!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">

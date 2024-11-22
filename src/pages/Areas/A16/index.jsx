@@ -73,7 +73,7 @@ export function A16(){
 </li>        
         </ul>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -229,7 +229,7 @@ export function A16(){
       Implementar um software de gestão para a prestação de serviços é essencial para empresas que buscam expandir suas operações com o <strong>suporte adequado</strong> e <strong>estrutura para controlar serviços</strong>, vendas, contratos e todas as negociações. No Blue ERP, você encontra <strong>ferramentas robustas</strong> para impulsionar seu faturamento e otimizar seus processos. Afinal, o setor de prestação de serviços é um dos que mais cresce no Brasil, e ter um sistema eficiente é a chave para aproveitar as oportunidades desse mercado em expansão.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -261,7 +261,7 @@ export function A16(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section2Ref}>
@@ -279,7 +279,7 @@ export function A16(){
       O Blue ERP oferece integração com as ferramentas do Google, proporcionando mais facilidade e organização no seu <strong>dia a dia empresarial</strong>. Com essa integração, você pode gerenciar as tarefas dos colaboradores, como reuniões e visitas aos clientes, de forma eficiente e estruturada, garantindo que todas as atividades sejam acompanhadas e realizadas conforme o <strong>planejamento</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -315,7 +315,7 @@ export function A16(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section3Ref}>
@@ -336,7 +336,7 @@ export function A16(){
       Com o Blue ERP, você tem à disposição módulos completos para controlar seu fluxo de caixa, realizar <strong>projeções de receitas e despesas</strong>, e gerenciar centros de custos e planos de contas. Essas ferramentas são essenciais para organizar a gestão financeira da sua empresa, permitindo que você <strong>invista o capital de forma estratégica</strong>, minimize custos e otimize recursos, impulsionando o crescimento do seu negócio.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main3>
 
@@ -369,7 +369,7 @@ export function A16(){
     </div>
   </div>
 
-  <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+  <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 </S.Main4>
 
 <S.Main3 ref={section4Ref}>
@@ -385,7 +385,7 @@ export function A16(){
       Com o Blue ERP, você pode emitir notas fiscais de serviço eletrônicas (NFS-e) de forma simples e eficiente. O sistema permite que você emita notas diretamente da plataforma para os seus clientes, automatizando os processos fiscais e garantindo o cumprimento da legislação vigente. Além disso, o Blue ERP é compatível com a <strong>plataforma da prefeitura</strong>, facilitando a gestão fiscal para empresas de prestação de serviços.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -426,7 +426,7 @@ export function A16(){
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           Experimente
         </button>
       </S.Main4>

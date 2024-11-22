@@ -68,7 +68,7 @@ export function GestaoContratos(){
         os documentos sejam gerados de maneira rápida e precisa.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -129,7 +129,7 @@ export function GestaoContratos(){
       Assim, sempre que precisar imprimir esse modelo de contrato, o sistema automaticamente preencherá os <strong>dados necessários</strong>, facilitando e agilizando o processo.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -147,7 +147,7 @@ export function GestaoContratos(){
       Além disso, você pode <strong>controlar</strong> o status do contrato, podendo verificar se ele está ativo, em processo judicial, em acordo contratual ou rescindido.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -173,7 +173,7 @@ export function GestaoContratos(){
       Personalize o <strong>servidor de e-mails</strong> da sua empresa e, assim, caso o cliente tenha alguma dúvida, ele poderá responder diretamente ao seu e-mail!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -193,7 +193,7 @@ export function GestaoContratos(){
       Além disso, é possível gerar <strong>boletos</strong> para cada parcela do contrato em vigor, que também são enviados diretamente para o e-mail do contratante.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -219,7 +219,7 @@ export function GestaoContratos(){
       E não se preocupe, a BLUE ERP possui <strong>integração</strong> com mais de 1.000 municípios e está continuamente expandindo!
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 </S.Main2>
 

@@ -84,6 +84,7 @@ import { A17 } from '../pages/Areas/A17';
 import { A18 } from '../pages/Areas/A18';
 import { A19 } from '../pages/Areas/A19';
 import { A20 } from '../pages/Areas/A20';
+import { A21 } from '../pages/Areas/A21';
 
 export function AppRoutes() {
   return (
@@ -160,6 +161,7 @@ export function AppRoutes() {
       <Route path="/erp-para-industria" element={<A18 />}/>
       <Route path="/produtos-medicos-e-hospitalares" element={<A19/> }/>
       <Route path="/distribuidoras" element={<A20/> }/>
+      <Route path="/produtos-de-limpeza" element={<A21/> }/>
 
     </Routes>
   )

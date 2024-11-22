@@ -46,7 +46,7 @@ export function EspecialHeader(){
         <img src={Play} alt="playstore" onClick={()=> abrirNovaAba('https://play.google.com/store/apps/details?id=app.erp.com&hl=pt&pli=1')}/>
         <img src={Apple} alt="applestore" onClick={()=> abrirNovaAba('https://apps.apple.com/br/app/mobi-erp/id6670794703')}/>
        </div>
-       <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+       <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
         <FaUserLarge/>
         <p>Entrar</p>
        </button>
@@ -69,7 +69,7 @@ export function EspecialHeader(){
          <span onClick={()=> navigate('/planos')}>Planos</span>
          <span onClick={()=> abrirNovaAba('https://blueinnovation.freshdesk.com/support/login')}>Suporte</span>
 
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
          </button>
 

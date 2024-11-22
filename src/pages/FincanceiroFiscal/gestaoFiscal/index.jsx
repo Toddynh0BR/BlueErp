@@ -61,7 +61,7 @@ export function GestaoFiscal(){
 Utilize nosso Sistema Emissor de Nota Fiscal, que proporciona autonomia e agilidade, permitindo que você economize tempo em suas operações fiscais.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -122,7 +122,7 @@ Utilize nosso Sistema Emissor de Nota Fiscal, que proporciona autonomia e agilid
       Oferecemos uma estrutura fiscal robusta e coesa, que permite gerar e armazenar todas as suas informações e operações fiscais. Isso aumenta sua produtividade e garante <strong>eficiência</strong> e <strong>fluidez</strong> em sua rotina administrativa.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -138,7 +138,7 @@ Utilize nosso Sistema Emissor de Nota Fiscal, que proporciona autonomia e agilid
       Com a BLUE ERP, você tem total controle sobre <strong>matéria-prima</strong>, <strong>composição de produtos</strong>, pedidos e ordens de produção, além de garantir a qualidade e a integração completa de seus lançamentos fiscais.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -162,7 +162,7 @@ Utilize nosso Sistema Emissor de Nota Fiscal, que proporciona autonomia e agilid
       Experimente um <strong>ERP completo</strong>, prático e eficiente. Com a BLUE ERP, você pode emitir seus documentos fiscais rapidamente e sem complicações. E, para garantir seu sucesso, oferecemos <strong>suporte gratuito</strong> para ajudar sua empresa a crescer cada vez mais.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />

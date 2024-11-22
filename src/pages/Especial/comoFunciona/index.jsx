@@ -120,7 +120,7 @@ Além de todos esses recursos, disponibilizamos mais de uma centena de relatóri
 Compreendendo que o empreendedorismo digital é uma das grandes tendências de mercado, integramos a BLUE ERP a diversas plataformas de e-commerce, marketplaces, meios de pagamento e logística. Tudo isso em nuvem, para que você e nossos clientes possam acessar de qualquer lugar e a qualquer momento!
            </p>
 
-           <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+           <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
           </div>
@@ -145,7 +145,7 @@ Com quase 200 mil downloads, o BLUE Lite é uma alternativa para continuar atend
 <br /><br />
 Além disso, todos os dados da sua conta BLUE ERP podem ser sincronizados com o BLUE Lite e vice-versa. Assim, ao se reconectar à rede, a sincronização será reativada e um backup automático será gerado. Dessa forma, todas as suas movimentações, como notas fiscais, vendas e movimentações de estoque, estarão sempre atualizadas e alinhadas.
           </p>
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
           </button>
          </div>
@@ -217,7 +217,7 @@ O BLUE ERP é o sistema de gestão empresarial online mais completo e seguro, de
 <br /><br />
 Com relatórios detalhados, o BLUE ERP proporciona uma visão abrangente da sua empresa, com dados processados em tempo real e disponíveis para download. Dessa forma, você obtém informações precisas e confiáveis para fundamentar suas decisões estratégicas.
          </p>
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
         </div>
@@ -242,7 +242,7 @@ Com relatórios detalhados, o BLUE ERP proporciona uma visão abrangente da sua 
 <br /><br />
 Nosso aplicativo financeiro permite o gerenciamento das finanças mesmo sem conexão com a internet. Nele, é possível cadastrar dados, acompanhar o desempenho por meio de gráficos e manter o fluxo de caixa em dia. E o melhor: o app é totalmente gratuito!
          </p>
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
         </div>
@@ -257,7 +257,7 @@ Nosso aplicativo financeiro permite o gerenciamento das finanças mesmo sem cone
 <br /><br />
 Com download gratuito, uma vez feita a sincronização inicial, você pode continuar suas operações sem preocupações ou receios de interrupções nas vendas. Além disso, o BLUE Lite é totalmente integrado ao sistema online, garantindo que tudo registrado no aplicativo seja sincronizado automaticamente com a plataforma na nuvem.
          </p>
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
         </div>
@@ -281,7 +281,7 @@ Com download gratuito, uma vez feita a sincronização inicial, você pode conti
 <br /><br />
 Nosso ERP foi projetado para integrar gestão e controle na sua empresa, oferecendo ferramentas inteligentes e recursos harmoniosos, desenvolvidos com atenção a cada detalhe. Tudo isso é pensado para aprimorar a produtividade da sua equipe e potencializar os resultados do seu negócio.
          </p>
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
         </div>
@@ -297,7 +297,7 @@ Em um ERP, a escalabilidade é a capacidade de evolução e crescimento do siste
 <br /><br />
 Nossa solução em nuvem é extremamente escalável. Estamos comprometidos em apoiar os empresários brasileiros durante crises e transformações econômicas. Atendemos mais de 2.000 empresas de diversos tamanhos em todo o Brasil, oferecendo a solução ideal para cada fase do crescimento do seu negócio.
          </p>
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimente
            </button>
         </div>
@@ -1061,7 +1061,7 @@ Adquira o sistema de gestão empresarial líder no Brasil e <br />
 simplifique a administração do seu negócio ainda hoje!
          </span>
 
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimentar
          </button>
        </div>

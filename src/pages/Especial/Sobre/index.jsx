@@ -296,7 +296,7 @@ Adquira o sistema de gestão empresarial líder no Brasil e <br />
 simplifique a administração do seu negócio ainda hoje!
          </span>
 
-         <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+         <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             Experimentar
          </button>
        </div>

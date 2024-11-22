@@ -105,7 +105,7 @@ export function CentralIntegraçoes(){
           plataformas de <br /> e-commerce e marketplaces do país.
          </h4>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
 
           <span>Ver todas as <br /><strong>Integrações</strong></span>
         </div>
@@ -148,7 +148,7 @@ export function CentralIntegraçoes(){
 
         </div>
 
-        <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
       </S.Inter>
 
       <S.All>
@@ -168,7 +168,7 @@ export function CentralIntegraçoes(){
            usando a BLUE ERP.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -186,7 +186,7 @@ Acompanhamos a tendência de mercado que mais cresce: Comércio Eletrônico,
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -207,7 +207,7 @@ Acompanhamos a tendência de mercado que mais cresce: Comércio Eletrônico,
           Consolidada com uma das maiores redes de supermercados do mundo, a marca Carrefour se lançou no comércio eletrônico há alguns anos. E há cada dia conquista mais adeptos. Uma vez que você opte por anunciar no Marketplace do Carrefour, sua loja contará com o reconhecimento e confiabilidade de uma das marcas mais conhecidas do Brasil.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -224,7 +224,7 @@ As famosas lojas brasileiras, Extra, Ponto Frio e Casas Bahia fazem parte das op
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -245,7 +245,7 @@ As famosas lojas brasileiras, Extra, Ponto Frio e Casas Bahia fazem parte das op
 Pensando em agregar grandes oportunidades de crescimento aos usuários que desejam gerenciar sua loja virtual com eficiência e praticidade, desenvolvemos a integração com a Signashop, a solução perfeita para quem quer liberdade para administrar, sem se preocupar com hospedagem, faturar muito mais e claro, contar com os melhores recursos de gestão empresarial. Conheça essa super parceria!
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -260,7 +260,7 @@ Pensando em agregar grandes oportunidades de crescimento aos usuários que desej
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -285,7 +285,7 @@ O que isso quer dizer? Que ao contar com uma loja virtual em algum desses market
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -302,7 +302,7 @@ Você já anuncia na Leroy? Melhor ainda, você pode agora mesmo acessar sua con
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -325,7 +325,7 @@ A Loja Integrada é uma das lojas virtuais mais populares do Brasil e conta com 
 Vinculando sua conta na Loja Integrada ao BLUE ERP, você pode importar e exportar produtos, controlar estoques, emitir notas e muito mais. Não perca tempo e conheça as vantagens!
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -341,7 +341,7 @@ E, claro, essa é mais uma das facilidades do BLUE ERP, poder integrar sua loja 
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image especial1">
@@ -364,7 +364,7 @@ Magento é uma das principais plataformas de e-commerce do mundo, atualmente. É
 Ao integrar sua conta Magento ao seu Sistema ERP BLUE ERP tenha facilidades como: Importação e exportação de produtos; Atualização de Preços, Estoques e Categorias; Importação de Pedidos; Integração disponível para Magento e Magento 2; Emissão simplificada das notas fiscais; Possibilidade de vincular o ERP a BLUE ERP dos Correios.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -381,7 +381,7 @@ Uma das integrações mais buscadas pelos nossos clientes, aliando suas lojas do
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -406,7 +406,7 @@ Através do nosso painel administrativo você pode integrar com Moovin e realiza
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -422,7 +422,7 @@ Sendo cliente BLUE ERP, você pode integrar sua conta no Sistema ERP com a Jet N
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -447,7 +447,7 @@ Integrando com o BLUE ERP você tem um ambiente para gerenciamento de Marketplac
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -462,7 +462,7 @@ Com uma proposta de oferecer sempre o melhor preço a seus clientes, a Ricardo E
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -488,7 +488,7 @@ Se sua loja virtual é parceira ShopFácil, não se preocupe, porque o BLUE ERP 
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -503,7 +503,7 @@ O WooCommerce é uma plataforma open source desenvolvida especialmente para roda
 Se você já conta com uma loja virtual WooCommerce, saiba que ao vinculá-la à sua conta BLUE ERP, será possível realizar todo tipo de controle financeiro, gerenciamento dos pedidos e do catálogo no mesmo ambiente; gestão de estoque, vendas e fiscal, através do nosso ERP.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image especial1">
@@ -524,7 +524,7 @@ Se você já conta com uma loja virtual WooCommerce, saiba que ao vinculá-la à
           Integrando através do painel administrativo do seu Sistema ERP BLUE ERP, em instantes você poderá gerar boletos personalizados (com o logo da sua empresa); terá a tranquilidade de gerenciar seus boletos registrados sem a necessidade arquivos de remessa e retorno, já que todo o processo é online e com conciliação automática; sem surpresas, você não tem custo nenhum para emissão ou cancelamento dos boletos gerados. Além de tudo isso, a PagHiper tem uma taxa extremamente atrativa e você só paga se o seu cliente efetuar o pagamento do boleto. Sem stress e sem burocracia! Confira!
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -537,7 +537,7 @@ Se você já conta com uma loja virtual WooCommerce, saiba que ao vinculá-la à
 Com a integração entre sua conta BLUE ERP e o BLUE ERP dos Correios você poderá gerenciar suas postagens com facilidade e rapidez, reduzindo custos com retrabalho (já que o processo é todo automatizado). Além disso, é possível gerenciar as informações da carga postada e rastrear a mercadoria até o momento da entrega, garantindo segurando a você a aos seus clientes. Desfrute deste poderoso recurso!
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image especial2">
@@ -559,7 +559,7 @@ Implementamos a integração com a Skytef no PDV do BLUE ERP. Assim, se você fo
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -574,7 +574,7 @@ Envie as mercadorias aos clientes através da integração com a transportadora 
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -597,7 +597,7 @@ O DSLite é uma plataforma online, em que os fornecedores dispõem estoque virtu
 
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -610,7 +610,7 @@ O DSLite é uma plataforma online, em que os fornecedores dispõem estoque virtu
 A Shopify é uma plataforma canadense que possui milhares de lojas em todo o mundo. Nela, você encontra uma infinidade de recursos de e-commerce, para a criação de lojas virtuais, integrando com redes sociais e ainda permite que você aposte no dropshipping (venda sem estoque físico), proporcionando aos usuários novas formas de fazer negócio e ampliar suas possibilidades de vendas.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image">
@@ -631,7 +631,7 @@ A Shopify é uma plataforma canadense que possui milhares de lojas em todo o mun
 A integração com a Bom Pra Crédito (BPC) é utilizada quando você realiza a venda para seu cliente, em que o pagamento dessa venda será realizado através de um financiamento/empréstimo. A BPC é uma plataforma que oferece ao seu cliente diferentes opções de financiamento. Para de fato utilizar essa integração, você precisa ter uma conta junto à BPC, pois dessa forma, quando realizar uma venda para esse cliente, é possível consultar a possibilidade desse financiamento diretamente pelo BLUE ERP.
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
         </div>
 
@@ -644,7 +644,7 @@ A integração com a Bom Pra Crédito (BPC) é utilizada quando você realiza a 
 A Bis2Bis é uma plataforma avançada com as funcionalidades do Magento 1. Com ela, você poderá personalizar o seu e-commerce da forma que desejar, realizar vendas, vincular os produtos ao BLUE ERP e gerenciar todas as atividades através dessa integração!
           </p>
 
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
          </div>
 
          <div className="image especial3">

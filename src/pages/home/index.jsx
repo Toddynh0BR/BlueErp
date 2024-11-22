@@ -82,7 +82,7 @@ export function Home(){
          onMouseEnter={() => setIsHovered(true)}
          onMouseLeave={() => setIsHovered(false)}
         >
-          <div className="button" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+          <div className="button" onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
             <p><strong>Experimente grátis</strong> por 15 dias</p>
             <div className="circle">
              <img src={Cloud}/>
@@ -211,7 +211,7 @@ Frota - Gestão da frota de veículos
           </ul>
 
           <strong className="price">R$ 89,90 <p>/mês*</p></strong>
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Teste <strong>gratis</strong></button>
          </div>
 
          <div className="plan">
@@ -310,7 +310,7 @@ Frota - Gestão da frota de veículos
           </ul>
 
           <strong className="price">R$ 250,00 <p>/mês*</p></strong>
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Teste <strong>gratis</strong></button>
          </div>
 
          <div className="plan">
@@ -409,7 +409,7 @@ Frota - Gestão da frota de veículos
           </ul>
 
           <strong className="price">R$ 659,40 <p>/mês*</p></strong>
-          <button onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Teste <strong>gratis</strong></button>
+          <button onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Teste <strong>gratis</strong></button>
          </div>
         </div>
       </S.Plans>
@@ -419,7 +419,7 @@ Frota - Gestão da frota de veículos
           <h2>Ecossistema de gestão e vendas</h2>
           <p>A <strong>BlueErp</strong> é uma <strong>solução projetada para aumentar a produtividade e impulsionar as vendas</strong>  de empresas de todos os portes e setores.</p>
           
-          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           <div className="button">
             <p><strong>Experimente grátis</strong> por 15 dias</p>
             <div className="circle">
@@ -492,7 +492,7 @@ Frota - Gestão da frota de veículos
            Toda a <strong> administração do seu negócio </strong> num só lugar.
           </h2>
                     
-          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           <div className="button">
             <p><strong>Experimente grátis</strong> por 15 dias</p>
             <div className="circle">
@@ -573,7 +573,7 @@ Frota - Gestão da frota de veículos
           <h2>Central de integrações</h2>
           <p><strong> Nossas ferramentas se integram às principais plataformas de vendas, <br /> </strong> gestão, dropshipping e empresas de distribuição.</p>
 
-          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>
+          <div className="ButtonAds" onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>
           <div className="button">
             <p><strong>Experimente grátis</strong> por 15 dias</p>
             <div className="circle">

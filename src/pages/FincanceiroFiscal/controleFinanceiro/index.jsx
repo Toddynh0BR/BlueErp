@@ -67,7 +67,7 @@ export function ControleFinanceiro(){
          garantindo que suas finanças estejam sempre organizadas – tudo isso por um preço acessível.
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -128,7 +128,7 @@ export function ControleFinanceiro(){
       Com ele, você <strong>controla, organiza e monitora suas receitas</strong>, reduzindo a inadimplência de forma prática e eficaz.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section2Ref)} />
@@ -147,7 +147,7 @@ export function ControleFinanceiro(){
       registrando cobranças com apenas <strong>alguns cliques</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">
@@ -175,7 +175,7 @@ export function ControleFinanceiro(){
       Facilite a administração e o crescimento da sua empresa com <strong>dados precisos e atualizados</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <img src={Set} alt="descer" className="bottom" onClick={() => handleScrollToSection(section4Ref)} />
@@ -193,7 +193,7 @@ export function ControleFinanceiro(){
       oferecendo uma <strong>visão detalhada</strong>.
     </p>
 
-    <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+    <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
   </div>
 
   <div className="right">

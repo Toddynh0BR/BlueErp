@@ -102,7 +102,7 @@ export function LojaOffline(){
          <strong>Sistema de Gestão Offline</strong> <br /> integrado ao seu Blue ERP! <br />
         </h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -162,7 +162,7 @@ export function LojaOffline(){
           tudo isso sem custos adicionais!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -194,7 +194,7 @@ export function LojaOffline(){
           todas as informações da Blue ERP Lite serão sincronizadas automaticamente com sua conta da Blue ERP.
          </span>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -272,7 +272,7 @@ export function LojaOffline(){
         </div>
        </div>
 
-       <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+       <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
       </S.Main5>
 
       <S.Main6 ref={section5Ref}>

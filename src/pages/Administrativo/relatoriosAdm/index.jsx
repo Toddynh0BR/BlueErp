@@ -60,7 +60,7 @@ export function RelatoriosAdm(){
         às necessidades da sua empresa.<br />
         </p>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -118,7 +118,7 @@ export function RelatoriosAdm(){
 Uma outra vantagem de utilizar a agenda do BLUE ERP é a possibilidade de <strong> integrá-la ao seu Google Calendar </strong>, o que permite acessar configurações adicionais e personalizáveis diretamente dentro do Google.
         </p>
 
-        <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
 </S.Main2>
@@ -135,7 +135,7 @@ Uma outra vantagem de utilizar a agenda do BLUE ERP é a possibilidade de <stron
 Para ativar essa <strong> integração, </strong> basta utilizar o mesmo e-mail para acessar tanto o BLUE ERP quanto o Google. Ao entrar no sistema, você deverá clicar em 'Conta Google' e autorizar a realização da integração."
         </p>
 
-        <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <div className="right">
@@ -161,7 +161,7 @@ Sempre buscando <strong> simplificar a experiência do usuário </strong> , a BL
 Com essa ferramenta, o usuário pode armazenar documentos essenciais, acessá-los e fazer o download sempre que necessário, de qualquer lugar. Além disso, há a opção de <strong> enviar esses documentos diretamente para o Google Drive, </strong> facilitando ainda mais o armazenamento e o compartilhamento de arquivos.
         </p>
 
-        <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
 </S.Main2>
@@ -178,7 +178,7 @@ Com essa ferramenta, o usuário pode armazenar documentos essenciais, acessá-lo
 Com a BLUE ERP, você pode <strong> cadastrar seus colaboradores, </strong> registrando suas competências e habilidades. Além disso, é possível <strong> organizá-los por departamento, categoria, jornada de trabalho, </strong> entre outras informações. Dessa forma, fica mais fácil definir as qualificações necessárias para que cada colaborador contribua de maneira significativa para o sucesso da empresa.
         </p>
 
-        <button onClick={() => abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button onClick={() => abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
     </div>
 
     <div className="right">

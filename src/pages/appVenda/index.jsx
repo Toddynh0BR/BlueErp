@@ -99,7 +99,7 @@ export function AppVenda(){
          Simplifique suas <br /> vendas externas ou <br /> no ponto de venda.<br />
         </h2>
 
-        <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+        <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
        </div>
 
        <div className="right">
@@ -154,7 +154,7 @@ export function AppVenda(){
           Para facilitar ainda mais, a <strong>leitura de código de barras </strong> torna as operações muito mais ágeis!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -181,7 +181,7 @@ export function AppVenda(){
           garantindo um atendimento mais ágil.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -199,7 +199,7 @@ export function AppVenda(){
           eliminando a necessidade de digitar os dados de clientes e produtos novamente.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -225,7 +225,7 @@ export function AppVenda(){
           com toda a comodidade.
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
@@ -242,7 +242,7 @@ export function AppVenda(){
          é claro, ficar por dentro do percentual total de vendas realizadas!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
 
         <div className="right">
@@ -270,7 +270,7 @@ export function AppVenda(){
          Não perca tempo, venha descobrir uma nova forma de gerenciar sua operação!
          </p>
 
-         <button  onClick={()=> abrirNovaAba('https://blueinnovation.com.br/account/')}>Experimente</button>
+         <button  onClick={()=> abrirNovaAba('https://site.blueerp.com.br/ativacao')}>Experimente</button>
         </div>
       </S.Main3>
 
